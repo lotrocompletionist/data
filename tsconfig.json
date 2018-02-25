@@ -4,8 +4,8 @@
     "module": "commonjs",
     "sourceMap": true,
     "strict": true,
-    "esModuleInterop": true,
-    "outDir": "build"
+    "outDir": "build",
+    "esModuleInterop": true
   },
   "include": [
       "src/**/*"
