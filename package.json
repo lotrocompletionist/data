@@ -1,8 +1,7 @@
 {
-  "name": "lotro-companion",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "lotro-completionist-data",
+  "version": "0.0.1",
+  "description": "The data for the LoTRO completionist",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "lodash": "^4.17.5",
@@ -18,7 +17,10 @@
     "build": "tsc",
     "import": "tsc && node build/import.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotrocompletionist/data.git"
+  },
   "author": "Erik Schierboom <erik_schierboom@hotmail.com> (http://www.erikschierboom.com)",
   "license": "MIT"
 }
