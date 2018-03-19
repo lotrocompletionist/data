@@ -1,0 +1,63 @@
+Cluster,Name,Abbreviation,Region,Level,Tiers,Group,Available,Prereqs,Challenge,Note
+Shadows of Angmar,Great Barrow: The Maze,Maze,Bree-land,20-115,1,Fellowship,Free,,Daily,"Located in Southern Barrow-downs, see also the Great Barrow"
+Shadows of Angmar,Great Barrow: Thadúr,Thadur,Bree-land,20-115,1,Fellowship,Free,,Daily,"Located in Southern Barrow-downs, see also the Great Barrow"
+Shadows of Angmar,Great Barrow: Sambrog,Sammy,Bree-land,20-115,1,Fellowship,Free,Maze and Thadúr,Daily,"Located in Southern Barrow-downs, see also the Great Barrow"
+Shadows of Angmar,Inn of the Forsaken,IoF or IotF,The Lone-lands,20-115,2,Small Fellowship,VIP/Buy,Discover[3],Daily,"Located inside the Forsaken Inn, in the basement"
+Shadows of Angmar,Garth Agarwen: Arboretum,GA,The Lone-lands,32,1,Small Fellowship,Free,,Daily,In Garth Agarwen
+Shadows of Angmar,Garth Agarwen: Barrows,GA,The Lone-lands,32,1,Small Fellowship,Free,,Daily,In Garth Agarwen
+Shadows of Angmar,Garth Agarwen: Fortress,GA,The Lone-lands,32,1,Fellowship,Free,,Daily,In Garth Agarwen
+Shadows of Angmar,Goblin-town Throne Room,n/a,The Misty Mountains,45,1,Fellowship,VIP/QP,,,The heart of Goblin-town
+Shadows of Angmar,Fornost: Wraith of Water,Water,The North Downs,25-115,2,Fellowship,VIP/QP,,Daily,See also Fornost
+Shadows of Angmar,Fornost: Wraith of Earth,Earth,The North Downs,25-115,2,Fellowship,VIP/QP,Water,Daily,See also Fornost
+Shadows of Angmar,Fornost: Wraith of Fire,Fire,The North Downs,25-115,2,Fellowship,VIP/QP,Earth,Daily,See also Fornost
+Shadows of Angmar,Fornost: Wraith of Shadow,Shadow,The North Downs,25-115,2,Fellowship,VIP/QP,Fire,Daily,See also Fornost
+Shadows of Angmar,The Halls of Night,HoN,Angmar,40-115,2,Small Fellowship,VIP/Buy,Discover[3],Daily,East of Aughaire
+Shadows of Angmar,Glinghant,Gling or Gardens,Evendim (Annúminas),40-115,1,Fellowship,VIP/QP,,Daily,"The former gardens of Annúminas, now corrupted by evil"
+Shadows of Angmar,Ost Elendil,OE,Evendim (Annúminas),40-115,1,Fellowship,VIP/QP,,Daily,The throne room and outlying chambers of Annúminas
+Shadows of Angmar,Haudh Valandil,HV,Evendim (Annúminas),40-115,1,Fellowship,VIP/QP,,Daily,"The tomb of Valandil, third King of Arnor"
+Shadows of Angmar,Urugarth,Uru,Angmar,50,1,Fellowship,VIP/QP,,,South-east of Carn Dûm in NE Angmar
+Shadows of Angmar,Carn Dûm[4],CD,Angmar,50,1,Fellowship,VIP/QP,,,North-eastern Angmar
+Shadows of Angmar,Barad Gúlaran,BG,Angmar,50,1,Fellowship,VIP/QP,,,"The fortress of the Witch-king, in north-eastern Angmar"
+Shadows of Angmar,The Library at Tham Mírdain,Lib,Eregion,50-115,1,Small Fellowship,VIP/QP,,Daily,An ancient library near the ring-forges of Mirobel
+Shadows of Angmar,The School at Tham Mírdain,School or Sch,Eregion,50-115,1,Small Fellowship,VIP/QP,,Daily,An ancient school near the ring-forges of Mirobel
+Mines of Moria,The Dark Delving,DD,The Foundations of Stone,58,1,Fellowship,Exp/QP,,Daily,
+Mines of Moria,The Forgotten Treasury,FT,The Silvertine Lodes,54,1,Fellowship,Exp/QP,,,A treasure-vault infiltrated by Uruks from Dol Guldur
+Mines of Moria,The Grand Stair,GS,The Redhorn Lodes,56,1,Fellowship,Exp/QP,,Daily,
+Mines of Moria,Forges of Khazad-dûm,Forges,The Flaming Deeps,58,1,Fellowship,Exp/QP,,Daily,
+Mines of Moria,Fil Gashan,FG,The Flaming Deeps,58,1,Fellowship,Exp/QP,,Daily,
+Mines of Moria,The Sixteenth Hall,16th,Nud-melek,58,1,Fellowship,Exp/QP,,Daily,
+Mines of Moria,Skûmfil,Skum,The Foundations of Stone,58,1,Fellowship,Exp/QP,,Daily,
+Scourge of Khazad-dûm,The Mirror-halls of Lumul-nar,HoM,Zirakzigil,58,1,Small Fellowship,QP,,Daily,
+Scourge of Khazad-dûm,The Water Wheels: Nalâ-dûm,WW,The Water-works,58,1,Small Fellowship,QP,,Daily,
+Scourge of Khazad-dûm,Halls of Crafting,HoC,The Flaming Deeps,58,1,Fellowship,QP,,Daily,
+Tower of Dol Guldur,Sword-hall of Dol Guldur,SH,Dol Guldur,65-115,2,Small Fellowship,QP,,Daily,
+Tower of Dol Guldur,Dungeons of Dol Guldur,Dungeons,Dol Guldur,65-115,2,Fellowship,QP,,Daily,
+Tower of Dol Guldur,Warg-pens of Dol Guldur,WP,Dol Guldur,65-115,2,Small Fellowship,QP,,Daily,
+Tower of Dol Guldur,Sammath Gûl,SG,Dol Guldur,65-115,2,Fellowship,QP,,Daily,
+In Their Absence,Lost Temple,LT,The Trollshaws,65-115,2,Fellowship,VIP/QP,Discover[3],Daily,
+In Their Absence,Sâri-surma,SS,Forochel,65-115,2,Fellowship,VIP/QP,Discover[3],Daily,
+In Their Absence,Northcotton Farms,NF or Ncf,Evendim,65-115,2,Small Fellowship,VIP/QP,Discover[3],Daily,
+In Their Absence,Stoneheight,Sth,The North Downs,65-115,2,Small Fellowship,VIP/QP,Discover[3],Daily,
+Rise of Isengard,Dargnákh Unleashed,DU,Isengard,75,2,Small Fellowship,Exp/Buy,Discover[3],Biweekly,
+Rise of Isengard,Fangorn's Edge,FE,Isengard,75,2,Small Fellowship,Exp/Buy,Discover[3],Biweekly,
+Rise of Isengard,Pits of Isengard,PoI or Pits,Isengard,75,2,Small Fellowship,Exp/Buy,Discover[3],Biweekly,
+Rise of Isengard,The Foundry,Foundry,Isengard,75,2,Fellowship,Exp/Buy,Discover[3],Biweekly,
+Rise of Isengard,Roots of Fangorn,RoF,Great River,75,2,Fellowship,VIP/QP,Discover[3],Biweekly,
+The Road to Erebor,Seat of the Great Goblin,SGG,The Misty Mountains,20-115,2,Small Fellowship,Exp/Buy,,Daily,See also Erebor Instances.
+The Road to Erebor,Iorbar's Peak,IP,The Misty Mountains,20-115,2,Small Fellowship,Exp/Buy,,Daily,See also Erebor Instances.
+The Road to Erebor,Webs of the Scuttledells,Webs,Mirkwood,20-115,2,Small Fellowship,Exp/Buy,,Daily,See also Erebor Instances.
+The Road to Erebor,The Bells of Dale,Bells,Erebor,20-115,2,Fellowship,Exp/Buy,,Daily,See also Erebor Instances.
+Helm's Deep,Helm's Dike,Dike,West Rohan,10-115,,"Solo/Duo, Fellowship (Six)",Free,Epic Battles,?,
+Helm's Deep,The Deeping Wall,Wall or DW,West Rohan,10-115,,"Solo/Duo, Raid (Twelve)",Exp,Epic Battles,?,
+Helm's Deep,The Deeping-coomb,Coomb or DC,West Rohan,10-115,,Solo/Duo,Exp,Epic Battles,?,
+Helm's Deep,The Glittering Caves,GC,West Rohan,10-115,,"Solo/Duo, Small Fellowship (Three)",Exp,Epic Battles,?,
+Helm's Deep,The Hornburg,Hornburg,West Rohan,10-115,,Solo/Duo,Exp,Epic Battles,?,
+War for Gondor,Retaking Pelargir,Pela or Pel or Pelargir,Central Gondor,10-115,,"Solo/Duo, Fellowship (Six)",Free,Epic Battles,?,
+War for Gondor,Defence of Minas Tirith,MT or Defence,Old Anórien,10-115,,"Solo/Duo, Small Fellowship (Three)",VIP/QP,Epic Battles,?,
+War for Gondor,Hammer of the Underworld,Hammer,Old Anórien,10-115,,"Solo/Duo, Fellowship (Six)",VIP/QP,Epic Battles,?,
+Osgiliath,Sunken Labyrinth,SL,Eastern Gondor,50-115,2,Small Fellowship (Three),VIP/QP,,Daily,Destroy the hidden forces beneath Osgiliath
+Osgiliath,The Ruined City,RC,Eastern Gondor,50-115,2,Small Fellowship (Three),VIP/QP,,Daily,Fight through Osgiliath in search of Faramir
+Osgiliath,The Dome of Stars,DoS or Dome,Eastern Gondor,50-115,2,Fellowship (Six),VIP/QP,,Daily,Reclaim the Dome of Stars from the Nazgûl
+Battle of Pelennor,Blood of the Black Serpent,BBS,Old Anórien,75-115,2,Small Fellowship (Three),VIP/QP,,Daily,The Riders of Rohan face the Haradrim and Variags
+Battle of Pelennor,The Quays of the Harlond,Quays,Old Anórien,75-115,2,Small Fellowship (Three),VIP/QP,,Daily,Assault the Harlond alongside Aragorn's army!
+Battle of Pelennor,The Silent Street,TSS,Old Anórien,75-115,2,Fellowship (Six),VIP/QP,,Daily,"Rath Dínen, the tombs of the Kings and Stewards of Gondor"

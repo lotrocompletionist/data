@@ -35,6 +35,20 @@ export interface Instance {
     abbreviations: string[];
     region: string;
     level: Level;
+    tiers: Tiers;
+    groups: Group[];
+    availability: Availability[];
+    prerequisites?: string;
+    challenge: Challenge;
+    cluster: string;
+    note?: string;
+}
+
+export interface Raid {
+    name: string;
+    abbreviations: string[];
+    region: string;
+    level: Level;
     bossEncounters?: number;
     tiers: Tiers;
     groups: Group[];
@@ -42,4 +56,19 @@ export interface Instance {
     prerequisites?: string;
     challenge: Challenge;
     cluster: string;
+    note?: string;
+}
+
+export enum SkirmishType {
+    Offense,
+    Defense,
+    Survival
+}
+
+export interface Skirmish {
+    name: string;
+    level: Level;
+    faction?: string;
+    type: SkirmishType,
+    requirements: string[];
 }
