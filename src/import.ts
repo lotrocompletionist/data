@@ -1,9 +1,10 @@
-import process = require('process');
-import { WorldInstancesPage } from "./world-instances-page";
-import { RaidsPage } from './raids-page';
+import { InstancesParser } from "./instances-parser";
+import { RaidsParser } from "./raids-parser";
+import { SkirmishesParser } from "./skirmishes-parser";
 
-const worldInstances = new WorldInstancesPage();
-worldInstances.save();
-
-const raids = new RaidsPage();
-raids.save();
+const parsers = [
+  new InstancesParser(),
+  new RaidsParser(),
+  new SkirmishesParser()
+];
+parsers.forEach(parser => parser.update());

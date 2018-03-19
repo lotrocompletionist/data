@@ -3,19 +3,23 @@
   "version": "0.0.1",
   "description": "The data for the LoTRO completionist",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
     "lodash": "^4.17.5",
-    "npm": "^5.7.1"
+    "npm": "^5.7.1",
+    "papaparse": "^4.3.7",
+    "prettier": "^1.11.1"
   },
   "devDependencies": {
-    "@types/cheerio": "^0.22.7",
-    "@types/lodash": "^4.14.104",
-    "@types/node": "^9.4.6",
+    "@types/lodash": "^4.14.105",
+    "@types/node": "^9.4.7",
+    "@types/papaparse": "^4.1.33",
+    "@types/prettier": "^1.10.0",
     "typescript": "^2.7.2"
   },
   "scripts": {
     "build": "tsc",
-    "import": "tsc && node build/import.js"
+    "import": "tsc && node build/import.js",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,md,css,scss}'",
+    "format:verify": "prettier --list-different '**/*.{js,jsx,ts,tsx,json,md,css,scss}'"
   },
   "repository": {
     "type": "git",
