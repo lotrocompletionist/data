@@ -24,10 +24,10 @@ export function parseLevel(text: string): Level {
 }
 
 export function parseChallenge(text: string): Challenge {
-  switch (text) {
-    case "Daily":
+  switch (text.toLowerCase()) {
+    case "daily":
       return Challenge.Daily;
-    case "Biweekly":
+    case "biweekly":
       return Challenge.Biweekly;
     case "?":
     case "-":
@@ -53,16 +53,16 @@ export function parseTiers(text: string): Tiers {
 
 export function parseAvailabilities(text: string): Availability[] {
   function parseAvailability(text: string): Availability {
-    switch (text) {
-      case "Free":
+    switch (text.toLowerCase()) {
+      case "free":
         return Availability.Free;
-      case "VIP":
+      case "vip":
         return Availability.VIP;
-      case "Buy":
+      case "buy":
         return Availability.Buy;
-      case "QP":
+      case "qp":
         return Availability.QuestPack;
-      case "Exp":
+      case "exp":
         return Availability.Expansion;
       default:
         throw new Error(`Unsupported availability: ${text}`);
@@ -78,17 +78,17 @@ export function parseAvailabilities(text: string): Availability[] {
 
 export function parseGroups(text: string): Group[] {
   function parseGroup(text: string): Group {
-    switch (text) {
-      case "Small Fellowship":
-      case "Small Fellowship (Three)":
+    switch (text.toLowerCase()) {
+      case "small fellowship":
+      case "small fellowship (three)":
         return Group.SmallFellowship;
-      case "Fellowship":
-      case "Fellowship (Six)":
+      case "fellowship":
+      case "fellowship (six)":
         return Group.Fellowship;
-      case "Raid":
-      case "Raid (Twelve)":
+      case "raid":
+      case "raid (twelve)":
         return Group.Raid;
-      case "Solo/Duo":
+      case "solo/duo":
         return Group.SoloDuo;
       default:
         throw new Error(`Unsupported group: ${text}`);

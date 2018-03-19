@@ -18,12 +18,12 @@ export class SkirmishesParser extends Parser<Skirmish> {
   }
 
   private parseSkirmishType(text: string): SkirmishType {
-    switch (text) {
-      case "Offense":
+    switch (text.toLowerCase()) {
+      case "offense":
         return SkirmishType.Offense;
-      case "Defense":
+      case "defense":
         return SkirmishType.Defense;
-      case "Survival":
+      case "survival":
         return SkirmishType.Survival;
       default:
         throw new Error(`Unsupported skirmish type: ${text}`);
