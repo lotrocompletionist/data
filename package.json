@@ -17,12 +17,16 @@
   },
   "scripts": {
     "build": "tsc",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,md,css,scss}'",
+    "format:verify":
+      "prettier --list-different '**/*.{js,jsx,ts,tsx,json,md,css,scss}'",
     "import": "tsc && node build/import.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lotrocompletionist/data.git"
   },
-  "author": "Erik Schierboom <erik_schierboom@hotmail.com> (http://www.erikschierboom.com)",
+  "author":
+    "Erik Schierboom <erik_schierboom@hotmail.com> (http://www.erikschierboom.com)",
   "license": "MIT"
 }
