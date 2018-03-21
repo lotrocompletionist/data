@@ -6,7 +6,8 @@ import {
   parseTiers,
   parseGroups,
   parseAvailabilities,
-  parseChallenge
+  parseChallenge,
+  parseBosses
 } from "./model-parser";
 import { Parser } from "./parser";
 
@@ -27,7 +28,8 @@ export class InstancesParser extends Parser<Instance> {
       prerequisites: row.Prereqs,
       challenge: parseChallenge(row.Challenge),
       cluster: row.Cluster,
-      note: row.Note
+      note: row.Note,
+      bosses: parseBosses(row.Bosses)
     };
   }
 }

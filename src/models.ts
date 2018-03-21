@@ -42,6 +42,7 @@ export interface Instance {
   challenge: string;
   cluster: string;
   note?: string;
+  bosses: string[];
 }
 
 export interface Raid {
@@ -57,6 +58,7 @@ export interface Raid {
   challenge: string;
   cluster: string;
   note?: string;
+  bosses: string[];
 }
 
 export enum SkirmishType {
@@ -71,4 +73,5 @@ export interface Skirmish {
   faction?: string;
   type: string;
   requirements: string[];
+  bosses: string[];
 }

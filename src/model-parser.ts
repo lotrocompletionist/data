@@ -101,3 +101,10 @@ export function parseGroups(text: string): Group[] {
     .filter(word => word.length > 0)
     .map(parseGroup);
 }
+
+export function parseBosses(text: string): string[] {
+  return text
+    .split(";")
+    .map(word => word.trim())
+    .filter(word => word.length > 0);
+}

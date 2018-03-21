@@ -10,7 +10,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "Located in Southern Barrow-downs, see also the Great Barrow"
+    note: "Located in Southern Barrow-downs, see also the Great Barrow",
+    bosses: ["Barrow-wight Caller", "Gaerdring", "Gaerthel"]
   },
   {
     name: "Great Barrow: Thadúr",
@@ -23,7 +24,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "Located in Southern Barrow-downs, see also the Great Barrow"
+    note: "Located in Southern Barrow-downs, see also the Great Barrow",
+    bosses: ["Thadúr"]
   },
   {
     name: "Great Barrow: Sambrog",
@@ -36,7 +38,8 @@
     prerequisites: "Maze and Thadúr",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "Located in Southern Barrow-downs, see also the Great Barrow"
+    note: "Located in Southern Barrow-downs, see also the Great Barrow",
+    bosses: ["Sambrog"]
   },
   {
     name: "Inn of the Forsaken",
@@ -49,7 +52,8 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "Located inside the Forsaken Inn, in the basement"
+    note: "Located inside the Forsaken Inn, in the basement",
+    bosses: ["Umín", "Spirit of the Necklace"]
   },
   {
     name: "Garth Agarwen: Arboretum",
@@ -62,7 +66,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "In Garth Agarwen"
+    note: "In Garth Agarwen",
+    bosses: ["Grimbark", "Rot-heart"]
   },
   {
     name: "Garth Agarwen: Barrows",
@@ -75,7 +80,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "In Garth Agarwen"
+    note: "In Garth Agarwen",
+    bosses: ["Ivar", "Blogkritar"]
   },
   {
     name: "Garth Agarwen: Fortress",
@@ -88,7 +94,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "In Garth Agarwen"
+    note: "In Garth Agarwen",
+    bosses: ["Dúnlang", "Edan", "Esyld", "Raugzdrok", "Vatar", "Naruhel"]
   },
   {
     name: "Goblin-town Throne Room",
@@ -101,7 +108,8 @@
     prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
-    note: "The heart of Goblin-town"
+    note: "The heart of Goblin-town",
+    bosses: ["Ashûrz", "Bhoghad", "Horm"]
   },
   {
     name: "Fornost: Wraith of Water",
@@ -114,7 +122,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "See also Fornost"
+    note: "See also Fornost",
+    bosses: ["Zhurmat", "Shiruk", "Kamordî", "Megoriath"]
   },
   {
     name: "Fornost: Wraith of Earth",
@@ -127,7 +136,8 @@
     prerequisites: "Water",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "See also Fornost"
+    note: "See also Fornost",
+    bosses: ["Warchief Búrzghâsh", "Gurkâmâb", "Rhavameldir"]
   },
   {
     name: "Fornost: Wraith of Fire",
@@ -140,7 +150,8 @@
     prerequisites: "Earth",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "See also Fornost"
+    note: "See also Fornost",
+    bosses: ["Riamul", "Zanthrug", "Brogadan"]
   },
   {
     name: "Fornost: Wraith of Shadow",
@@ -153,7 +164,8 @@
     prerequisites: "Fire",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "See also Fornost"
+    note: "See also Fornost",
+    bosses: ["Krithmog", "Einiora", "Remmenaeg"]
   },
   {
     name: "The Halls of Night",
@@ -166,7 +178,8 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "East of Aughaire"
+    note: "East of Aughaire",
+    bosses: ["Nightmare", "Panic", "Terror"]
   },
   {
     name: "Glinghant",
@@ -179,7 +192,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "The former gardens of Annúminas, now corrupted by evil"
+    note: "The former gardens of Annúminas, now corrupted by evil",
+    bosses: ["Nengon"]
   },
   {
     name: "Ost Elendil",
@@ -192,7 +206,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "The throne room and outlying chambers of Annúminas"
+    note: "The throne room and outlying chambers of Annúminas",
+    bosses: ["Guloth", "Balhest"]
   },
   {
     name: "Haudh Valandil",
@@ -205,7 +220,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "The tomb of Valandil, third King of Arnor"
+    note: "The tomb of Valandil, third King of Arnor",
+    bosses: ["Shingrinder", "Dolvaethor", "Valandil of Arnor"]
   },
   {
     name: "Urugarth",
@@ -218,7 +234,24 @@
     prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
-    note: "South-east of Carn Dûm in NE Angmar"
+    note: "South-east of Carn Dûm in NE Angmar",
+    bosses: [
+      "Sorkrank",
+      "Burzfîl",
+      "Dushkâl",
+      "Akrûr",
+      "Dafrim",
+      "Kughûrz",
+      "Gríshakrum",
+      "Lâmkarn",
+      "Athpukh",
+      "Lhugrien",
+      "Brízrip",
+      "Thordragh",
+      "Morthrâng",
+      "Gruglok",
+      "Lagmâs"
+    ]
   },
   {
     name: "Carn Dûm[4]",
@@ -231,7 +264,22 @@
     prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
-    note: "North-eastern Angmar"
+    note: "North-eastern Angmar",
+    bosses: [
+      "Urro",
+      "Barashal",
+      "Helchgam",
+      "Sálvakh",
+      "Azgoth",
+      "Avalgaith",
+      "Tárlakh",
+      "Târlug",
+      "Mormoz",
+      "Rodakhan",
+      "Múra",
+      "Gúrthul",
+      "Mordirith"
+    ]
   },
   {
     name: "Barad Gúlaran",
@@ -244,7 +292,15 @@
     prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
-    note: "The fortress of the Witch-king, in north-eastern Angmar"
+    note: "The fortress of the Witch-king, in north-eastern Angmar",
+    bosses: [
+      "Forvengwath",
+      "Afraig",
+      "Coblaith",
+      "Castellan Wisdán",
+      "Múlvuirë",
+      "Udúnion"
+    ]
   },
   {
     name: "The Library at Tham Mírdain",
@@ -257,7 +313,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "An ancient library near the ring-forges of Mirobel"
+    note: "An ancient library near the ring-forges of Mirobel",
+    bosses: ["Commander Piztor", "Commander Unudhu", "Chieftain Gûrsh"]
   },
   {
     name: "The School at Tham Mírdain",
@@ -270,7 +327,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
-    note: "An ancient school near the ring-forges of Mirobel"
+    note: "An ancient school near the ring-forges of Mirobel",
+    bosses: ["Llygad the Blade", "Chief Warrior Thurgtârk", "Commander Târsh"]
   },
   {
     name: "The Dark Delving",
@@ -283,7 +341,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: ""
+    note: "",
+    bosses: ["Void-eater", "Doom-speaker", "Gurvand"]
   },
   {
     name: "The Forgotten Treasury",
@@ -296,7 +355,18 @@
     prerequisites: "",
     challenge: "None",
     cluster: "Mines of Moria",
-    note: "A treasure-vault infiltrated by Uruks from Dol Guldur"
+    note: "A treasure-vault infiltrated by Uruks from Dol Guldur",
+    bosses: [
+      "Darûkûrz",
+      "Frûzgûl",
+      "Lorzgûl",
+      "Mokza",
+      "Nardurgûl",
+      "Narghug",
+      "Morhûn",
+      "Skûm",
+      "Urauth"
+    ]
   },
   {
     name: "The Grand Stair",
@@ -309,7 +379,16 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: ""
+    note: "",
+    bosses: [
+      "Ilzkâl the Pummeler",
+      "Gothghaash the Firecaller",
+      "Dorozg the Beast Tamer",
+      "The Beast",
+      "Glothrok the Vile",
+      "Nardur the Shield",
+      "Igash the Fanatic"
+    ]
   },
   {
     name: "Forges of Khazad-dûm",
@@ -322,7 +401,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: ""
+    note: "",
+    bosses: ["Narkû", "Dhaub", "Thrug", "Kranklûk"]
   },
   {
     name: "Fil Gashan",
@@ -335,7 +415,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: ""
+    note: "",
+    bosses: ["Vrarz", "Greb", "Talug"]
   },
   {
     name: "The Sixteenth Hall",
@@ -348,7 +429,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: ""
+    note: "",
+    bosses: ["Tramug", "Dhûrz", "The Lost One"]
   },
   {
     name: "Skûmfil",
@@ -361,7 +443,23 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: ""
+    note: "",
+    bosses: [
+      "Bonetooth",
+      "Rockjaw",
+      "Shalebiter",
+      "Old Gnawer",
+      "Cracktooth",
+      "Brúmbereth",
+      "Uammaethor",
+      "Grog",
+      "Grothulun",
+      "Nestaduan",
+      "Ulugon",
+      "Longpincer",
+      "Grimreaver",
+      "Hwandrin"
+    ]
   },
   {
     name: "The Mirror-halls of Lumul-nar",
@@ -374,7 +472,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Scourge of Khazad-dûm",
-    note: ""
+    note: "",
+    bosses: ["Frost-tail", "Ergoth"]
   },
   {
     name: "The Water Wheels: Nalâ-dûm",
@@ -387,7 +486,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Scourge of Khazad-dûm",
-    note: ""
+    note: "",
+    bosses: ["Spit-tail", "Caerlûg"]
   },
   {
     name: "Halls of Crafting",
@@ -400,7 +500,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Scourge of Khazad-dûm",
-    note: ""
+    note: "",
+    bosses: ["Âmbal", "Bashkuga", "Thaguzg"]
   },
   {
     name: "Sword-hall of Dol Guldur",
@@ -413,7 +514,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
-    note: ""
+    note: "",
+    bosses: ["Urcheron", "Carchrien", "Durkâr"]
   },
   {
     name: "Dungeons of Dol Guldur",
@@ -426,7 +528,14 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
-    note: ""
+    note: "",
+    bosses: [
+      "Guldur Keeper",
+      "Guldur Sentinel",
+      "Palefolk Prisoner",
+      "Broken Prisoner",
+      "The Warden"
+    ]
   },
   {
     name: "Warg-pens of Dol Guldur",
@@ -439,7 +548,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
-    note: ""
+    note: "",
+    bosses: ["Athgrat", "Kranklob"]
   },
   {
     name: "Sammath Gûl",
@@ -452,7 +562,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
-    note: ""
+    note: "",
+    bosses: ["Urchír", "Alagossír", "Gorothúl", "Demafaer"]
   },
   {
     name: "Lost Temple",
@@ -465,7 +576,15 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "In Their Absence",
-    note: ""
+    note: "",
+    bosses: [
+      "Angaidh",
+      "Sidhág",
+      "Vernon Thistlethorn",
+      "Múl Dúin",
+      "Frûmolog",
+      "Ferndúr the Virulent"
+    ]
   },
   {
     name: "Sâri-surma",
@@ -478,7 +597,13 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "In Their Absence",
-    note: ""
+    note: "",
+    bosses: [
+      "Coldbear the Wight",
+      "Ghost of Coldbear",
+      "Osan",
+      "Drugoth the Death-monger"
+    ]
   },
   {
     name: "Northcotton Farms",
@@ -491,7 +616,8 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "In Their Absence",
-    note: ""
+    note: "",
+    bosses: ["Legbarthil", "Thadúr", "Úmheryn"]
   },
   {
     name: "Stoneheight",
@@ -504,7 +630,16 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "In Their Absence",
-    note: ""
+    note: "",
+    bosses: [
+      "Gundúl",
+      "Búbhosh-grat",
+      "Dale Truitt",
+      "Gundúl",
+      "Búbhosh-grat",
+      "Dale Truitt",
+      "Búbhosh-grat"
+    ]
   },
   {
     name: "Dargnákh Unleashed",
@@ -517,7 +652,8 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: ""
+    note: "",
+    bosses: ["Huva", "Dargnákh"]
   },
   {
     name: "Fangorn's Edge",
@@ -530,7 +666,8 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: ""
+    note: "",
+    bosses: ["Undúrz", "Gathaz", "Kabor", "Zagh"]
   },
   {
     name: "Pits of Isengard",
@@ -543,7 +680,8 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: ""
+    note: "",
+    bosses: ["Zabúrz", "Fúshbraf", "Ironarm"]
   },
   {
     name: "The Foundry",
@@ -556,7 +694,14 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: ""
+    note: "",
+    bosses: [
+      "Dhâr",
+      "Gurbák",
+      "Ghashanuz",
+      "Penrith",
+      "The Ring-Forge of Orthanc"
+    ]
   },
   {
     name: "Roots of Fangorn",
@@ -569,7 +714,8 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: ""
+    note: "",
+    bosses: ["Frûshkul", "Gurthúl"]
   },
   {
     name: "Seat of the Great Goblin",
@@ -582,7 +728,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
-    note: "See also Erebor Instances."
+    note: "See also Erebor Instances.",
+    bosses: ["Uloga", "Mârubhis", "Brosh"]
   },
   {
     name: "Iorbar's Peak",
@@ -595,7 +742,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
-    note: "See also Erebor Instances."
+    note: "See also Erebor Instances.",
+    bosses: ["Guthfinn", "Helf"]
   },
   {
     name: "Webs of the Scuttledells",
@@ -608,7 +756,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
-    note: "See also Erebor Instances."
+    note: "See also Erebor Instances.",
+    bosses: ["Beremud", "Dígelir"]
   },
   {
     name: "The Bells of Dale",
@@ -621,7 +770,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
-    note: "See also Erebor Instances."
+    note: "See also Erebor Instances.",
+    bosses: ["Graz"]
   },
   {
     name: "Helm's Dike",
@@ -634,7 +784,8 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: ""
+    note: "",
+    bosses: []
   },
   {
     name: "The Deeping Wall",
@@ -647,7 +798,8 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: ""
+    note: "",
+    bosses: []
   },
   {
     name: "The Deeping-coomb",
@@ -660,7 +812,8 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: ""
+    note: "",
+    bosses: []
   },
   {
     name: "The Glittering Caves",
@@ -673,7 +826,8 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: ""
+    note: "",
+    bosses: []
   },
   {
     name: "The Hornburg",
@@ -686,7 +840,8 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: ""
+    note: "",
+    bosses: []
   },
   {
     name: "Retaking Pelargir",
@@ -699,7 +854,15 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "War for Gondor",
-    note: ""
+    note: "",
+    bosses: [
+      "Kang-kethek",
+      "Ugturu",
+      "Kisung Teng",
+      "Thisarti",
+      "Okurayo",
+      "Zagarôth"
+    ]
   },
   {
     name: "Defence of Minas Tirith",
@@ -712,7 +875,8 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "War for Gondor",
-    note: ""
+    note: "",
+    bosses: ["Ahârta", "Raghathai"]
   },
   {
     name: "Hammer of the Underworld",
@@ -725,7 +889,8 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "War for Gondor",
-    note: ""
+    note: "",
+    bosses: ["Mâsorgh", "Ughâsh"]
   },
   {
     name: "Sunken Labyrinth",
@@ -738,7 +903,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Osgiliath",
-    note: "Destroy the hidden forces beneath Osgiliath"
+    note: "Destroy the hidden forces beneath Osgiliath",
+    bosses: ["Dagron", "Muzgásh"]
   },
   {
     name: "The Ruined City",
@@ -751,7 +917,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Osgiliath",
-    note: "Fight through Osgiliath in search of Faramir"
+    note: "Fight through Osgiliath in search of Faramir",
+    bosses: ["Jukotor", "Thrug", "Lúmithil"]
   },
   {
     name: "The Dome of Stars",
@@ -764,7 +931,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Osgiliath",
-    note: "Reclaim the Dome of Stars from the Nazgûl"
+    note: "Reclaim the Dome of Stars from the Nazgûl",
+    bosses: ["Upâl-keng", "The Lord of Pinions", "The Black Blade of Lebenni"]
   },
   {
     name: "Blood of the Black Serpent",
@@ -777,7 +945,8 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Battle of Pelennor",
-    note: "The Riders of Rohan face the Haradrim and Variags"
+    note: "The Riders of Rohan face the Haradrim and Variags",
+    bosses: []
   },
   {
     name: "The Quays of the Harlond",
@@ -790,7 +959,15 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Battle of Pelennor",
-    note: "Assault the Harlond alongside Aragorn's army!"
+    note: "Assault the Harlond alongside Aragorn's army!",
+    bosses: [
+      "Kálmok",
+      "Barash",
+      "Akhun",
+      "Khurat",
+      "Mumak",
+      "The Forsaken Reave"
+    ]
   },
   {
     name: "The Silent Street",
@@ -803,6 +980,14 @@
     prerequisites: "",
     challenge: "Daily",
     cluster: "Battle of Pelennor",
-    note: "Rath Dínen, the tombs of the Kings and Stewards of Gondor"
+    note: "Rath Dínen, the tombs of the Kings and Stewards of Gondor",
+    bosses: [
+      "Lintanar",
+      "Boromir",
+      "Telemnar",
+      "Tarannon Falastur",
+      "Atanatar II",
+      "The Gloom of Nurn"
+    ]
   }
 ];
