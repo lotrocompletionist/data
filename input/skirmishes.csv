@@ -1,20 +1,20 @@
-Skirmish,Level,Faction,Type,Requirement
-The Siege of Gondamon,20-115,Thorin's Hall,Defense,None
-Trouble in Tuckborough,20-115,The Mathom Society,Offense,None
-Storm on Methedras,20-115,None,Offense,LOTRO Store or VIP
-Stand at Amon Sûl,25-115,The Eglain,Defense,LOTRO Store or VIP
-Attack at Dawn,30-115,Rangers of Esteldín,Offense,LOTRO Store or VIP
-Thievery and Mischief,30-115,Men of Bree,Offense,LOTRO Store or VIP
-Defence of the Prancing Pony,35-115,Men of Bree,Defense,LOTRO Store or VIP
-The Ford of Bruinen,40-115,Elves of Rivendell,Defense,LOTRO Store or VIP
-The Icy Crevasse,40-115,Lossoth of Forochel,Offense,LOTRO Store or VIP
-Barrow-downs Survival,45-115,None,Survival,LOTRO Store or VIP
-The Battle of the Deep-way,55-115,Iron Garrison Miners,Defense,"Vol. II, Book 5, Chapter 5: Drums in the Deep"
-Battle of the Way of Smiths,55-115,Iron Garrison Miners,Defense,"Vol. II, Book 5, Chapter 5: Drums in the Deep"
-Battle of the Twenty-first Hall,55-115,Iron Garrison Guards,Defense,"Vol. II, Book 5, Chapter 5: Drums in the Deep"
-Strike Against Dannenglor,60-115,Malledhrim,Offense,"Vol. II, Book 9, Chapter 4: First Offensives"
-Protectors of Thangúlhad,60-115,Malledhrim,Defense,"Vol. II, Book 9, Chap 14: Thangúlhad Endangered"
-Breaching the Necromancer's Gate,65-115,Malledhrim,Offense,"Vol. II, Book 9, Chap 15: Assault on Dol Guldur"
-Assault on the Ringwraiths' Lair,65-115,Malledhrim,Offense,"Vol. II, Book 9, Chap 15: Assault on Dol Guldur"
-The Battle in the Tower,65-115,Malledhrim,Offense,"Vol. II, Book 9, Chap 18: The Battle in the Tower"
-Rescue in Nûrz Ghâshu,65-115,Eldgang,Offense,"Vol. III, Book 1, Chap 8: The Depths of Duty"
+Skirmish,Level,Faction,Type,Requirement,Bosses
+The Siege of Gondamon,20-115,Thorin's Hall,Defense,None,Thrastar; Hergill; Agi Gatebreaker; Ghashnâkh; Sigurmar
+Trouble in Tuckborough,20-115,The Mathom Society,Offense,None,Ghâshfog; Murbarash; Fíthrokh; Oldroot; Big Fright
+Storm on Methedras,20-115,None,Offense,LOTRO Store or VIP,Rhodri; Budant; Maru Brenin; Garzog; Caur; Helechúl; Núrvor; Dombor; Daeharn
+Stand at Amon Sûl,25-115,The Eglain,Defense,LOTRO Store or VIP,Golnauk; Bloodwing; Gúgaw's Arm; Laimbenn; Mokum; Gwandir; Norgol; Gwathrengor; Urkflagít
+Attack at Dawn,30-115,Rangers of Esteldín,Offense,LOTRO Store or VIP,Tharb; Pugh; Fríb; Zímarp; Krampum; Kaushar
+Thievery and Mischief,30-115,Men of Bree,Offense,LOTRO Store or VIP,Lordfisher; Padfoot; Goretusk; Ned Ashleaf; Tom Greythistle; Túkar; Snagbúrz; Gruglup
+Defence of the Prancing Pony,35-115,Men of Bree,Defense,LOTRO Store or VIP,Southpaw; Old Hunter; Ufglup; Rat-catcher; Mukghashan; Kamhont; Banosnákh; Willie Hawthorn
+The Ford of Bruinen,40-115,Elves of Rivendell,Defense,LOTRO Store or VIP,Zanúrz; Kunquin; Durkúf; Bruidagnir
+The Icy Crevasse,40-115,Lossoth of Forochel,Offense,LOTRO Store or VIP,Míthalagos; Kókas-joku; Lapa-kita; Coflúg; Crantok; Túgarch; Veri-torvi; Mahti
+Barrow-downs Survival,45-115,None,Survival,LOTRO Store or VIP,
+The Battle of the Deep-way,55-115,Iron Garrison Miners,Defense,"Vol. II, Book 5, Chapter 5: Drums in the Deep",Lhenathronil; Gamurz-ash; Earthbreaker; Forktongue; Foulscum; Gorged Queen; Burntail; Mad Croaker
+Battle of the Way of Smiths,55-115,Iron Garrison Miners,Defense,"Vol. II, Book 5, Chapter 5: Drums in the Deep",Fire-heart; Ice-heart; Shadow-heart; Celebarch; Fikûhom; Durbrennil; Sadâuk
+Battle of the Twenty-first Hall,55-115,Iron Garrison Guards,Defense,"Vol. II, Book 5, Chapter 5: Drums in the Deep",; Morûrz-kala; Kalus; Throqûm; Fodhroval; Shadow from the Heart of the World; Helchnaeth
+Strike Against Dannenglor,60-115,Malledhrim,Offense,"Vol. II, Book 9, Chapter 4: First Offensives",Helchfaer; Ghostfang; Ruingalad; Swartclaw; Rimdeloth; Gorogmúl; Gothling; Fiklúk; Seregruin
+Protectors of Thangúlhad,60-115,Malledhrim,Defense,"Vol. II, Book 9, Chap 14: Thangúlhad Endangered",Borndol; Ruithroval; Azrí; Hokarul; Grudom; Frúzglob; Golugthrug; Lapus; Torúglup
+Breaching the Necromancer's Gate,65-115,Malledhrim,Offense,"Vol. II, Book 9, Chap 15: Assault on Dol Guldur",Lavalúg; Gortag; Firingúl; Murúk; Annoniel; Thrângund; Morgúr; Agardúr; Grishglok
+Assault on the Ringwraiths' Lair,65-115,Malledhrim,Offense,"Vol. II, Book 9, Chap 15: Assault on Dol Guldur",Faelathron; Mazaukgrat; Kúfit; Durnákh; Gúlheryn; Afglu; Zánurz; Norchador; Mornákh
+The Battle in the Tower,65-115,Malledhrim,Offense,"Vol. II, Book 9, Chap 18: The Battle in the Tower",Thangaran; Iaerien; Hogaward; Múdku; Blord; Gundnákh; Gadhumúrz; Urbor
+Rescue in Nûrz Ghâshu,65-115,Eldgang,Offense,"Vol. III, Book 1, Chap 8: The Depths of Duty",Cefrog; Gháshglob; Gormalith; Lúgryn; Morfuin; Narubras; Nurnor; Snagtalún

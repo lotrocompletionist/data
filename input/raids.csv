@@ -1,20 +1,20 @@
-Cluster,Name,Abbreviation,Region,Level,BossEncounters,Tiers,Group,Available,Prereqs,Challenge,Note
-Shadows of Angmar,Helegrod: Drake Wing,Drake-wing,The Misty Mountains,50-115,1,1,Raid,VIP/QP,,Daily,"In this wing of Helegrod, Drakes and Drakelings have built their nests."
-Shadows of Angmar,Helegrod: Spider Wing,Spider-wing,The Misty Mountains,50-115,1,1,Raid,VIP/QP,,Daily,"In this wing of Helegrod, giant spiders are gathering."
-Shadows of Angmar,Helegrod: Giant Wing,Giant-wing,The Misty Mountains,50-115,1,1,Raid,VIP/QP,,Daily,"In this wing of Helegrod, Stone-giants swear fealty to the Thunder-lord."
-Shadows of Angmar,Helegrod: Dragon Wing,Thorog,The Misty Mountains,50-115,1,1,Raid,VIP/QP,"Defeat Zaudru, Storvâgûn, and Grisgart",-,"At the central courtyard of Helegrod, a fell ritual is taking place..."
-Shadows of Angmar,The Rift of Nûrz Ghâshu,Rift,Angmar,50,8,1,Raid,VIP/QP,,-,"In the far east of Angmar, an ancient evil of the First Age has been uncovered..."
-Shadows of Angmar,Bogbereth,Bogbereth,Angmar,50,1,1,Raid,Free,Landscape raid,,"Beneath Himbar, the spider queen Bogbereth gains power."
-Shadows of Angmar,Ferndúr the Virulent,Ferndur,Angmar,50,1,1,Raid,Free,Landscape Raid,,"In Imlad Balchorth, the Gaunt-lord Ferndúr raises the Dead for his dark plans."
-Mines of Moria,The Vile Maw,VM/Watcher,The Water-works,60,1,1,Raid,Exp/QP,,,"In the deepest waters of Moria, an ancient terror looms..."
-Mines of Moria,Filikul,Turtle,The Water-works,60,1,1,Raid,Exp/QP,,,"Nornúan, a beast of enormous size, has been discovered in the Water-works."
-Scourge of Khazad-dûm,Dâr Narbugud,DN,Foundations of Stone,60,6,1,Raid,VIP/QP,,,"Beneath the foundations of Moria, nameless creatures stir as an unspeakable plague threatens to spread througout the Mines."
-Tower of Dol Guldur,Barad Guldur,BG,Dol Guldur,65-115,3,2,Raid,QP,,Daily,The tower of the Lieutenant of Dol Guldur is under attack!
-In Their Absence,Ost Dunhoth,OD,Enedwaith,65-115,6,2,Raid,VIP/QP,Discover,Daily,"In the hills of Enedwaith, the Gaunt-lord Gortheron rallies his forces in secret."
-Rise of Isengard,Draigoch's Lair,Draigoch,Enedwaith,75,1,1,Raid,Exp/Buy,Discover,Daily,"In a cave west of the Misty Mountains, one of the last great Dragons slumbers."
-Rise of Isengard,Tower of Orthanc,ToO,Isengard,75,5,2,Raid,Exp/Buy,Discover,Daily,Saruman holds command over Isengard and has forged his very own Rings of Power.
-The Road to Erebor,Flight to the Lonely Mountain,Flight,Erebor,20-115,1,2,Raid,Exp/Buy,,Daily,The army of Rhûn has conquered Dale and pursues its inhabitants towards Erebor.
-The Road to Erebor,The Fires of Smaug,Smaug,Erebor,20-115,1,2,Raid,Exp/Buy,,Daily,"As the Easterlings lay siege to Erebor, the dwarves struggle to defend their home."
-The Road to Erebor,The Battle for Erebor,BfE,Erebor,20-115,1,2,Raid,Exp/Buy,,Daily,The final assault on Erebor is at hand and the commanders of the besieging army step forward to fight.
-Helm's Deep,The Deeping Wall,Wall or DW,West Rohan,10-100,1,1,"Solo/Duo, Raid",Exp,Epic Battles,,"The host of Isengard besieges Helm's Deep, the strongest fortress of Rohan."
-Battle of Pelennor,Throne of the Dread Terror,Throne,Old Anórien,115,6,2,Raid,VIP/QP,,Daily,"As the Battle of Pelennor Fields rages, a new commander arises after the fall of the Witch-king."
+Cluster,Name,Abbreviation,Region,Level,BossEncounters,Tiers,Group,Available,Prereqs,Challenge,Note,Bosses
+Shadows of Angmar,Helegrod: Drake Wing,Drake-wing,The Misty Mountains,50-115,1,1,Raid,VIP/QP,,Daily,"In this wing of Helegrod, Drakes and Drakelings have built their nests.",Grisgart; Praunk-Goj; Rémgoj; Burzdyr; Burzgost
+Shadows of Angmar,Helegrod: Spider Wing,Spider-wing,The Misty Mountains,50-115,1,1,Raid,VIP/QP,,Daily,"In this wing of Helegrod, giant spiders are gathering.",Adhargal; Ansach; Breosal; Grisgart; Zaudru
+Shadows of Angmar,Helegrod: Giant Wing,Giant-wing,The Misty Mountains,50-115,1,1,Raid,VIP/QP,,Daily,"In this wing of Helegrod, Stone-giants swear fealty to the Thunder-lord.",Storvâgûn
+Shadows of Angmar,Helegrod: Dragon Wing,Thorog,The Misty Mountains,50-115,1,1,Raid,VIP/QP,"Defeat Zaudru, Storvâgûn, and Grisgart",-,"At the central courtyard of Helegrod, a fell ritual is taking place...",Coldbear; Drugoth the Death-monger; Thorog
+Shadows of Angmar,The Rift of Nûrz Ghâshu,Rift,Angmar,50,8,1,Raid,VIP/QP,,-,"In the far east of Angmar, an ancient evil of the First Age has been uncovered...",Barz; Zurm; Frûz; Zogtark; Narnûlubat; Shadow-eater; Thrâng; Thaurlach
+Shadows of Angmar,Bogbereth,Bogbereth,Angmar,50,1,1,Raid,Free,Landscape raid,,"Beneath Himbar, the spider queen Bogbereth gains power.",Bogbereth
+Shadows of Angmar,Ferndúr the Virulent,Ferndur,Angmar,50,1,1,Raid,Free,Landscape Raid,,"In Imlad Balchorth, the Gaunt-lord Ferndúr raises the Dead for his dark plans.",Ferndúr
+Mines of Moria,The Vile Maw,VM/Watcher,The Water-works,60,1,1,Raid,Exp/QP,,,"In the deepest waters of Moria, an ancient terror looms...",The Watcher in the Water
+Mines of Moria,Filikul,Turtle,The Water-works,60,1,1,Raid,Exp/QP,,,"Nornúan, a beast of enormous size, has been discovered in the Water-works.",Nornúan
+Scourge of Khazad-dûm,Dâr Narbugud,DN,Foundations of Stone,60,6,1,Raid,VIP/QP,,,"Beneath the foundations of Moria, nameless creatures stir as an unspeakable plague threatens to spread througout the Mines.",Blagh; Rung; Zholuga; Flâgît; Îstum; The Blind One; The Mistress of Pestilence
+Tower of Dol Guldur,Barad Guldur,BG,Dol Guldur,65-115,3,2,Raid,QP,,Daily,The tower of the Lieutenant of Dol Guldur is under attack!,Dúrchest; Cargaraf; Morgaraf; Lieutenant of Dol Guldur
+In Their Absence,Ost Dunhoth,OD,Enedwaith,65-115,6,2,Raid,VIP/QP,Discover,Daily,"In the hills of Enedwaith, the Gaunt-lord Gortheron rallies his forces in secret.",Dúrchest; Dungarth; Vark; Kaveran; Durin's Bane; Frothmar; Baleleaf; Dourbark; Ivar ; Matumáth; Matúrz-olog; Narslaug; Dúngorth; Gortheron
+Rise of Isengard,Draigoch's Lair,Draigoch,Enedwaith,75,1,1,Raid,Exp/Buy,Discover,Daily,"In a cave west of the Misty Mountains, one of the last great Dragons slumbers.",Draigoch
+Rise of Isengard,Tower of Orthanc,ToO,Isengard,75,5,2,Raid,Exp/Buy,Discover,Daily,Saruman holds command over Isengard and has forged his very own Rings of Power.,Crisiant; Usgarren; Kâlbak; Iorweth; Bukot; Saruman
+The Road to Erebor,Flight to the Lonely Mountain,Flight,Erebor,20-115,1,2,Raid,Exp/Buy,,Daily,The army of Rhûn has conquered Dale and pursues its inhabitants towards Erebor.,
+The Road to Erebor,The Fires of Smaug,Smaug,Erebor,20-115,1,2,Raid,Exp/Buy,,Daily,"As the Easterlings lay siege to Erebor, the dwarves struggle to defend their home.",
+The Road to Erebor,The Battle for Erebor,BfE,Erebor,20-115,1,2,Raid,Exp/Buy,,Daily,The final assault on Erebor is at hand and the commanders of the besieging army step forward to fight.,
+Helm's Deep,The Deeping Wall,Wall or DW,West Rohan,10-100,1,1,"Solo/Duo, Raid",Exp,Epic Battles,,"The host of Isengard besieges Helm's Deep, the strongest fortress of Rohan.",
+Battle of Pelennor,Throne of the Dread Terror,Throne,Old Anórien,115,6,2,Raid,VIP/QP,,Daily,"As the Battle of Pelennor Fields rages, a new commander arises after the fall of the Witch-king.",Gothmog; Rakothas; Set-Akaji; Arpong-Dokh; Ku-Nerpag; Vadokhar; The Unbroken One; The Woe of Khand; The High Sorcerer of Harad; Gothmog

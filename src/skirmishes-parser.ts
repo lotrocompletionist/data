@@ -1,5 +1,5 @@
 import { Skirmish, SkirmishType } from "./models";
-import { parseLevel } from "./model-parser";
+import { parseLevel, parseBosses, parseText } from "./model-parser";
 import { Parser } from "./parser";
 
 export class SkirmishesParser extends Parser<Skirmish> {
@@ -11,9 +11,10 @@ export class SkirmishesParser extends Parser<Skirmish> {
     return {
       name: row.Skirmish,
       level: parseLevel(row.Level),
-      faction: row.Faction,
+      faction: this.parseFaction(row.Faction),
       type: this.parseSkirmishType(row.Type),
-      requirements: this.parseRequirements(row.Requirement)
+      requirements: this.parseRequirements(row.Requirement),
+      bosses: parseBosses(row.Bosses)
     };
   }
 
@@ -34,13 +35,7 @@ export class SkirmishesParser extends Parser<Skirmish> {
     return text.split(" or ").map(word => word.trim());
   }
 
-  private parseSkirmish(row: any): Skirmish {
-    return {
-      name: row.Skirmish,
-      level: parseLevel(row.Level),
-      faction: row.Faction,
-      type: this.parseSkirmishType(row.Type),
-      requirements: this.parseRequirements(row.Requirement)
-    };
+  private parseFaction(text: string): string | undefined {
+    return text.toLowerCase() === "none" ? undefined : text.trim();
   }
 }
