@@ -8,7 +8,6 @@
     tiers: 1,
     groups: ["Raid"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note:
@@ -24,7 +23,6 @@
     tiers: 1,
     groups: ["Raid"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "In this wing of Helegrod, giant spiders are gathering.",
@@ -39,7 +37,6 @@
     tiers: 1,
     groups: ["Raid"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note:
@@ -71,7 +68,6 @@
     tiers: 1,
     groups: ["Raid"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
     note:
@@ -127,7 +123,6 @@
     tiers: 1,
     groups: ["Raid"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Mines of Moria",
     note: "In the deepest waters of Moria, an ancient terror looms...",
@@ -142,7 +137,6 @@
     tiers: 1,
     groups: ["Raid"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Mines of Moria",
     note:
@@ -158,7 +152,6 @@
     tiers: 1,
     groups: ["Raid"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Scourge of Khazad-dûm",
     note:
@@ -182,7 +175,6 @@
     tiers: 2,
     groups: ["Raid"],
     availability: ["QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
     note: "The tower of the Lieutenant of Dol Guldur is under attack!",
@@ -260,7 +252,6 @@
     tiers: 2,
     groups: ["Raid"],
     availability: ["Expansion", "Buy"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
     note:
@@ -276,7 +267,6 @@
     tiers: 2,
     groups: ["Raid"],
     availability: ["Expansion", "Buy"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
     note:
@@ -292,7 +282,6 @@
     tiers: 2,
     groups: ["Raid"],
     availability: ["Expansion", "Buy"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
     note:
@@ -324,7 +313,6 @@
     tiers: 2,
     groups: ["Raid"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Battle of Pelennor",
     note:

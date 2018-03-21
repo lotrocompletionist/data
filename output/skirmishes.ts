@@ -18,7 +18,6 @@
   {
     name: "Storm on Methedras",
     level: { minimum: 20, maximum: 115 },
-    faction: "None",
     type: "Offense",
     requirements: ["LOTRO Store", "VIP"],
     bosses: [
@@ -121,7 +120,6 @@
   {
     name: "Barrow-downs Survival",
     level: { minimum: 45, maximum: 115 },
-    faction: "None",
     type: "Survival",
     requirements: ["LOTRO Store", "VIP"],
     bosses: []

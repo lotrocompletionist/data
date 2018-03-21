@@ -7,7 +7,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Free"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "Located in Southern Barrow-downs, see also the Great Barrow",
@@ -21,7 +20,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Free"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "Located in Southern Barrow-downs, see also the Great Barrow",
@@ -63,7 +61,6 @@
     tiers: 1,
     groups: ["SmallFellowship"],
     availability: ["Free"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "In Garth Agarwen",
@@ -77,7 +74,6 @@
     tiers: 1,
     groups: ["SmallFellowship"],
     availability: ["Free"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "In Garth Agarwen",
@@ -91,7 +87,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Free"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "In Garth Agarwen",
@@ -105,7 +100,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
     note: "The heart of Goblin-town",
@@ -119,7 +113,6 @@
     tiers: 2,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "See also Fornost",
@@ -189,7 +182,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "The former gardens of Annúminas, now corrupted by evil",
@@ -203,7 +195,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "The throne room and outlying chambers of Annúminas",
@@ -217,7 +208,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "The tomb of Valandil, third King of Arnor",
@@ -231,7 +221,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
     note: "South-east of Carn Dûm in NE Angmar",
@@ -261,7 +250,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
     note: "North-eastern Angmar",
@@ -289,7 +277,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Shadows of Angmar",
     note: "The fortress of the Witch-king, in north-eastern Angmar",
@@ -310,7 +297,6 @@
     tiers: 1,
     groups: ["SmallFellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "An ancient library near the ring-forges of Mirobel",
@@ -324,7 +310,6 @@
     tiers: 1,
     groups: ["SmallFellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Shadows of Angmar",
     note: "An ancient school near the ring-forges of Mirobel",
@@ -338,10 +323,8 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: "",
     bosses: ["Void-eater", "Doom-speaker", "Gurvand"]
   },
   {
@@ -352,7 +335,6 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "None",
     cluster: "Mines of Moria",
     note: "A treasure-vault infiltrated by Uruks from Dol Guldur",
@@ -376,10 +358,8 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: "",
     bosses: [
       "Ilzkâl the Pummeler",
       "Gothghaash the Firecaller",
@@ -398,10 +378,8 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: "",
     bosses: ["Narkû", "Dhaub", "Thrug", "Kranklûk"]
   },
   {
@@ -412,10 +390,8 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: "",
     bosses: ["Vrarz", "Greb", "Talug"]
   },
   {
@@ -426,10 +402,8 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: "",
     bosses: ["Tramug", "Dhûrz", "The Lost One"]
   },
   {
@@ -440,10 +414,8 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["Expansion", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Mines of Moria",
-    note: "",
     bosses: [
       "Bonetooth",
       "Rockjaw",
@@ -469,10 +441,8 @@
     tiers: 1,
     groups: ["SmallFellowship"],
     availability: ["QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Scourge of Khazad-dûm",
-    note: "",
     bosses: ["Frost-tail", "Ergoth"]
   },
   {
@@ -483,10 +453,8 @@
     tiers: 1,
     groups: ["SmallFellowship"],
     availability: ["QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Scourge of Khazad-dûm",
-    note: "",
     bosses: ["Spit-tail", "Caerlûg"]
   },
   {
@@ -497,10 +465,8 @@
     tiers: 1,
     groups: ["Fellowship"],
     availability: ["QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Scourge of Khazad-dûm",
-    note: "",
     bosses: ["Âmbal", "Bashkuga", "Thaguzg"]
   },
   {
@@ -511,10 +477,8 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
-    note: "",
     bosses: ["Urcheron", "Carchrien", "Durkâr"]
   },
   {
@@ -525,10 +489,8 @@
     tiers: 2,
     groups: ["Fellowship"],
     availability: ["QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
-    note: "",
     bosses: [
       "Guldur Keeper",
       "Guldur Sentinel",
@@ -545,10 +507,8 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
-    note: "",
     bosses: ["Athgrat", "Kranklob"]
   },
   {
@@ -559,10 +519,8 @@
     tiers: 2,
     groups: ["Fellowship"],
     availability: ["QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Tower of Dol Guldur",
-    note: "",
     bosses: ["Urchír", "Alagossír", "Gorothúl", "Demafaer"]
   },
   {
@@ -576,7 +534,6 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "In Their Absence",
-    note: "",
     bosses: [
       "Angaidh",
       "Sidhág",
@@ -597,7 +554,6 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "In Their Absence",
-    note: "",
     bosses: [
       "Coldbear the Wight",
       "Ghost of Coldbear",
@@ -616,7 +572,6 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "In Their Absence",
-    note: "",
     bosses: ["Legbarthil", "Thadúr", "Úmheryn"]
   },
   {
@@ -630,7 +585,6 @@
     prerequisites: "Discover[3]",
     challenge: "Daily",
     cluster: "In Their Absence",
-    note: "",
     bosses: [
       "Gundúl",
       "Búbhosh-grat",
@@ -652,7 +606,6 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: "",
     bosses: ["Huva", "Dargnákh"]
   },
   {
@@ -666,7 +619,6 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: "",
     bosses: ["Undúrz", "Gathaz", "Kabor", "Zagh"]
   },
   {
@@ -680,7 +632,6 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: "",
     bosses: ["Zabúrz", "Fúshbraf", "Ironarm"]
   },
   {
@@ -694,7 +645,6 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: "",
     bosses: [
       "Dhâr",
       "Gurbák",
@@ -714,7 +664,6 @@
     prerequisites: "Discover[3]",
     challenge: "Biweekly",
     cluster: "Rise of Isengard",
-    note: "",
     bosses: ["Frûshkul", "Gurthúl"]
   },
   {
@@ -725,7 +674,6 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["Expansion", "Buy"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
     note: "See also Erebor Instances.",
@@ -739,7 +687,6 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["Expansion", "Buy"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
     note: "See also Erebor Instances.",
@@ -753,7 +700,6 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["Expansion", "Buy"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
     note: "See also Erebor Instances.",
@@ -767,7 +713,6 @@
     tiers: 2,
     groups: ["Fellowship"],
     availability: ["Expansion", "Buy"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "The Road to Erebor",
     note: "See also Erebor Instances.",
@@ -784,7 +729,6 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: "",
     bosses: []
   },
   {
@@ -798,7 +742,6 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: "",
     bosses: []
   },
   {
@@ -812,7 +755,6 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: "",
     bosses: []
   },
   {
@@ -826,7 +768,6 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: "",
     bosses: []
   },
   {
@@ -840,7 +781,6 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "Helm's Deep",
-    note: "",
     bosses: []
   },
   {
@@ -854,7 +794,6 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "War for Gondor",
-    note: "",
     bosses: [
       "Kang-kethek",
       "Ugturu",
@@ -875,7 +814,6 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "War for Gondor",
-    note: "",
     bosses: ["Ahârta", "Raghathai"]
   },
   {
@@ -889,7 +827,6 @@
     prerequisites: "Epic Battles",
     challenge: "None",
     cluster: "War for Gondor",
-    note: "",
     bosses: ["Mâsorgh", "Ughâsh"]
   },
   {
@@ -900,7 +837,6 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Osgiliath",
     note: "Destroy the hidden forces beneath Osgiliath",
@@ -914,7 +850,6 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Osgiliath",
     note: "Fight through Osgiliath in search of Faramir",
@@ -928,7 +863,6 @@
     tiers: 2,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Osgiliath",
     note: "Reclaim the Dome of Stars from the Nazgûl",
@@ -942,7 +876,6 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Battle of Pelennor",
     note: "The Riders of Rohan face the Haradrim and Variags",
@@ -956,7 +889,6 @@
     tiers: 2,
     groups: ["SmallFellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Battle of Pelennor",
     note: "Assault the Harlond alongside Aragorn's army!",
@@ -977,7 +909,6 @@
     tiers: 2,
     groups: ["Fellowship"],
     availability: ["VIP", "QuestPack"],
-    prerequisites: "",
     challenge: "Daily",
     cluster: "Battle of Pelennor",
     note: "Rath Dínen, the tombs of the Kings and Stewards of Gondor",

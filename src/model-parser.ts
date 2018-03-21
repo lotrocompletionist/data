@@ -108,3 +108,7 @@ export function parseBosses(text: string): string[] {
     .map(word => word.trim())
     .filter(word => word.length > 0);
 }
+
+export function parseText(text: string): string | undefined {
+  return text && text.trim().length > 0 ? text.trim() : undefined;
+}

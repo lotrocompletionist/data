@@ -7,7 +7,8 @@ import {
   parseGroups,
   parseAvailabilities,
   parseChallenge,
-  parseBosses
+  parseBosses,
+  parseText
 } from "./model-parser";
 import { Parser } from "./parser";
 
@@ -26,10 +27,10 @@ export class RaidsParser extends Parser<Raid> {
       tiers: parseTiers(row.Tiers),
       groups: parseGroups(row.Group),
       availability: parseAvailabilities(row.Available),
-      prerequisites: row.Prereqs,
+      prerequisites: parseText(row.Prereqs),
       challenge: parseChallenge(row.Challenge),
       cluster: row.Cluster,
-      note: row.Note,
+      note: parseText(row.Note),
       bosses: parseBosses(row.Bosses)
     };
   }
