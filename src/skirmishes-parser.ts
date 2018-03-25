@@ -3,18 +3,22 @@ import { parseLevel, parseBosses, parseText } from "./model-parser";
 import { Parser } from "./parser";
 
 export class SkirmishesParser extends Parser<Skirmish> {
+  private id = 1;
+  private bossId = 1;
+
   constructor() {
     super("skirmishes", "Skirmish");
   }
 
   protected parseRow(row: any): Skirmish {
     return {
+      id: this.id++,
       name: row.Skirmish,
       level: parseLevel(row.Level),
       faction: this.parseFaction(row.Faction),
       type: this.parseSkirmishType(row.Type),
       requirements: this.parseRequirements(row.Requirement),
-      bosses: parseBosses(row.Bosses)
+      bosses: parseBosses(row.Bosses).map(name => ({ id: this.bossId++, name }))
     };
   }
 

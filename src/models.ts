@@ -30,7 +30,13 @@ export interface Level {
   maximum?: number;
 }
 
+export interface Boss {
+  id: number;
+  name: string;
+}
+
 export interface Instance {
+  id: number;
   name: string;
   abbreviations: string[];
   region: string;
@@ -42,10 +48,11 @@ export interface Instance {
   challenge: string;
   cluster: string;
   note?: string;
-  bosses: string[];
+  bosses: Boss[];
 }
 
 export interface Raid {
+  id: number;
   name: string;
   abbreviations: string[];
   region: string;
@@ -58,7 +65,7 @@ export interface Raid {
   challenge: string;
   cluster: string;
   note?: string;
-  bosses: string[];
+  bosses: Boss[];
 }
 
 export enum SkirmishType {
@@ -68,10 +75,11 @@ export enum SkirmishType {
 }
 
 export interface Skirmish {
+  id: number;
   name: string;
   level: Level;
   faction?: string;
   type: string;
   requirements: string[];
-  bosses: string[];
+  bosses: Boss[];
 }
