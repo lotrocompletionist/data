@@ -13,12 +13,16 @@ import {
 import { Parser } from "./parser";
 
 export class RaidsParser extends Parser<Raid> {
+  private id = 1;
+  private bossId = 1;
+
   constructor() {
     super("raids", "Raid");
   }
 
   protected parseRow(row: any): Raid {
     return {
+      id: this.id++,
       name: row.Name,
       abbreviations: parseAbbreviations(row.Abbreviation),
       region: parseRegion(row.Region),
@@ -31,7 +35,7 @@ export class RaidsParser extends Parser<Raid> {
       challenge: parseChallenge(row.Challenge),
       cluster: row.Cluster,
       note: parseText(row.Note),
-      bosses: parseBosses(row.Bosses)
+      bosses: parseBosses(row.Bosses).map(name => ({ id: this.bossId++, name }))
     };
   }
 

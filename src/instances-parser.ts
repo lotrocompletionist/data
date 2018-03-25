@@ -13,12 +13,16 @@ import {
 import { Parser } from "./parser";
 
 export class InstancesParser extends Parser<Instance> {
+  private id = 1;
+  private bossId = 1;
+
   constructor() {
     super("instances", "Instance");
   }
 
   protected parseRow(row: any): Instance {
     return {
+      id: this.id++,
       name: row.Name,
       abbreviations: parseAbbreviations(row.Abbreviation),
       region: parseRegion(row.Region),
@@ -30,7 +34,7 @@ export class InstancesParser extends Parser<Instance> {
       challenge: parseChallenge(row.Challenge),
       cluster: row.Cluster,
       note: parseText(row.Note),
-      bosses: parseBosses(row.Bosses)
+      bosses: parseBosses(row.Bosses).map(name => ({ id: this.bossId++, name }))
     };
   }
 }
