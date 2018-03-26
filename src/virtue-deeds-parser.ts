@@ -55,7 +55,7 @@ export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
     return $("a", regionElement)
       .first()
       .text()
-      .replace(/ deeds/i, '');
+      .replace(/ deeds/i, "");
   }
 
   private parseDeed(
