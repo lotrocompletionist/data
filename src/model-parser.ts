@@ -1,11 +1,11 @@
 import _ from "lodash";
 import {
-  Instance,
+  IWorldInstance,
   Tiers,
   Availability,
   Group,
   Challenge,
-  Level
+  ILevelRange
 } from "./models";
 
 export function parseAbbreviations(text: string): string[] {
@@ -16,10 +16,14 @@ export function parseRegion(text: string): string {
   return text.split("(")[0].trim();
 }
 
-export function parseLevel(text: string): Level {
+export function parseLevel(text: string): number {
+  return parseInt(text);
+}
+
+export function parseLevelRange(text: string): ILevelRange {
   const levels = text.split("-");
-  const minimum = parseInt(levels[0]);
-  const maximum = levels.length > 1 ? parseInt(levels[1]) : undefined;
+  const minimum = parseLevel(levels[0]);
+  const maximum = levels.length > 1 ? parseLevel(levels[1]) : undefined;
   return { minimum, maximum };
 }
 

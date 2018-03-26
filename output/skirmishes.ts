@@ -2,7 +2,7 @@
   {
     id: 1,
     name: "The Siege of Gondamon",
-    level: { minimum: 20, maximum: 115 },
+    levelRange: { minimum: 20, maximum: 115 },
     faction: "Thorin's Hall",
     type: "Defense",
     requirements: ["None"],
@@ -17,7 +17,7 @@
   {
     id: 2,
     name: "Trouble in Tuckborough",
-    level: { minimum: 20, maximum: 115 },
+    levelRange: { minimum: 20, maximum: 115 },
     faction: "The Mathom Society",
     type: "Offense",
     requirements: ["None"],
@@ -32,7 +32,7 @@
   {
     id: 3,
     name: "Storm on Methedras",
-    level: { minimum: 20, maximum: 115 },
+    levelRange: { minimum: 20, maximum: 115 },
     type: "Offense",
     requirements: ["LOTRO Store", "VIP"],
     bosses: [
@@ -50,7 +50,7 @@
   {
     id: 4,
     name: "Stand at Amon Sûl",
-    level: { minimum: 25, maximum: 115 },
+    levelRange: { minimum: 25, maximum: 115 },
     faction: "The Eglain",
     type: "Defense",
     requirements: ["LOTRO Store", "VIP"],
@@ -69,7 +69,7 @@
   {
     id: 5,
     name: "Attack at Dawn",
-    level: { minimum: 30, maximum: 115 },
+    levelRange: { minimum: 30, maximum: 115 },
     faction: "Rangers of Esteldín",
     type: "Offense",
     requirements: ["LOTRO Store", "VIP"],
@@ -85,7 +85,7 @@
   {
     id: 6,
     name: "Thievery and Mischief",
-    level: { minimum: 30, maximum: 115 },
+    levelRange: { minimum: 30, maximum: 115 },
     faction: "Men of Bree",
     type: "Offense",
     requirements: ["LOTRO Store", "VIP"],
@@ -103,7 +103,7 @@
   {
     id: 7,
     name: "Defence of the Prancing Pony",
-    level: { minimum: 35, maximum: 115 },
+    levelRange: { minimum: 35, maximum: 115 },
     faction: "Men of Bree",
     type: "Defense",
     requirements: ["LOTRO Store", "VIP"],
@@ -121,7 +121,7 @@
   {
     id: 8,
     name: "The Ford of Bruinen",
-    level: { minimum: 40, maximum: 115 },
+    levelRange: { minimum: 40, maximum: 115 },
     faction: "Elves of Rivendell",
     type: "Defense",
     requirements: ["LOTRO Store", "VIP"],
@@ -135,7 +135,7 @@
   {
     id: 9,
     name: "The Icy Crevasse",
-    level: { minimum: 40, maximum: 115 },
+    levelRange: { minimum: 40, maximum: 115 },
     faction: "Lossoth of Forochel",
     type: "Offense",
     requirements: ["LOTRO Store", "VIP"],
@@ -153,7 +153,7 @@
   {
     id: 10,
     name: "Barrow-downs Survival",
-    level: { minimum: 45, maximum: 115 },
+    levelRange: { minimum: 45, maximum: 115 },
     type: "Survival",
     requirements: ["LOTRO Store", "VIP"],
     bosses: []
@@ -161,7 +161,7 @@
   {
     id: 11,
     name: "The Battle of the Deep-way",
-    level: { minimum: 55, maximum: 115 },
+    levelRange: { minimum: 55, maximum: 115 },
     faction: "Iron Garrison Miners",
     type: "Defense",
     requirements: ["Vol. II, Book 5, Chapter 5: Drums in the Deep"],
@@ -179,7 +179,7 @@
   {
     id: 12,
     name: "Battle of the Way of Smiths",
-    level: { minimum: 55, maximum: 115 },
+    levelRange: { minimum: 55, maximum: 115 },
     faction: "Iron Garrison Miners",
     type: "Defense",
     requirements: ["Vol. II, Book 5, Chapter 5: Drums in the Deep"],
@@ -196,7 +196,7 @@
   {
     id: 13,
     name: "Battle of the Twenty-first Hall",
-    level: { minimum: 55, maximum: 115 },
+    levelRange: { minimum: 55, maximum: 115 },
     faction: "Iron Garrison Guards",
     type: "Defense",
     requirements: ["Vol. II, Book 5, Chapter 5: Drums in the Deep"],
@@ -212,7 +212,7 @@
   {
     id: 14,
     name: "Strike Against Dannenglor",
-    level: { minimum: 60, maximum: 115 },
+    levelRange: { minimum: 60, maximum: 115 },
     faction: "Malledhrim",
     type: "Offense",
     requirements: ["Vol. II, Book 9, Chapter 4: First Offensives"],
@@ -231,7 +231,7 @@
   {
     id: 15,
     name: "Protectors of Thangúlhad",
-    level: { minimum: 60, maximum: 115 },
+    levelRange: { minimum: 60, maximum: 115 },
     faction: "Malledhrim",
     type: "Defense",
     requirements: ["Vol. II, Book 9, Chap 14: Thangúlhad Endangered"],
@@ -250,7 +250,7 @@
   {
     id: 16,
     name: "Breaching the Necromancer's Gate",
-    level: { minimum: 65, maximum: 115 },
+    levelRange: { minimum: 65, maximum: 115 },
     faction: "Malledhrim",
     type: "Offense",
     requirements: ["Vol. II, Book 9, Chap 15: Assault on Dol Guldur"],
@@ -269,7 +269,7 @@
   {
     id: 17,
     name: "Assault on the Ringwraiths' Lair",
-    level: { minimum: 65, maximum: 115 },
+    levelRange: { minimum: 65, maximum: 115 },
     faction: "Malledhrim",
     type: "Offense",
     requirements: ["Vol. II, Book 9, Chap 15: Assault on Dol Guldur"],
@@ -288,7 +288,7 @@
   {
     id: 18,
     name: "The Battle in the Tower",
-    level: { minimum: 65, maximum: 115 },
+    levelRange: { minimum: 65, maximum: 115 },
     faction: "Malledhrim",
     type: "Offense",
     requirements: ["Vol. II, Book 9, Chap 18: The Battle in the Tower"],
@@ -306,7 +306,7 @@
   {
     id: 19,
     name: "Rescue in Nûrz Ghâshu",
-    level: { minimum: 65, maximum: 115 },
+    levelRange: { minimum: 65, maximum: 115 },
     faction: "Eldgang",
     type: "Offense",
     requirements: ["Vol. III, Book 1, Chap 8: The Depths of Duty"],

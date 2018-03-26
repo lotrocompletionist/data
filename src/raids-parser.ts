@@ -1,8 +1,8 @@
-import { Raid } from "./models";
+import { IRaid } from "./models";
 import {
   parseAbbreviations,
   parseRegion,
-  parseLevel,
+  parseLevelRange,
   parseTiers,
   parseGroups,
   parseAvailabilities,
@@ -10,23 +10,23 @@ import {
   parseBosses,
   parseText
 } from "./model-parser";
-import { Parser } from "./parser";
+import { CsvParser } from "./csv-parser";
 
-export class RaidsParser extends Parser<Raid> {
+export class RaidsParser extends CsvParser<IRaid> {
   private id = 1;
   private bossId = 1;
 
   constructor() {
-    super("raids", "Raid");
+    super("raids");
   }
 
-  protected parseRow(row: any): Raid {
+  protected parseRow(row: any): IRaid {
     return {
       id: this.id++,
       name: row.Name,
       abbreviations: parseAbbreviations(row.Abbreviation),
       region: parseRegion(row.Region),
-      level: parseLevel(row.Level),
+      levelRange: parseLevelRange(row.Level),
       bossEncounters: this.parseBossEncounters(row.BossEncounters),
       tiers: parseTiers(row.Tiers),
       groups: parseGroups(row.Group),

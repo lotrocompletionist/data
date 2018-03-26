@@ -25,22 +25,22 @@ export enum Group {
   Raid = "Raid"
 }
 
-export interface Level {
+export interface ILevelRange {
   minimum: number;
   maximum?: number;
 }
 
-export interface Boss {
+export interface IBoss {
   id: number;
   name: string;
 }
 
-export interface Instance {
+export interface IWorldInstance {
   id: number;
   name: string;
   abbreviations: string[];
   region: string;
-  level: Level;
+  levelRange: ILevelRange;
   tiers: number;
   groups: string[];
   availability: string[];
@@ -48,15 +48,15 @@ export interface Instance {
   challenge: string;
   cluster: string;
   note?: string;
-  bosses: Boss[];
+  bosses: IBoss[];
 }
 
-export interface Raid {
+export interface IRaid {
   id: number;
   name: string;
   abbreviations: string[];
   region: string;
-  level: Level;
+  levelRange: ILevelRange;
   bossEncounters?: number;
   tiers: number;
   groups: string[];
@@ -65,7 +65,7 @@ export interface Raid {
   challenge: string;
   cluster: string;
   note?: string;
-  bosses: Boss[];
+  bosses: IBoss[];
 }
 
 export enum SkirmishType {
@@ -74,12 +74,20 @@ export enum SkirmishType {
   Survival = "Survival"
 }
 
-export interface Skirmish {
+export interface ISkirmish {
   id: number;
   name: string;
-  level: Level;
+  levelRange: ILevelRange;
   faction?: string;
   type: string;
   requirements: string[];
-  bosses: Boss[];
+  bosses: IBoss[];
+}
+
+export interface IVirtueDeed {
+  id: number;
+  virtue: string;
+  deed: string;
+  region: string;
+  level?: number;
 }

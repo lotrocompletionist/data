@@ -1,20 +1,20 @@
-import { Skirmish, SkirmishType } from "./models";
-import { parseLevel, parseBosses, parseText } from "./model-parser";
-import { Parser } from "./parser";
+import { ISkirmish, SkirmishType } from "./models";
+import { parseLevelRange, parseBosses, parseText } from "./model-parser";
+import { CsvParser } from "./csv-parser";
 
-export class SkirmishesParser extends Parser<Skirmish> {
+export class SkirmishesParser extends CsvParser<ISkirmish> {
   private id = 1;
   private bossId = 1;
 
   constructor() {
-    super("skirmishes", "Skirmish");
+    super("skirmishes");
   }
 
-  protected parseRow(row: any): Skirmish {
+  protected parseRow(row: any): ISkirmish {
     return {
       id: this.id++,
       name: row.Skirmish,
-      level: parseLevel(row.Level),
+      levelRange: parseLevelRange(row.Level),
       faction: this.parseFaction(row.Faction),
       type: this.parseSkirmishType(row.Type),
       requirements: this.parseRequirements(row.Requirement),

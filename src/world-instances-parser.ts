@@ -1,8 +1,8 @@
-import { Instance } from "./models";
+import { IWorldInstance } from "./models";
 import {
   parseAbbreviations,
   parseRegion,
-  parseLevel,
+  parseLevelRange,
   parseTiers,
   parseGroups,
   parseAvailabilities,
@@ -10,23 +10,23 @@ import {
   parseBosses,
   parseText
 } from "./model-parser";
-import { Parser } from "./parser";
+import { CsvParser } from "./csv-parser";
 
-export class InstancesParser extends Parser<Instance> {
+export class WorldInstancesParser extends CsvParser<IWorldInstance> {
   private id = 1;
   private bossId = 1;
 
   constructor() {
-    super("instances", "Instance");
+    super("instances");
   }
 
-  protected parseRow(row: any): Instance {
+  protected parseRow(row: any): IWorldInstance {
     return {
       id: this.id++,
       name: row.Name,
       abbreviations: parseAbbreviations(row.Abbreviation),
       region: parseRegion(row.Region),
-      level: parseLevel(row.Level),
+      levelRange: parseLevelRange(row.Level),
       tiers: parseTiers(row.Tiers),
       groups: parseGroups(row.Group),
       availability: parseAvailabilities(row.Available),
