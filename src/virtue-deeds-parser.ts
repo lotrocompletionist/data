@@ -54,7 +54,8 @@ export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
   private parseRegion($: CheerioStatic, regionElement: CheerioElement): string {
     return $("a", regionElement)
       .first()
-      .text();
+      .text()
+      .replace(/ deeds/i, '');
   }
 
   private parseDeed(
