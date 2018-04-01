@@ -8,7 +8,7 @@ export enum Availability {
   Free = "Free",
   VIP = "VIP",
   Buy = "Buy",
-  QuestPack = "QuestPack",
+  QuestPack = "Quest Pack",
   Expansion = "Expansion"
 }
 
@@ -20,7 +20,7 @@ export enum Tiers {
 
 export enum Group {
   Fellowship = "Fellowship",
-  SmallFellowship = "SmallFellowship",
+  SmallFellowship = "Small Fellowship",
   SoloDuo = "Solo/Duo",
   Raid = "Raid"
 }
