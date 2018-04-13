@@ -1,4 +1,4 @@
-import { ISkirmish, SkirmishType, IVirtueDeed } from "./models";
+import { ISkirmish, SkirmishType, IVirtueDeed, ICategory } from "./models";
 import { parseLevel, parseBosses, parseText } from "./model-parser";
 import { Parser } from "./parser";
 
@@ -20,12 +20,12 @@ export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
       const virtue = this.parseVirtue($, virtueElement);
 
       return flatMap(
-        this.getRegionElements($, virtueElement),
-        regionElement => {
-          const region = this.parseRegion($, regionElement);
+        this.getCategoryElements($, virtueElement),
+        categoryElement => {
+          const category = this.parseCategory($, categoryElement);
 
           return flatMap(
-            this.getDeedElements($, regionElement),
+            this.getDeedElements($, categoryElement),
             deedElement => {
               const level = this.parseLevel($, deedElement);
               const deed = this.parseDeed($, deedElement);
@@ -34,7 +34,7 @@ export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
                 id: this.id++,
                 virtue,
                 deed,
-                region,
+                category,
                 level
               };
             }
@@ -51,11 +51,12 @@ export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
     return $("a span", headlineElement).text();
   }
 
-  private parseRegion($: CheerioStatic, regionElement: CheerioElement): string {
-    return $("a", regionElement)
-      .first()
-      .text()
-      .replace(/ deeds/i, "");
+  private parseCategory(
+    $: CheerioStatic,
+    categoryElement: CheerioElement
+  ): ICategory {
+    const { text, page } = this.parsePageLink($, categoryElement);
+    return { name: text, page };
   }
 
   private parseDeed(
@@ -83,7 +84,7 @@ export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
       .toArray();
   }
 
-  private getRegionElements(
+  private getCategoryElements(
     $: CheerioStatic,
     headlineElement: CheerioElement
   ): CheerioElement[] {

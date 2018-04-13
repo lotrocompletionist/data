@@ -25,6 +25,11 @@ export enum Group {
   Raid = "Raid"
 }
 
+export interface ICategory {
+  name: string;
+  page: string;
+}
+
 export interface ILevelRange {
   minimum: number;
   maximum?: number;
@@ -88,6 +93,6 @@ export interface IVirtueDeed {
   id: number;
   virtue: string;
   deed: string;
-  region: string;
+  category: ICategory;
   level?: number;
 }
