@@ -25,11 +25,6 @@ export enum Group {
   Raid = "Raid"
 }
 
-export interface ICategory {
-  name: string;
-  page: string;
-}
-
 export interface ILevelRange {
   minimum: number;
   maximum?: number;
@@ -89,10 +84,20 @@ export interface ISkirmish {
   bosses: IBoss[];
 }
 
+export interface IDeed {
+  name: string;
+  page: string;
+}
+
+export interface IDeedsCategory {
+  name: string;
+  page: string;
+}
+
 export interface IVirtueDeed {
   id: number;
   virtue: string;
-  deed: string;
-  category: ICategory;
+  deed: IDeed;
+  category: IDeedsCategory;
   level?: number;
 }

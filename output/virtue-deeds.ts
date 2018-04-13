@@ -2,28 +2,34 @@
   {
     id: 1,
     virtue: "Charity",
-    deed: "Bree-land Adventurer (Advanced)",
+    deed: {
+      name: "Bree-land Adventurer (Advanced)",
+      page: "Bree-land_Adventurer_(Advanced)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 4
   },
   {
     id: 2,
     virtue: "Charity",
-    deed: "Ally of Ered Luin",
+    deed: { name: "Ally of Ered Luin", page: "Ally_of_Ered_Luin" },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 1
   },
   {
     id: 3,
     virtue: "Charity",
-    deed: "Hero of Ered Luin",
+    deed: { name: "Hero of Ered Luin", page: "Hero_of_Ered_Luin" },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 6
   },
   {
     id: 4,
     virtue: "Charity",
-    deed: "Of Glories Long Past (Advanced)",
+    deed: {
+      name: "Of Glories Long Past (Advanced)",
+      page: "Of_Glories_Long_Past_(Advanced)"
+    },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -33,7 +39,10 @@
   {
     id: 5,
     virtue: "Charity",
-    deed: "Tales of the Lonely Road",
+    deed: {
+      name: "Tales of the Lonely Road",
+      page: "Tales_of_the_Lonely_Road"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -43,133 +52,166 @@
   {
     id: 6,
     virtue: "Charity",
-    deed: "The Minions of Wisdán (Advanced)",
+    deed: {
+      name: "The Minions of Wisdán (Advanced)",
+      page: "The_Minions_of_Wisd%C3%A1n_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 7,
     virtue: "Charity",
-    deed: "Forochel Expeditionary",
+    deed: { name: "Forochel Expeditionary", page: "Forochel_Expeditionary" },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 39
   },
   {
     id: 8,
     virtue: "Charity",
-    deed: "Silent and Restless (Intermediate)",
+    deed: {
+      name: "Silent and Restless (Intermediate)",
+      page: "Silent_and_Restless_(Intermediate)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 9,
     virtue: "Charity",
-    deed: "Defilers of the Forgotten Treasury (Advanced)",
+    deed: {
+      name: "Defilers of the Forgotten Treasury (Advanced)",
+      page: "Defilers_of_the_Forgotten_Treasury_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 10,
     virtue: "Charity",
-    deed: "The Vile Maw",
+    deed: { name: "The Vile Maw", page: "The_Vile_Maw_(deed)" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 11,
     virtue: "Charity",
-    deed: "Legend of the Deeps",
+    deed: { name: "Legend of the Deeps", page: "Legend_of_the_Deeps" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 12,
     virtue: "Charity",
-    deed: "Quests of the Great Delving",
+    deed: {
+      name: "Quests of the Great Delving",
+      page: "Quests_of_the_Great_Delving"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 13,
     virtue: "Charity",
-    deed: "Quests of the Dimrill Dale",
+    deed: {
+      name: "Quests of the Dimrill Dale",
+      page: "Quests_of_the_Dimrill_Dale"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 14,
     virtue: "Charity",
-    deed: "Adventurer in the Upper Levels",
+    deed: {
+      name: "Adventurer in the Upper Levels",
+      page: "Adventurer_in_the_Upper_Levels"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 15,
     virtue: "Charity",
-    deed: "Mysteries of Enedwaith (Intermediate)",
+    deed: {
+      name: "Mysteries of Enedwaith (Intermediate)",
+      page: "Mysteries_of_Enedwaith_(Intermediate)"
+    },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 62
   },
   {
     id: 16,
     virtue: "Charity",
-    deed: "Exploring Starkmoor",
+    deed: { name: "Exploring Starkmoor", page: "Exploring_Starkmoor" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 17,
     virtue: "Charity",
-    deed: "Goblin-slayer (Advanced)",
+    deed: {
+      name: "Goblin-slayer (Advanced)",
+      page: "Goblin-slayer_(Advanced)_(Dunland)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 18,
     virtue: "Charity",
-    deed: "Quests of Dunland",
+    deed: { name: "Quests of Dunland", page: "Quests_of_Dunland" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 70
   },
   {
     id: 19,
     virtue: "Charity",
-    deed: "Cities of Eastern Rohan",
+    deed: { name: "Cities of Eastern Rohan", page: "Cities_of_Eastern_Rohan" },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 20,
     virtue: "Charity",
-    deed: "Ancient Evil-slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Ancient Evil-slayer of the Eastemnet (Advanced)",
+      page: "Ancient_Evil-slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 21,
     virtue: "Charity",
-    deed: "Settlements of Wildermore",
+    deed: {
+      name: "Settlements of Wildermore",
+      page: "Settlements_of_Wildermore"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 22,
     virtue: "Charity",
-    deed: "Broadacres Exploration",
+    deed: { name: "Broadacres Exploration", page: "Broadacres_Exploration" },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 23,
     virtue: "Charity",
-    deed: "Warg Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Warg Slayer of the Westemnet (Advanced)",
+      page: "Warg_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 24,
     virtue: "Charity",
-    deed: "The Legacy of Pelargir",
+    deed: { name: "The Legacy of Pelargir", page: "The_Legacy_of_Pelargir" },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -179,7 +221,10 @@
   {
     id: 25,
     virtue: "Charity",
-    deed: "Quests of Upper Lebennin",
+    deed: {
+      name: "Quests of Upper Lebennin",
+      page: "Quests_of_Upper_Lebennin"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -189,7 +234,7 @@
   {
     id: 26,
     virtue: "Charity",
-    deed: "Old Anórien Farms",
+    deed: { name: "Old Anórien Farms", page: "Old_An%C3%B3rien_Farms" },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -199,7 +244,7 @@
   {
     id: 27,
     virtue: "Charity",
-    deed: "Deeds of North Ithilien",
+    deed: { name: "Deeds of North Ithilien", page: "Deeds_of_North_Ithilien" },
     category: {
       name: "March of the King Deeds",
       page: "Category:March_of_the_King_Deeds"
@@ -208,21 +253,24 @@
   {
     id: 28,
     virtue: "Compassion",
-    deed: "The Life of a Bounder",
+    deed: { name: "The Life of a Bounder", page: "The_Life_of_a_Bounder" },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 29,
     virtue: "Compassion",
-    deed: "Defender of Ered Luin",
+    deed: { name: "Defender of Ered Luin", page: "Defender_of_Ered_Luin" },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 3
   },
   {
     id: 30,
     virtue: "Compassion",
-    deed: "Tales of the Lonely Road (Advanced)",
+    deed: {
+      name: "Tales of the Lonely Road (Advanced)",
+      page: "Tales_of_the_Lonely_Road_(Advanced)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -232,7 +280,7 @@
   {
     id: 31,
     virtue: "Compassion",
-    deed: "Peril of the Mountains",
+    deed: { name: "Peril of the Mountains", page: "Peril_of_the_Mountains" },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -242,91 +290,112 @@
   {
     id: 32,
     virtue: "Compassion",
-    deed: "Wanderer of Evendim",
+    deed: { name: "Wanderer of Evendim", page: "Wanderer_of_Evendim" },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 25
   },
   {
     id: 33,
     virtue: "Compassion",
-    deed: "Warden of Evendim",
+    deed: { name: "Warden of Evendim", page: "Warden_of_Evendim_(Final)" },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 25
   },
   {
     id: 34,
     virtue: "Compassion",
-    deed: "Allies of the Enemy (Advanced)",
+    deed: {
+      name: "Allies of the Enemy (Advanced)",
+      page: "Allies_of_the_Enemy_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 35,
     virtue: "Compassion",
-    deed: "Forochel Pioneer",
+    deed: { name: "Forochel Pioneer", page: "Forochel_Pioneer" },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 43
   },
   {
     id: 36,
     virtue: "Compassion",
-    deed: "Silent and Restless (Advanced)",
+    deed: {
+      name: "Silent and Restless (Advanced)",
+      page: "Silent_and_Restless_(Advanced)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 37,
     virtue: "Compassion",
-    deed: "Invaders of Tham Mírdain (Complete)",
+    deed: {
+      name: "Invaders of Tham Mírdain (Complete)",
+      page: "Invaders_of_Tham_M%C3%ADrdain_(Complete)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 38,
     virtue: "Compassion",
-    deed: "Globsnaga-slayer (Advanced)",
+    deed: {
+      name: "Globsnaga-slayer (Advanced)",
+      page: "Globsnaga-slayer_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 39,
     virtue: "Compassion",
-    deed: "Brutes of the Grand Stair (Advanced)",
+    deed: {
+      name: "Brutes of the Grand Stair (Advanced)",
+      page: "Brutes_of_the_Grand_Stair_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 40,
     virtue: "Compassion",
-    deed: "Quests of the Foundations of Stone",
+    deed: {
+      name: "Quests of the Foundations of Stone",
+      page: "Quests_of_the_Foundations_of_Stone"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 41,
     virtue: "Compassion",
-    deed: "Orc and Uruk-slayer (Advanced)",
+    deed: {
+      name: "Orc and Uruk-slayer (Advanced)",
+      page: "Orc_and_Uruk-slayer_(Advanced)"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 42,
     virtue: "Compassion",
-    deed: "Exploring Pren Gwydh",
+    deed: { name: "Exploring Pren Gwydh", page: "Exploring_Pren_Gwydh" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 43,
     virtue: "Compassion",
-    deed: "Slayer of Dunland",
+    deed: { name: "Slayer of Dunland", page: "Slayer_of_Dunland" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 44,
     virtue: "Compassion",
-    deed: "Brown Lands Explorer",
+    deed: { name: "Brown Lands Explorer", page: "Brown_Lands_Explorer" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -336,35 +405,44 @@
   {
     id: 45,
     virtue: "Compassion",
-    deed: "East Wall Explorer",
+    deed: { name: "East Wall Explorer", page: "East_Wall_Explorer" },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 46,
     virtue: "Compassion",
-    deed: "Quests of the Wold",
+    deed: { name: "Quests of the Wold", page: "Quests_of_the_Wold" },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 47,
     virtue: "Compassion",
-    deed: "Slayer of Wolves and Wargs in Wildermore (Advanced)",
+    deed: {
+      name: "Slayer of Wolves and Wargs in Wildermore (Advanced)",
+      page: "Slayer_of_Wolves_and_Wargs_in_Wildermore_(Advanced)"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 48,
     virtue: "Compassion",
-    deed: "Uruk Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Uruk Slayer of the Westemnet (Advanced)",
+      page: "Uruk_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 49,
     virtue: "Compassion",
-    deed: "Oath-breaker Slayer of West Gondor (Advanced)",
+    deed: {
+      name: "Oath-breaker Slayer of West Gondor (Advanced)",
+      page: "Oath-breaker_Slayer_of_West_Gondor_(Advanced)"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -374,7 +452,10 @@
   {
     id: 50,
     virtue: "Compassion",
-    deed: "Beast-slayer of Central Gondor (Advanced)",
+    deed: {
+      name: "Beast-slayer of Central Gondor (Advanced)",
+      page: "Beast-slayer_of_Central_Gondor_(Advanced)"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -384,14 +465,14 @@
   {
     id: 51,
     virtue: "Confidence",
-    deed: "Rath Teraig Exploration",
+    deed: { name: "Rath Teraig Exploration", page: "Rath_Teraig_Exploration" },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 6
   },
   {
     id: 52,
     virtue: "Confidence",
-    deed: "Strongholds Exploration",
+    deed: { name: "Strongholds Exploration", page: "Strongholds_Exploration" },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -401,7 +482,7 @@
   {
     id: 53,
     virtue: "Confidence",
-    deed: "The Grimfens",
+    deed: { name: "The Grimfens", page: "The_Grimfens" },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -411,7 +492,10 @@
   {
     id: 54,
     virtue: "Confidence",
-    deed: "Garth Agarwen Exploration",
+    deed: {
+      name: "Garth Agarwen Exploration",
+      page: "Garth_Agarwen_Explorations"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -421,7 +505,7 @@
   {
     id: 55,
     virtue: "Confidence",
-    deed: "Where Giants Dwell",
+    deed: { name: "Where Giants Dwell", page: "Where_Giants_Dwell" },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -431,70 +515,91 @@
   {
     id: 56,
     virtue: "Confidence",
-    deed: "The Road to War",
+    deed: { name: "The Road to War", page: "The_Road_to_War" },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 25
   },
   {
     id: 57,
     virtue: "Confidence",
-    deed: "The Angmarim of Carn Dûm (Advanced)",
+    deed: {
+      name: "The Angmarim of Carn Dûm (Advanced)",
+      page: "The_Angmarim_of_Carn_D%C3%BBm_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 58,
     virtue: "Confidence",
-    deed: "Angmarim-slayer (Advanced)",
+    deed: {
+      name: "Angmarim-slayer (Advanced)",
+      page: "Angmarim-slayer_(Advanced)_(Forochel)"
+    },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 42
   },
   {
     id: 59,
     virtue: "Confidence",
-    deed: "Troll-slayer (Advanced) (Moria)",
+    deed: {
+      name: "Troll-slayer (Advanced) (Moria)",
+      page: "Troll-slayer_(Advanced)_(Moria)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 60,
     virtue: "Confidence",
-    deed: "The Cliffs of Zirakzigil",
+    deed: {
+      name: "The Cliffs of Zirakzigil",
+      page: "The_Cliffs_of_Zirakzigil"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 53
   },
   {
     id: 61,
     virtue: "Confidence",
-    deed: "Mysteries of Enedwaith",
+    deed: { name: "Mysteries of Enedwaith", page: "Mysteries_of_Enedwaith" },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 62
   },
   {
     id: 62,
     virtue: "Confidence",
-    deed: "Wolf and Shadow-wolf Slayer (Advanced)",
+    deed: {
+      name: "Wolf and Shadow-wolf Slayer (Advanced)",
+      page: "Wolf_and_Shadow-wolf_Slayer_(Advanced)"
+    },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 62
   },
   {
     id: 63,
     virtue: "Confidence",
-    deed: "Quests in Trum Dreng",
+    deed: { name: "Quests in Trum Dreng", page: "Quests_in_Trum_Dreng" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 60
   },
   {
     id: 64,
     virtue: "Confidence",
-    deed: "Warg-slayer (Advanced) (Dunland)",
+    deed: {
+      name: "Warg-slayer (Advanced) (Dunland)",
+      page: "Warg-slayer_(Advanced)_(Dunland)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 65,
     virtue: "Confidence",
-    deed: "Quests of Parth Celebrant",
+    deed: {
+      name: "Quests of Parth Celebrant",
+      page: "Quests_of_Parth_Celebrant"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -504,28 +609,34 @@
   {
     id: 66,
     virtue: "Confidence",
-    deed: "Beast-slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Beast-slayer of the Eastemnet (Advanced)",
+      page: "Beast-slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 67,
     virtue: "Confidence",
-    deed: "Forlaw Explorer",
+    deed: { name: "Forlaw Explorer", page: "Forlaw_Explorer" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 68,
     virtue: "Confidence",
-    deed: "Stonedeans Exploration",
+    deed: { name: "Stonedeans Exploration", page: "Stonedeans_Exploration" },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 69,
     virtue: "Confidence",
-    deed: "Prosperity of West Gondor",
+    deed: {
+      name: "Prosperity of West Gondor",
+      page: "Prosperity_of_West_Gondor"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -535,7 +646,10 @@
   {
     id: 70,
     virtue: "Confidence",
-    deed: "Central Gondor: Under Siege",
+    deed: {
+      name: "Central Gondor: Under Siege",
+      page: "Central_Gondor:_Under_Siege"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -545,7 +659,7 @@
   {
     id: 71,
     virtue: "Confidence",
-    deed: "The Legacy of Osgiliath",
+    deed: { name: "The Legacy of Osgiliath", page: "The_Legacy_of_Osgiliath" },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -555,7 +669,7 @@
   {
     id: 72,
     virtue: "Confidence",
-    deed: "Quests of Talath Anor",
+    deed: { name: "Quests of Talath Anor", page: "Quests_of_Talath_Anor" },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -565,28 +679,37 @@
   {
     id: 73,
     virtue: "Determination",
-    deed: "Slug-slayer (Advanced)",
+    deed: { name: "Slug-slayer (Advanced)", page: "Slug-slayer_(Advanced)" },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 74,
     virtue: "Determination",
-    deed: "Wolf-slayer (Advanced)",
+    deed: {
+      name: "Wolf-slayer (Advanced)",
+      page: "Wolf-slayer_(Advanced)_(Ered_Luin)"
+    },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 1
   },
   {
     id: 75,
     virtue: "Determination",
-    deed: "Barghest-slayer (Advanced)",
+    deed: {
+      name: "Barghest-slayer (Advanced)",
+      page: "Barghest-slayer_(Advanced)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 11
   },
   {
     id: 76,
     virtue: "Determination",
-    deed: "Warg-slayer (Advanced)",
+    deed: {
+      name: "Warg-slayer (Advanced)",
+      page: "Warg-slayer_(Advanced)_(North_Downs)"
+    },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -596,7 +719,10 @@
   {
     id: 77,
     virtue: "Determination",
-    deed: "Crawler-slayer (Advanced)",
+    deed: {
+      name: "Crawler-slayer (Advanced)",
+      page: "Crawler-slayer_(Advanced)"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -606,7 +732,10 @@
   {
     id: 78,
     virtue: "Determination",
-    deed: "Snow-beast-slayer (Advanced)",
+    deed: {
+      name: "Snow-beast-slayer (Advanced)",
+      page: "Snow-beast_Slayer_(Advanced)"
+    },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -616,77 +745,104 @@
   {
     id: 79,
     virtue: "Determination",
-    deed: "Salamander-slayer (Advanced)",
+    deed: {
+      name: "Salamander-slayer (Advanced)",
+      page: "Salamander-slayer_(Advanced)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 26
   },
   {
     id: 80,
     virtue: "Determination",
-    deed: "Warg-slayer (Advanced)",
+    deed: {
+      name: "Warg-slayer (Advanced)",
+      page: "Warg-slayer_(Advanced)_(Angmar)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 37
   },
   {
     id: 81,
     virtue: "Determination",
-    deed: "Lizard and Crawler-slayer (Advanced)",
+    deed: {
+      name: "Lizard and Crawler-slayer (Advanced)",
+      page: "Lizard_and_Crawler-slayer_(Advanced)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 82,
     virtue: "Determination",
-    deed: "Uruk-captains of Eregion",
+    deed: {
+      name: "Uruk-captains of Eregion",
+      page: "Uruk-captains_of_Eregion"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 83,
     virtue: "Determination",
-    deed: "Mercenaries of the White-hand (Advanced)",
+    deed: {
+      name: "Mercenaries of the White-hand (Advanced)",
+      page: "Mercenaries_of_the_White-hand_(Advanced)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 55
   },
   {
     id: 84,
     virtue: "Determination",
-    deed: "Orc-slayer (Advanced)",
+    deed: {
+      name: "Orc-slayer (Advanced)",
+      page: "Orc-slayer_(Advanced)_(Moria)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 85,
     virtue: "Determination",
-    deed: "Overseers of the Forge",
+    deed: { name: "Overseers of the Forge", page: "Overseers_of_the_Forge" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 86,
     virtue: "Determination",
-    deed: "Slaves to the Forge (Advanced)",
+    deed: {
+      name: "Slaves to the Forge (Advanced)",
+      page: "Slaves_to_the_Forge_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 87,
     virtue: "Determination",
-    deed: "Beast-slayer (Advanced)",
+    deed: {
+      name: "Beast-slayer (Advanced)",
+      page: "Beast-slayer_(Advanced)_(Southern_Mirkwood)"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 88,
     virtue: "Determination",
-    deed: "Quests in Pren Gwydh",
+    deed: { name: "Quests in Pren Gwydh", page: "Quests_in_Pren_Gwydh" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 89,
     virtue: "Determination",
-    deed: "Quests of Limlight Gorge",
+    deed: {
+      name: "Quests of Limlight Gorge",
+      page: "Quests_of_Limlight_Gorge"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -696,28 +852,37 @@
   {
     id: 90,
     virtue: "Determination",
-    deed: "Quests of the Eaves of Fangorn",
+    deed: {
+      name: "Quests of the Eaves of Fangorn",
+      page: "Quests_of_the_Eaves_of_Fangorn"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 91,
     virtue: "Determination",
-    deed: "The Path of Núrzum",
+    deed: { name: "The Path of Núrzum", page: "The_Path_of_N%C3%BArzum" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 92,
     virtue: "Determination",
-    deed: "Herd-creature Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Herd-creature Slayer of the Westemnet (Advanced)",
+      page: "Herd-creature_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 85
   },
   {
     id: 93,
     virtue: "Determination",
-    deed: "Gondorian Treasure Cache",
+    deed: {
+      name: "Gondorian Treasure Cache",
+      page: "Gondorian_Treasure_Cache"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -727,7 +892,10 @@
   {
     id: 94,
     virtue: "Determination",
-    deed: "Treasure of Central Gondor",
+    deed: {
+      name: "Treasure of Central Gondor",
+      page: "Treasure_of_Central_Gondor"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -737,7 +905,10 @@
   {
     id: 95,
     virtue: "Determination",
-    deed: "Goblin-slayer of Eastern Gondor (Advanced)",
+    deed: {
+      name: "Goblin-slayer of Eastern Gondor (Advanced)",
+      page: "Goblin-slayer_of_Eastern_Gondor_(Advanced)"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -747,7 +918,10 @@
   {
     id: 96,
     virtue: "Determination",
-    deed: "Easterling-slayer of Old Anórien (Advanced)",
+    deed: {
+      name: "Easterling-slayer of Old Anórien (Advanced)",
+      page: "Easterling-slayer_of_Old_An%C3%B3rien_(Advanced)"
+    },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -757,35 +931,50 @@
   {
     id: 97,
     virtue: "Discipline",
-    deed: "Sicklefly-slayer (Advanced)",
+    deed: {
+      name: "Sicklefly-slayer (Advanced)",
+      page: "Sicklefly-slayer_(Advanced)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 5
   },
   {
     id: 98,
     virtue: "Discipline",
-    deed: "Wolf-slayer (Advanced)",
+    deed: {
+      name: "Wolf-slayer (Advanced)",
+      page: "Wolf-slayer_(Advanced)_(The_Shire)"
+    },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 99,
     virtue: "Discipline",
-    deed: "Hendroval-slayer (Advanced)",
+    deed: {
+      name: "Hendroval-slayer (Advanced)",
+      page: "Hendroval-slayer_(Advanced)"
+    },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 1
   },
   {
     id: 100,
     virtue: "Discipline",
-    deed: "Master of Beasts (Advanced)",
+    deed: {
+      name: "Master of Beasts (Advanced)",
+      page: "Master_of_Beasts_(Advanced)_(Sarn%C3%BAr)"
+    },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 41
   },
   {
     id: 101,
     virtue: "Discipline",
-    deed: "Bog-lurker Slayer (Advanced)",
+    deed: {
+      name: "Bog-lurker Slayer (Advanced)",
+      page: "Bog-lurker_Slayer_(Advanced)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -795,7 +984,10 @@
   {
     id: 102,
     virtue: "Discipline",
-    deed: "Wolf-slayer (Advanced) (Trollshaws)",
+    deed: {
+      name: "Wolf-slayer (Advanced) (Trollshaws)",
+      page: "Wolf-slayer_(Advanced)_(The_Trollshaws)"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -805,77 +997,104 @@
   {
     id: 103,
     virtue: "Discipline",
-    deed: "Tomb-defender (Advanced)",
+    deed: {
+      name: "Tomb-defender (Advanced)",
+      page: "Tomb-defender_(Advanced)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 25
   },
   {
     id: 104,
     virtue: "Discipline",
-    deed: "Troll-slayer (Advanced) (Angmar)",
+    deed: {
+      name: "Troll-slayer (Advanced) (Angmar)",
+      page: "Troll-slayer_(Advanced)_(Angmar)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 36
   },
   {
     id: 105,
     virtue: "Discipline",
-    deed: "Champions of Urugarth (Final)",
+    deed: {
+      name: "Champions of Urugarth (Final)",
+      page: "Champions_of_Urugarth_(Final)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 43
   },
   {
     id: 106,
     virtue: "Discipline",
-    deed: "Wolf and Warg-slayer (Advanced)",
+    deed: {
+      name: "Wolf and Warg-slayer (Advanced)",
+      page: "Wolf_and_Warg-slayer_(Advanced)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 107,
     virtue: "Discipline",
-    deed: "Scholars from Angmar (Advanced)",
+    deed: {
+      name: "Scholars from Angmar (Advanced)",
+      page: "Scholars_from_Angmar_(Advanced)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 55
   },
   {
     id: 108,
     virtue: "Discipline",
-    deed: "Grodbog-slayer (Advanced)",
+    deed: {
+      name: "Grodbog-slayer (Advanced)",
+      page: "Grodbog-slayer_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 46
   },
   {
     id: 109,
     virtue: "Discipline",
-    deed: "Arms of the Watcher (Advanced)",
+    deed: {
+      name: "Arms of the Watcher (Advanced)",
+      page: "Arms_of_the_Watcher_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 60
   },
   {
     id: 110,
     virtue: "Discipline",
-    deed: "Dunlending-slayer (Advanced) (Enedwaith)",
+    deed: {
+      name: "Dunlending-slayer (Advanced) (Enedwaith)",
+      page: "Dunlending-slayer_(Advanced)_(Enedwaith)"
+    },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 62
   },
   {
     id: 111,
     virtue: "Discipline",
-    deed: "Exploring the Gravenwood",
+    deed: {
+      name: "Exploring the Gravenwood",
+      page: "Exploring_the_Gravenwood"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 112,
     virtue: "Discipline",
-    deed: "Quests in the Isendale",
+    deed: { name: "Quests in the Isendale", page: "Quests_in_the_Isendale" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 113,
     virtue: "Discipline",
-    deed: "Quests of Eorlsmead",
+    deed: { name: "Quests of Eorlsmead", page: "Quests_of_Eorlsmead" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -885,28 +1104,40 @@
   {
     id: 114,
     virtue: "Discipline",
-    deed: "Uruk-slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Uruk-slayer of the Eastemnet (Advanced)",
+      page: "Uruk-slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 115,
     virtue: "Discipline",
-    deed: "Wood-troll Slayer of Wildermore (Advanced)",
+    deed: {
+      name: "Wood-troll Slayer of Wildermore (Advanced)",
+      page: "Wood-troll_Slayer_of_Wildermore_(Advanced)"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 116,
     virtue: "Discipline",
-    deed: "Craban Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Craban Slayer of the Westemnet (Advanced)",
+      page: "Craban_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 117,
     virtue: "Discipline",
-    deed: "Beast-slayer of West Gondor (Advanced)",
+    deed: {
+      name: "Beast-slayer of West Gondor (Advanced)",
+      page: "Beast-slayer_of_West_Gondor_(Advanced)"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -916,7 +1147,10 @@
   {
     id: 118,
     virtue: "Discipline",
-    deed: "Half-troll slayer of Central Gondor",
+    deed: {
+      name: "Half-troll slayer of Central Gondor",
+      page: "Half-troll_slayer_of_Central_Gondor"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -926,7 +1160,10 @@
   {
     id: 119,
     virtue: "Discipline",
-    deed: "Easterling-slayer of Eastern Gondor (Advanced)",
+    deed: {
+      name: "Easterling-slayer of Eastern Gondor (Advanced)",
+      page: "Easterling-slayer_of_Eastern_Gondor_(Advanced)"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -936,7 +1173,10 @@
   {
     id: 120,
     virtue: "Discipline",
-    deed: "Troll-slayer of Old Anórien (Advanced)",
+    deed: {
+      name: "Troll-slayer of Old Anórien (Advanced)",
+      page: "Troll-slayer_of_Old_An%C3%B3rien_(Advanced)"
+    },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -946,7 +1186,10 @@
   {
     id: 121,
     virtue: "Discipline",
-    deed: "Quests of Pelennor (After Battle)",
+    deed: {
+      name: "Quests of Pelennor (After Battle)",
+      page: "Quests_of_Pelennor_(After_Battle)"
+    },
     category: {
       name: "March of the King Deeds",
       page: "Category:March_of_the_King_Deeds"
@@ -956,21 +1199,24 @@
   {
     id: 122,
     virtue: "Empathy",
-    deed: "Bree-land Adventurer",
+    deed: { name: "Bree-land Adventurer", page: "Bree-land_Adventurer" },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 1
   },
   {
     id: 123,
     virtue: "Empathy",
-    deed: "The Life of a Bounder (Advanced)",
+    deed: {
+      name: "The Life of a Bounder (Advanced)",
+      page: "The_Life_of_a_Bounder_(Advanced)"
+    },
     category: { name: " The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 3
   },
   {
     id: 124,
     virtue: "Empathy",
-    deed: "Of Glories Long Past",
+    deed: { name: "Of Glories Long Past", page: "Of_Glories_Long_Past" },
     category: {
       name: " The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -980,7 +1226,10 @@
   {
     id: 125,
     virtue: "Empathy",
-    deed: "Peril of the Mountains (Advanced)",
+    deed: {
+      name: "Peril of the Mountains (Advanced)",
+      page: "Peril_of_the_Mountains_(Advanced)"
+    },
     category: {
       name: " The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -990,126 +1239,165 @@
   {
     id: 126,
     virtue: "Empathy",
-    deed: "Marching into Shadow (Final)",
+    deed: {
+      name: "Marching into Shadow (Final)",
+      page: "Marching_into_Shadow_(Final)"
+    },
     category: { name: " Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 41
   },
   {
     id: 127,
     virtue: "Empathy",
-    deed: "The Dead That Live (Advanced)",
+    deed: {
+      name: "The Dead That Live (Advanced)",
+      page: "The_Dead_That_Live_(Advanced)"
+    },
     category: { name: " Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 128,
     virtue: "Empathy",
-    deed: "Forochel Survivor",
+    deed: { name: "Forochel Survivor", page: "Forochel_Survivor" },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 41
   },
   {
     id: 129,
     virtue: "Empathy",
-    deed: "Silent and Restless (Final)",
+    deed: {
+      name: "Silent and Restless (Final)",
+      page: "Silent_and_Restless_(Final)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 130,
     virtue: "Empathy",
-    deed: "Beasts of the Grand Stair (Advanced)",
+    deed: {
+      name: "Beasts of the Grand Stair (Advanced)",
+      page: "Beasts_of_the_Grand_Stair_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 131,
     virtue: "Empathy",
-    deed: "Eyes of the Enemy (Advanced)",
+    deed: {
+      name: "Eyes of the Enemy (Advanced)",
+      page: "Eyes_of_the_Enemy_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 132,
     virtue: "Empathy",
-    deed: "Quests of the Flaming Deeps",
+    deed: {
+      name: "Quests of the Flaming Deeps",
+      page: "Quests_of_the_Flaming_Deeps"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 133,
     virtue: "Empathy",
-    deed: "Quests of the Silvertine Lodes",
+    deed: {
+      name: "Quests of the Silvertine Lodes",
+      page: "Quests_of_the_Silvertine_Lodes"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 134,
     virtue: "Empathy",
-    deed: "Exemplar of the Central Levels",
+    deed: {
+      name: "Exemplar of the Central Levels",
+      page: "Exemplar_of_the_Central_Levels"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 135,
     virtue: "Empathy",
-    deed: "Defender of the Upper Levels",
+    deed: {
+      name: "Defender of the Upper Levels",
+      page: "Defender_of_the_Upper_Levels"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 136,
     virtue: "Empathy",
-    deed: "Warg-slayer (Advanced)",
+    deed: {
+      name: "Warg-slayer (Advanced)",
+      page: "Warg-slayer_(Advanced)_(Southern_Mirkwood)"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 137,
     virtue: "Empathy",
-    deed: "Explorer of Dunland",
+    deed: { name: "Explorer of Dunland", page: "Explorer_of_Dunland" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 138,
     virtue: "Empathy",
-    deed: "Exploring Nan Curunír",
+    deed: { name: "Exploring Nan Curunír", page: "Exploring_Nan_Curun%C3%ADr" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 139,
     virtue: "Empathy",
-    deed: "Half-orc Slayer (Advanced)",
+    deed: {
+      name: "Half-orc Slayer (Advanced)",
+      page: "Half-orc_Slayer_(Advanced)_(Dunland)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 140,
     virtue: "Empathy",
-    deed: "Half-orc Slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Half-orc Slayer of the Eastemnet (Advanced)",
+      page: "Half-orc_Slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 141,
     virtue: "Empathy",
-    deed: "Loved and Lost",
+    deed: { name: "Loved and Lost", page: "Loved_and_Lost" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 142,
     virtue: "Empathy",
-    deed: "Quests of the Broadacres",
+    deed: {
+      name: "Quests of the Broadacres",
+      page: "Quests_of_the_Broadacres"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 143,
     virtue: "Empathy",
-    deed: "Quests of Lamedon",
+    deed: { name: "Quests of Lamedon", page: "Quests_of_Lamedon" },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -1119,7 +1407,7 @@
   {
     id: 144,
     virtue: "Empathy",
-    deed: "Quests of Ringló Vale",
+    deed: { name: "Quests of Ringló Vale", page: "Quests_of_Ringl%C3%B3_Vale" },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -1129,7 +1417,7 @@
   {
     id: 145,
     virtue: "Empathy",
-    deed: "Quests of Minas Tirith",
+    deed: { name: "Quests of Minas Tirith", page: "Quests_of_Minas_Tirith" },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -1139,21 +1427,24 @@
   {
     id: 146,
     virtue: "Fidelity",
-    deed: "The Sights of the Shire",
+    deed: { name: "The Sights of the Shire", page: "The_Sights_of_the_Shire" },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 147,
     virtue: "Fidelity",
-    deed: "Scouting the Dourhands",
+    deed: { name: "Scouting the Dourhands", page: "Scouting_the_Dourhands" },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 6
   },
   {
     id: 148,
     virtue: "Fidelity",
-    deed: "Defences of the Lone-lands",
+    deed: {
+      name: "Defences of the Lone-lands",
+      page: "Defences_of_the_Lone-lands"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -1163,7 +1454,7 @@
   {
     id: 149,
     virtue: "Fidelity",
-    deed: "The Road to Rivendell",
+    deed: { name: "The Road to Rivendell", page: "The_Road_to_Rivendell" },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -1173,91 +1464,103 @@
   {
     id: 150,
     virtue: "Fidelity",
-    deed: "Ruins of Evendim",
+    deed: { name: "Ruins of Evendim", page: "Ruins_of_Evendim" },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 25
   },
   {
     id: 151,
     virtue: "Fidelity",
-    deed: "Tombs of Evendim",
+    deed: { name: "Tombs of Evendim", page: "Tombs_of_Evendim" },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 25
   },
   {
     id: 152,
     virtue: "Fidelity",
-    deed: "The Circle of Despair",
+    deed: { name: "The Circle of Despair", page: "The_Circle_of_Despair" },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 153,
     virtue: "Fidelity",
-    deed: "Dourhand-slayer (Advanced)",
+    deed: {
+      name: "Dourhand-slayer (Advanced)",
+      page: "Dourhand-slayer_(Advanced)_(Forochel)"
+    },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 42
   },
   {
     id: 154,
     virtue: "Fidelity",
-    deed: "Ring-lore of Eregion",
+    deed: { name: "Ring-lore of Eregion", page: "Ring-lore_of_Eregion" },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 155,
     virtue: "Fidelity",
-    deed: "Intruders in the Vault (Advanced)",
+    deed: {
+      name: "Intruders in the Vault (Advanced)",
+      page: "Intruders_in_the_Vault_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 156,
     virtue: "Fidelity",
-    deed: "Tamers of the Vile Wargs (Advanced)",
+    deed: {
+      name: "Tamers of the Vile Wargs (Advanced)",
+      page: "Tamers_of_the_Vile_Wargs_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 157,
     virtue: "Fidelity",
-    deed: "The Silvertine Lodes",
+    deed: { name: "The Silvertine Lodes", page: "The_Silvertine_Lodes_(deed)" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 158,
     virtue: "Fidelity",
-    deed: "Quests of Nud-melek",
+    deed: { name: "Quests of Nud-melek", page: "Quests_of_Nud-melek" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 159,
     virtue: "Fidelity",
-    deed: "Eastern Durin's Way",
+    deed: { name: "Eastern Durin's Way", page: "Eastern_Durin%27s_Way" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 53
   },
   {
     id: 160,
     virtue: "Fidelity",
-    deed: "Dead-slayer (Advanced)",
+    deed: { name: "Dead-slayer (Advanced)", page: "Dead-slayer_(Advanced)" },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 161,
     virtue: "Fidelity",
-    deed: "Dunlending-slayer (Advanced)",
+    deed: {
+      name: "Dunlending-slayer (Advanced)",
+      page: "Dunlending-slayer_(Advanced)_(Dunland)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 162,
     virtue: "Fidelity",
-    deed: "Quests of Thinglad",
+    deed: { name: "Quests of Thinglad", page: "Quests_of_Thinglad" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -1267,7 +1570,10 @@
   {
     id: 163,
     virtue: "Fidelity",
-    deed: "Spider-slayer (Advanced)",
+    deed: {
+      name: "Spider-slayer (Advanced)",
+      page: "Spider-slayer_(Advanced)_(Great_River)"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -1277,28 +1583,34 @@
   {
     id: 164,
     virtue: "Fidelity",
-    deed: "Farms and Crofts of the Eastemnet",
+    deed: {
+      name: "Farms and Crofts of the Eastemnet",
+      page: "Farms_and_Crofts_of_the_Eastemnet"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 165,
     virtue: "Fidelity",
-    deed: "Quests of the Whitshaws",
+    deed: { name: "Quests of the Whitshaws", page: "Quests_of_the_Whitshaws" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 166,
     virtue: "Fidelity",
-    deed: "Quests of Kingstead",
+    deed: { name: "Quests of Kingstead", page: "Quests_of_Kingstead" },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 167,
     virtue: "Fidelity",
-    deed: "Quests of Tarlang's Crown",
+    deed: {
+      name: "Quests of Tarlang's Crown",
+      page: "Quests_of_Tarlang%27s_Crown"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -1308,7 +1620,10 @@
   {
     id: 168,
     virtue: "Fidelity",
-    deed: "Vanguard of Central Gondor",
+    deed: {
+      name: "Vanguard of Central Gondor",
+      page: "Vanguard_of_Central_Gondor"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -1318,7 +1633,7 @@
   {
     id: 169,
     virtue: "Fidelity",
-    deed: "Ruins of South Ithilien",
+    deed: { name: "Ruins of South Ithilien", page: "Ruins_of_South_Ithilien" },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -1328,7 +1643,10 @@
   {
     id: 170,
     virtue: "Fidelity",
-    deed: "Warbands: Old Anórien's Roaming Enemies",
+    deed: {
+      name: "Warbands: Old Anórien's Roaming Enemies",
+      page: "Warbands:_Old_An%C3%B3rien%27s_Roaming_Enemies"
+    },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -1338,28 +1656,40 @@
   {
     id: 171,
     virtue: "Fortitude",
-    deed: "Neekerbreeker-slayer (Advanced)",
+    deed: {
+      name: "Neekerbreeker-slayer (Advanced)",
+      page: "Neekerbreeker-slayer_(Advanced)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 1
   },
   {
     id: 172,
     virtue: "Fortitude",
-    deed: "Bree-land Woodsman (Advanced)",
+    deed: {
+      name: "Bree-land Woodsman (Advanced)",
+      page: "Bree-land_Woodsman_(Advanced)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 11
   },
   {
     id: 173,
     virtue: "Fortitude",
-    deed: "Harvest-fly Slayer (Advanced)",
+    deed: {
+      name: "Harvest-fly Slayer (Advanced)",
+      page: "Harvest-fly_Slayer_(Advanced)"
+    },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 174,
     virtue: "Fortitude",
-    deed: "Troll-slayer (Advanced)",
+    deed: {
+      name: "Troll-slayer (Advanced)",
+      page: "Troll-slayer_(Advanced)_(North_Downs)"
+    },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -1369,7 +1699,10 @@
   {
     id: 175,
     virtue: "Fortitude",
-    deed: "Warg-slayer (Advanced)",
+    deed: {
+      name: "Warg-slayer (Advanced)",
+      page: "Warg-slayer_(Advanced)_(Lone-lands)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -1379,7 +1712,10 @@
   {
     id: 176,
     virtue: "Fortitude",
-    deed: "Giant-slayer (Advanced)",
+    deed: {
+      name: "Giant-slayer (Advanced)",
+      page: "Giant-slayer_(Advanced)_(The_Trollshaws)"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -1389,7 +1725,10 @@
   {
     id: 177,
     virtue: "Fortitude",
-    deed: "Bear-slayer (Advanced)",
+    deed: {
+      name: "Bear-slayer (Advanced)",
+      page: "Bear-slayer_(Advanced)_(Misty_Mountains)"
+    },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -1399,63 +1738,87 @@
   {
     id: 178,
     virtue: "Fortitude",
-    deed: "Gauradan-slayer (Advanced)",
+    deed: {
+      name: "Gauradan-slayer (Advanced)",
+      page: "Gauradan-slayer_(Advanced)_(Evendim)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 31
   },
   {
     id: 179,
     virtue: "Fortitude",
-    deed: "Brutes from the North (Advanced)",
+    deed: {
+      name: "Brutes from the North (Advanced)",
+      page: "Brutes_from_the_North_(Advanced)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 45
   },
   {
     id: 180,
     virtue: "Fortitude",
-    deed: "Sabre-tooth Slayer (Advanced)",
+    deed: {
+      name: "Sabre-tooth Slayer (Advanced)",
+      page: "Sabre-tooth_Slayer_(Advanced)_(Forochel)"
+    },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 40
   },
   {
     id: 181,
     virtue: "Fortitude",
-    deed: "Warg-slayer (Advanced)",
+    deed: {
+      name: "Warg-slayer (Advanced)",
+      page: "Warg-slayer_(Advanced)_(Moria)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 182,
     virtue: "Fortitude",
-    deed: "Blinded by Fire (Advanced)",
+    deed: {
+      name: "Blinded by Fire (Advanced)",
+      page: "Blinded_by_Fire_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 183,
     virtue: "Fortitude",
-    deed: "Into the Black and Twisted Forest (Intermediate)",
+    deed: {
+      name: "Into the Black and Twisted Forest (Intermediate)",
+      page: "Into_the_Black_and_Twisted_Forest_(Intermediate)"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 184,
     virtue: "Fortitude",
-    deed: "Exploring the Heathfells",
+    deed: {
+      name: "Exploring the Heathfells",
+      page: "Exploring_the_Heathfells"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 185,
     virtue: "Fortitude",
-    deed: "Quests in the Heathfells",
+    deed: {
+      name: "Quests in the Heathfells",
+      page: "Quests_in_the_Heathfells"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 186,
     virtue: "Fortitude",
-    deed: "Quests of Brown Lands",
+    deed: { name: "Quests of Brown Lands", page: "Quests_of_Brown_Lands" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -1465,35 +1828,47 @@
   {
     id: 187,
     virtue: "Fortitude",
-    deed: "Eaves of Fangorn Exploration",
+    deed: {
+      name: "Eaves of Fangorn Exploration",
+      page: "Eaves_of_Fangorn_Exploration"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 188,
     virtue: "Fortitude",
-    deed: "Dragon-kind Slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Dragon-kind Slayer of the Eastemnet (Advanced)",
+      page: "Dragon-kind_Slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 189,
     virtue: "Fortitude",
-    deed: "The Wilds of Wildermore",
+    deed: { name: "The Wilds of Wildermore", page: "The_Wilds_of_Wildermore" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 190,
     virtue: "Fortitude",
-    deed: "Dunlending Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Dunlending Slayer of the Westemnet (Advanced)",
+      page: "Dunlending_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 191,
     virtue: "Fortitude",
-    deed: "Half-troll slayer of Eastern Gondor (Advanced)",
+    deed: {
+      name: "Half-troll slayer of Eastern Gondor (Advanced)",
+      page: "Half-troll_slayer_of_Eastern_Gondor_(Advanced)"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -1503,7 +1878,10 @@
   {
     id: 192,
     virtue: "Fortitude",
-    deed: "Orc-slayer of Old Anórien (Advanced)",
+    deed: {
+      name: "Orc-slayer of Old Anórien (Advanced)",
+      page: "Orc-slayer_of_Old_An%C3%B3rien_(Advanced)"
+    },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -1513,7 +1891,10 @@
   {
     id: 193,
     virtue: "Honesty",
-    deed: "Craban-slayer (Advanced)",
+    deed: {
+      name: "Craban-slayer (Advanced)",
+      page: "Craban-slayer_(Advanced)_(Lone-lands)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -1523,7 +1904,10 @@
   {
     id: 194,
     virtue: "Honesty",
-    deed: "Troll-slayer (Advanced)",
+    deed: {
+      name: "Troll-slayer (Advanced)",
+      page: "Troll-slayer_(Advanced)_(Lone-lands)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -1533,7 +1917,10 @@
   {
     id: 195,
     virtue: "Honesty",
-    deed: "The Wilds of Tâl Bruinen",
+    deed: {
+      name: "The Wilds of Tâl Bruinen",
+      page: "The_Wilds_of_T%C3%A2l_Bruinen"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -1543,7 +1930,7 @@
   {
     id: 196,
     virtue: "Honesty",
-    deed: "The Forbidding Heights",
+    deed: { name: "The Forbidding Heights", page: "The_Forbidding_Heights" },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -1553,7 +1940,7 @@
   {
     id: 197,
     virtue: "Honesty",
-    deed: "Goblin-town",
+    deed: { name: "Goblin-town", page: "Goblin-town_(Deed)" },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -1563,7 +1950,7 @@
   {
     id: 198,
     virtue: "Honesty",
-    deed: "Bilbo's Buttons",
+    deed: { name: "Bilbo's Buttons", page: "Bilbo%27s_Buttons" },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -1573,63 +1960,72 @@
   {
     id: 199,
     virtue: "Honesty",
-    deed: "Silent and Restless",
+    deed: { name: "Silent and Restless", page: "Silent_and_Restless" },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 200,
     virtue: "Honesty",
-    deed: "The Ring Goes South",
+    deed: { name: "The Ring Goes South", page: "The_Ring_Goes_South" },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 201,
     virtue: "Honesty",
-    deed: "The Corpse-eaters",
+    deed: { name: "The Corpse-eaters", page: "The_Corpse-eaters" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 202,
     virtue: "Honesty",
-    deed: "Villains of the Grand Stair (Part 1)",
+    deed: {
+      name: "Villains of the Grand Stair (Part 1)",
+      page: "Villains_of_the_Grand_Stair_(Part_1)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 203,
     virtue: "Honesty",
-    deed: "The Great Delving",
+    deed: { name: "The Great Delving", page: "The_Great_Delving_(Deed)" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 204,
     virtue: "Honesty",
-    deed: "Zelem-melek",
+    deed: { name: "Zelem-melek", page: "Zelem-melek_(Deed)" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 53
   },
   {
     id: 205,
     virtue: "Honesty",
-    deed: "Into the Black and Twisted Forest (Advanced)",
+    deed: {
+      name: "Into the Black and Twisted Forest (Advanced)",
+      page: "Into_the_Black_and_Twisted_Forest_(Advanced)"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 206,
     virtue: "Honesty",
-    deed: "Uruk-hai Slayer (Advanced)",
+    deed: {
+      name: "Uruk-hai Slayer (Advanced)",
+      page: "Uruk-hai_Slayer_(Advanced)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 207,
     virtue: "Honesty",
-    deed: "Limlight Gorge Explorer",
+    deed: { name: "Limlight Gorge Explorer", page: "Limlight_Gorge_Explorer" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -1639,7 +2035,10 @@
   {
     id: 208,
     virtue: "Honesty",
-    deed: "Quests of the Wailing Hills",
+    deed: {
+      name: "Quests of the Wailing Hills",
+      page: "Quests_of_the_Wailing_Hills"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -1649,7 +2048,7 @@
   {
     id: 209,
     virtue: "Honesty",
-    deed: "Shade-slayer (Advanced)",
+    deed: { name: "Shade-slayer (Advanced)", page: "Shade-slayer_(Advanced)" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -1659,35 +2058,44 @@
   {
     id: 210,
     virtue: "Honesty",
-    deed: "The Defences of Eastern Rohan",
+    deed: {
+      name: "The Defences of Eastern Rohan",
+      page: "The_Defences_of_Eastern_Rohan"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 211,
     virtue: "Honesty",
-    deed: "Orc-slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Orc-slayer of the Eastemnet (Advanced)",
+      page: "Orc-slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 212,
     virtue: "Honesty",
-    deed: "Quests of the Fallows",
+    deed: { name: "Quests of the Fallows", page: "Quests_of_the_Fallows" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 213,
     virtue: "Honesty",
-    deed: "Quests of the Eastfold",
+    deed: { name: "Quests of the Eastfold", page: "Quests_of_the_Eastfold" },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 214,
     virtue: "Honesty",
-    deed: "Quests of Blackroot Vale",
+    deed: {
+      name: "Quests of Blackroot Vale",
+      page: "Quests_of_Blackroot_Vale"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -1697,7 +2105,7 @@
   {
     id: 215,
     virtue: "Honesty",
-    deed: "Quests of Dor-en-Ernil",
+    deed: { name: "Quests of Dor-en-Ernil", page: "Quests_of_Dor-en-Ernil" },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -1707,7 +2115,7 @@
   {
     id: 216,
     virtue: "Honesty",
-    deed: "The Southern Beacons",
+    deed: { name: "The Southern Beacons", page: "The_Southern_Beacons" },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -1717,21 +2125,30 @@
   {
     id: 217,
     virtue: "Honour",
-    deed: "Spider-slayer (Advanced) (Bree-land)",
+    deed: {
+      name: "Spider-slayer (Advanced) (Bree-land)",
+      page: "Spider-slayer_(Advanced)_(Bree-land)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 1
   },
   {
     id: 218,
     virtue: "Honour",
-    deed: "Spider-slayer (Advanced) (Shire)",
+    deed: {
+      name: "Spider-slayer (Advanced) (Shire)",
+      page: "Spider-slayer_(The_Shire)"
+    },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 219,
     virtue: "Honour",
-    deed: "Worm-slayer (Advanced)",
+    deed: {
+      name: "Worm-slayer (Advanced)",
+      page: "Worm-slayer_(Advanced)_(North_Downs)"
+    },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -1741,7 +2158,10 @@
   {
     id: 220,
     virtue: "Honour",
-    deed: "Spider-slayer (Advanced)",
+    deed: {
+      name: "Spider-slayer (Advanced)",
+      page: "Spider-slayer_(Advanced)_(Lone-lands)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -1751,7 +2171,10 @@
   {
     id: 221,
     virtue: "Honour",
-    deed: "Worm-slayer (Advanced) (Misty Mountains)",
+    deed: {
+      name: "Worm-slayer (Advanced) (Misty Mountains)",
+      page: "Worm-slayer_(Advanced)_(Misty_Mountains)"
+    },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -1761,49 +2184,70 @@
   {
     id: 222,
     virtue: "Honour",
-    deed: "Giant-slayer (Advanced)",
+    deed: {
+      name: "Giant-slayer (Advanced)",
+      page: "Giant-slayer_(Advanced)_(Evendim)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 34
   },
   {
     id: 223,
     virtue: "Honour",
-    deed: "The Orcs of Urugarth (Advanced)",
+    deed: {
+      name: "The Orcs of Urugarth (Advanced)",
+      page: "The_Orcs_of_Urugarth_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 35
   },
   {
     id: 224,
     virtue: "Honour",
-    deed: "Uruk-slayer (Advanced)",
+    deed: {
+      name: "Uruk-slayer (Advanced)",
+      page: "Uruk-slayer_(Advanced)_(Angmar)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 41
   },
   {
     id: 225,
     virtue: "Honour",
-    deed: "The Orcs of Carn Dûm (Advanced)",
+    deed: {
+      name: "The Orcs of Carn Dûm (Advanced)",
+      page: "The_Orcs_of_Carn_D%C3%BBm_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 226,
     virtue: "Honour",
-    deed: "Dunlending-slayer (Advanced)",
+    deed: {
+      name: "Dunlending-slayer (Advanced)",
+      page: "Dunlending-slayer_(Advanced)_(Eregion)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 227,
     virtue: "Honour",
-    deed: "In the Footsteps of the Fellowship",
+    deed: {
+      name: "In the Footsteps of the Fellowship",
+      page: "In_the_Footsteps_of_the_Fellowship"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 53
   },
   {
     id: 228,
     virtue: "Honour",
-    deed: "Wanderer of the Golden Wood",
+    deed: {
+      name: "Wanderer of the Golden Wood",
+      page: "Wanderer_of_the_Golden_Wood"
+    },
     category: {
       name: "Lothlórien Deeds",
       page: "Category:Lothl%C3%B3rien_Deeds"
@@ -1813,35 +2257,41 @@
   {
     id: 229,
     virtue: "Honour",
-    deed: "Mysteries of Enedwaith (Final)",
+    deed: {
+      name: "Mysteries of Enedwaith (Final)",
+      page: "Mysteries_of_Enedwaith_(Final)"
+    },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 62
   },
   {
     id: 230,
     virtue: "Honour",
-    deed: "Exploring the Dunbog",
+    deed: { name: "Exploring the Dunbog", page: "Exploring_the_Dunbog" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 231,
     virtue: "Honour",
-    deed: "Tracking an Old Goat",
+    deed: { name: "Tracking an Old Goat", page: "Tracking_an_Old_Goat" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 232,
     virtue: "Honour",
-    deed: "Quests in the Gravenwood",
+    deed: {
+      name: "Quests in the Gravenwood",
+      page: "Quests_in_the_Gravenwood"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 233,
     virtue: "Honour",
-    deed: "Eorlsmead Explorer",
+    deed: { name: "Eorlsmead Explorer", page: "Eorlsmead_Explorer" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -1851,28 +2301,37 @@
   {
     id: 234,
     virtue: "Honour",
-    deed: "Quests of Langhold",
+    deed: { name: "Quests of Langhold", page: "Quests_of_Langhold" },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 235,
     virtue: "Honour",
-    deed: "Orc-slayer of Wildermore (Advanced)",
+    deed: {
+      name: "Orc-slayer of Wildermore (Advanced)",
+      page: "Orc-slayer_of_Wildermore_(Advanced)"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 236,
     virtue: "Honour",
-    deed: "Quests of the Stonedeans",
+    deed: {
+      name: "Quests of the Stonedeans",
+      page: "Quests_of_the_Stonedeans"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 237,
     virtue: "Honour",
-    deed: "Orc-slayer of West Gondor (Advanced)",
+    deed: {
+      name: "Orc-slayer of West Gondor (Advanced)",
+      page: "Orc-slayer_of_West_Gondor_(Advanced)"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -1882,7 +2341,10 @@
   {
     id: 238,
     virtue: "Honour",
-    deed: "Roving Threats: Central Gondor's Roving Enemies",
+    deed: {
+      name: "Roving Threats: Central Gondor's Roving Enemies",
+      page: "Roving_Threats:_Central_Gondor%27s_Roving_Enemies"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -1892,7 +2354,10 @@
   {
     id: 239,
     virtue: "Honour",
-    deed: "Orc-slayer of Central Gondor (Advanced)",
+    deed: {
+      name: "Orc-slayer of Central Gondor (Advanced)",
+      page: "Orc-slayer_of_Central_Gondor_(Advanced)"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -1902,7 +2367,10 @@
   {
     id: 240,
     virtue: "Honour",
-    deed: "Warbands: Eastern Gondor's Roaming Enemies",
+    deed: {
+      name: "Warbands: Eastern Gondor's Roaming Enemies",
+      page: "Warbands:_Eastern_Gondor%27s_Roaming_Enemies"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -1912,7 +2380,10 @@
   {
     id: 241,
     virtue: "Honour",
-    deed: "Captains of Minas Tirith",
+    deed: {
+      name: "Captains of Minas Tirith",
+      page: "Captains_of_Minas_Tirith"
+    },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -1922,21 +2393,30 @@
   {
     id: 242,
     virtue: "Idealism",
-    deed: "The History of the Dúnedain",
+    deed: {
+      name: "The History of the Dúnedain",
+      page: "The_History_of_the_D%C3%BAnedain"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 1
   },
   {
     id: 243,
     virtue: "Idealism",
-    deed: "Flowers of the Old Forest",
+    deed: {
+      name: "Flowers of the Old Forest",
+      page: "Flowers_of_the_Old_Forest"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 1
   },
   {
     id: 244,
     virtue: "Idealism",
-    deed: "Tales of the Lonely Road (Final)",
+    deed: {
+      name: "Tales of the Lonely Road (Final)",
+      page: "Tales_of_the_Lonely_Road_(Final)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -1946,7 +2426,10 @@
   {
     id: 245,
     virtue: "Idealism",
-    deed: "Deeds in the Wilderness (Final)",
+    deed: {
+      name: "Deeds in the Wilderness (Final)",
+      page: "Deeds_in_the_Wilderness_(Final)"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -1956,91 +2439,112 @@
   {
     id: 246,
     virtue: "Idealism",
-    deed: "Marching into Shadow (Advanced)",
+    deed: {
+      name: "Marching into Shadow (Advanced)",
+      page: "Marching_into_Shadow_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 39
   },
   {
     id: 247,
     virtue: "Idealism",
-    deed: "Gauradan-slayer (Advanced) (Forochel)",
+    deed: {
+      name: "Gauradan-slayer (Advanced) (Forochel)",
+      page: "Gauradan-slayer_(Advanced)_(Forochel)"
+    },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 41
   },
   {
     id: 248,
     virtue: "Idealism",
-    deed: "Soldiers of the Enemy (Advanced)",
+    deed: {
+      name: "Soldiers of the Enemy (Advanced)",
+      page: "Soldiers_of_the_Enemy_(Advanced)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 55
   },
   {
     id: 249,
     virtue: "Idealism",
-    deed: "Heart of the Enemy",
+    deed: { name: "Heart of the Enemy", page: "Heart_of_the_Enemy" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 250,
     virtue: "Idealism",
-    deed: "Leaders of the Hive",
+    deed: { name: "Leaders of the Hive", page: "Leaders_of_the_Hive" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 251,
     virtue: "Idealism",
-    deed: "Wanderer of the Central Levels",
+    deed: {
+      name: "Wanderer of the Central Levels",
+      page: "Wanderer_of_the_Central_Levels"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 47
   },
   {
     id: 252,
     virtue: "Idealism",
-    deed: "Western Durin's Way",
+    deed: { name: "Western Durin's Way", page: "Western_Durin%27s_Way" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 253,
     virtue: "Idealism",
-    deed: "Quests of Durin's Way",
+    deed: { name: "Quests of Durin's Way", page: "Quests_of_Durin%27s_Way" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 254,
     virtue: "Idealism",
-    deed: "Uncovering the Ruins of Mirkwood",
+    deed: {
+      name: "Uncovering the Ruins of Mirkwood",
+      page: "Uncovering_the_Ruins_of_Mirkwood"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 255,
     virtue: "Idealism",
-    deed: "Exploring Trum Dreng",
+    deed: { name: "Exploring Trum Dreng", page: "Exploring_Trum_Dreng" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 256,
     virtue: "Idealism",
-    deed: "Deeds of Dunland",
+    deed: { name: "Deeds of Dunland", page: "Deeds_of_Dunland" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 257,
     virtue: "Idealism",
-    deed: "Orc-slayer (Advanced) (Dunland)",
+    deed: {
+      name: "Orc-slayer (Advanced) (Dunland)",
+      page: "Orc-slayer_(Advanced)_(Dunland)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 258,
     virtue: "Idealism",
-    deed: "Parth Celebrant Explorer",
+    deed: {
+      name: "Parth Celebrant Explorer",
+      page: "Parth_Celebrant_Explorer"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -2050,28 +2554,31 @@
   {
     id: 259,
     virtue: "Idealism",
-    deed: "Slayer of Mounted Enemies in the Eastemnet (Advanced)",
+    deed: {
+      name: "Slayer of Mounted Enemies in the Eastemnet (Advanced)",
+      page: "Slayer_of_Mounted_Enemies_in_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 260,
     virtue: "Idealism",
-    deed: "Farms of the Fallows",
+    deed: { name: "Farms of the Fallows", page: "Farms_of_the_Fallows" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 261,
     virtue: "Idealism",
-    deed: "Westfold Exploration",
+    deed: { name: "Westfold Exploration", page: "Westfold_Exploration" },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 262,
     virtue: "Idealism",
-    deed: "Beacons of West Gondor",
+    deed: { name: "Beacons of West Gondor", page: "Beacons_of_West_Gondor" },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -2081,7 +2588,7 @@
   {
     id: 263,
     virtue: "Idealism",
-    deed: "Quests of Lossarnach",
+    deed: { name: "Quests of Lossarnach", page: "Quests_of_Lossarnach" },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -2091,7 +2598,10 @@
   {
     id: 264,
     virtue: "Idealism",
-    deed: "Minas Tirith Fellow-halls",
+    deed: {
+      name: "Minas Tirith Fellow-halls",
+      page: "Minas_Tirith_Fellow-halls"
+    },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -2101,7 +2611,10 @@
   {
     id: 265,
     virtue: "Idealism",
-    deed: "Explorer of North Ithilien",
+    deed: {
+      name: "Explorer of North Ithilien",
+      page: "Explorer_of_North_Ithilien"
+    },
     category: {
       name: "March of the King Deeds",
       page: "Category:March_of_the_King_Deeds"
@@ -2110,14 +2623,17 @@
   {
     id: 266,
     virtue: "Innocence",
-    deed: "The Life of a Bounder (Final)",
+    deed: {
+      name: "The Life of a Bounder (Final)",
+      page: "The_Life_of_a_Bounder_(Final)"
+    },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 5
   },
   {
     id: 267,
     virtue: "Innocence",
-    deed: "Deeds in the Wilderness",
+    deed: { name: "Deeds in the Wilderness", page: "Deeds_in_the_Wilderness" },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -2127,7 +2643,10 @@
   {
     id: 268,
     virtue: "Innocence",
-    deed: "Peril of the Mountains (Final)",
+    deed: {
+      name: "Peril of the Mountains (Final)",
+      page: "Peril_of_the_Mountains_(Final)"
+    },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -2137,98 +2656,131 @@
   {
     id: 269,
     virtue: "Innocence",
-    deed: "Pilgrim of Evendim",
+    deed: { name: "Pilgrim of Evendim", page: "Pilgrim_of_Evendim" },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 25
   },
   {
     id: 270,
     virtue: "Innocence",
-    deed: "Leaders of the Invasion (Advanced)",
+    deed: {
+      name: "Leaders of the Invasion (Advanced)",
+      page: "Leaders_of_the_Invasion_(Advanced)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 45
   },
   {
     id: 271,
     virtue: "Innocence",
-    deed: "Ancient Evil of Carn Dûm (Advanced)",
+    deed: {
+      name: "Ancient Evil of Carn Dûm (Advanced)",
+      page: "Ancient_Evil_of_Carn_D%C3%BBm_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 272,
     virtue: "Innocence",
-    deed: "Morroval-slayer (Advanced)",
+    deed: {
+      name: "Morroval-slayer (Advanced)",
+      page: "Morroval-slayer_(Advanced)_(Moria)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 273,
     virtue: "Innocence",
-    deed: "The Horrors with Many Legs (Advanced)",
+    deed: {
+      name: "The Horrors with Many Legs (Advanced)",
+      page: "The_Horrors_with_Many_Legs_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 274,
     virtue: "Innocence",
-    deed: "Quests of the Water-works",
+    deed: {
+      name: "Quests of the Water-works",
+      page: "Quests_of_the_Water-works"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 275,
     virtue: "Innocence",
-    deed: "Warrior of the Shadows",
+    deed: { name: "Warrior of the Shadows", page: "Warrior_of_the_Shadows" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 276,
     virtue: "Innocence",
-    deed: "Quests of the Great Delving",
+    deed: {
+      name: "Quests of the Great Delving",
+      page: "Quests_of_the_Great_Delving"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 277,
     virtue: "Innocence",
-    deed: "Quests of the Redhorn Lodes",
+    deed: {
+      name: "Quests of the Redhorn Lodes",
+      page: "Quests_of_the_Redhorn_Lodes"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 278,
     virtue: "Innocence",
-    deed: "Quests of Zelem-melek",
+    deed: { name: "Quests of Zelem-melek", page: "Quests_of_Zelem-melek" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 279,
     virtue: "Innocence",
-    deed: "Stalwart of the Central Levels",
+    deed: {
+      name: "Stalwart of the Central Levels",
+      page: "Stalwart_of_the_Central_Levels"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 280,
     virtue: "Innocence",
-    deed: "Hero of the Upper Levels",
+    deed: {
+      name: "Hero of the Upper Levels",
+      page: "Hero_of_the_Upper_Levels"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 281,
     virtue: "Innocence",
-    deed: "Adventurer in the Upper Levels",
+    deed: {
+      name: "Adventurer in the Upper Levels",
+      page: "Adventurer_in_the_Upper_Levels"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 282,
     virtue: "Innocence",
-    deed: "Orc-slayer (Advanced)",
+    deed: {
+      name: "Orc-slayer (Advanced)",
+      page: "Orc-slayer_(Advanced)_(Lothl%C3%B3rien)"
+    },
     category: {
       name: "Lothlórien Deeds",
       page: "Category:Lothl%C3%B3rien_Deeds"
@@ -2238,21 +2790,21 @@
   {
     id: 283,
     virtue: "Innocence",
-    deed: "Quests in Carreglyn",
+    deed: { name: "Quests in Carreglyn", page: "Quests_in_Carreglyn" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 284,
     virtue: "Innocence",
-    deed: "Exploring the Bonevales",
+    deed: { name: "Exploring the Bonevales", page: "Exploring_the_Bonevales" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 285,
     virtue: "Innocence",
-    deed: "Thinglad Explorer",
+    deed: { name: "Thinglad Explorer", page: "Thinglad_Explorer" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -2262,28 +2814,37 @@
   {
     id: 286,
     virtue: "Innocence",
-    deed: "Ruins, Tombs, and Monuments of the Eastemnet",
+    deed: {
+      name: "Ruins, Tombs, and Monuments of the Eastemnet",
+      page: "Ruins,_Tombs,_and_Monuments_of_the_Eastemnet"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 287,
     virtue: "Innocence",
-    deed: " Quests of the High Knolls",
+    deed: {
+      name: " Quests of the High Knolls",
+      page: "Quests_of_the_High_Knolls"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 288,
     virtue: "Innocence",
-    deed: "Quests of the Westfold",
+    deed: { name: "Quests of the Westfold", page: "Quests_of_the_Westfold" },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 289,
     virtue: "Innocence",
-    deed: "Paths of the Dead (Deed)",
+    deed: {
+      name: "Paths of the Dead (Deed)",
+      page: "Paths_of_the_Dead_(Deed)"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -2293,7 +2854,7 @@
   {
     id: 290,
     virtue: "Innocence",
-    deed: "Path of the Grey Host",
+    deed: { name: "Path of the Grey Host", page: "Path_of_the_Grey_Host" },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -2303,7 +2864,7 @@
   {
     id: 291,
     virtue: "Innocence",
-    deed: "Strongholds of Hope",
+    deed: { name: "Strongholds of Hope", page: "Strongholds_of_Hope" },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -2313,35 +2874,50 @@
   {
     id: 292,
     virtue: "Justice",
-    deed: "Brigand-slayer (Advanced)",
+    deed: {
+      name: "Brigand-slayer (Advanced)",
+      page: "Brigand-slayer_(Advanced)_(Bree-land)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 1
   },
   {
     id: 293,
     virtue: "Justice",
-    deed: "Brigand-slayer (Advanced)",
+    deed: {
+      name: "Brigand-slayer (Advanced)",
+      page: "Brigand-slayer_(Advanced)_(The_Shire)"
+    },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 294,
     virtue: "Justice",
-    deed: "Brigand-slayer (Advanced)",
+    deed: {
+      name: "Brigand-slayer (Advanced)",
+      page: "Brigand-slayer_(Advanced)_(Ered_Luin)"
+    },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 5
   },
   {
     id: 295,
     virtue: "Justice",
-    deed: "Betrayer's Bane (Advanced)",
+    deed: {
+      name: "Betrayer's Bane (Advanced)",
+      page: "Betrayer%27s_Bane_(Advanced)"
+    },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 41
   },
   {
     id: 296,
     virtue: "Justice",
-    deed: "Orc-slayer (Advanced)",
+    deed: {
+      name: "Orc-slayer (Advanced)",
+      page: "Orc-slayer_(Advanced)_(North_Downs)"
+    },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -2351,28 +2927,37 @@
   {
     id: 297,
     virtue: "Justice",
-    deed: "Goblin-slayer (Advanced)",
+    deed: {
+      name: "Goblin-slayer (Advanced)",
+      page: "Goblin-slayer_(Advanced)_(Evendim)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 33
   },
   {
     id: 298,
     virtue: "Justice",
-    deed: "Treasure of Evendim",
+    deed: { name: "Treasure of Evendim", page: "Treasure_of_Evendim" },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 90
   },
   {
     id: 299,
     virtue: "Justice",
-    deed: "Angmarim-slayer (Advanced)",
+    deed: {
+      name: "Angmarim-slayer (Advanced)",
+      page: "Angmarim-slayer_(Advanced)_(Angmar)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 36
   },
   {
     id: 300,
     virtue: "Justice",
-    deed: "Warg-slayer (Advanced)",
+    deed: {
+      name: "Warg-slayer (Advanced)",
+      page: "Warg-slayer_(Advanced)_(Misty_Mountains)"
+    },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -2382,63 +2967,87 @@
   {
     id: 301,
     virtue: "Justice",
-    deed: "Half-orc Slayer (Advanced)",
+    deed: {
+      name: "Half-orc Slayer (Advanced)",
+      page: "Half-orc_Slayer_(Advanced)_(Eregion)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 302,
     virtue: "Justice",
-    deed: "The Pale Followers (Advanced)",
+    deed: {
+      name: "The Pale Followers (Advanced)",
+      page: "The_Pale_Followers_(Advanced)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 55
   },
   {
     id: 303,
     virtue: "Justice",
-    deed: "Goblin-slayer (Advanced)",
+    deed: {
+      name: "Goblin-slayer (Advanced)",
+      page: "Goblin-slayer_(Advanced)_(Moria)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 46
   },
   {
     id: 304,
     virtue: "Justice",
-    deed: "Strength of the Enemy (Advanced)",
+    deed: {
+      name: "Strength of the Enemy (Advanced)",
+      page: "Strength_of_the_Enemy_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 305,
     virtue: "Justice",
-    deed: "The Corpse-beasts of Skûmfil (Advanced)",
+    deed: {
+      name: "The Corpse-beasts of Skûmfil (Advanced)",
+      page: "The_Corpse-beasts_of_Sk%C3%BBmfil_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 306,
     virtue: "Justice",
-    deed: "Sorcerer-slayer (Advanced)",
+    deed: {
+      name: "Sorcerer-slayer (Advanced)",
+      page: "Sorcerer-slayer_(Advanced)"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 307,
     virtue: "Justice",
-    deed: "Half-orc Slayer (Advanced)",
+    deed: {
+      name: "Half-orc Slayer (Advanced)",
+      page: "Half-orc_Slayer_(Advanced)_(Enedwaith)"
+    },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 62
   },
   {
     id: 308,
     virtue: "Justice",
-    deed: "Quests in the Dunbog",
+    deed: { name: "Quests in the Dunbog", page: "Quests_in_the_Dunbog" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 309,
     virtue: "Justice",
-    deed: "Quests of the Great River",
+    deed: {
+      name: "Quests of the Great River",
+      page: "Quests_of_the_Great_River"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -2448,28 +3057,37 @@
   {
     id: 310,
     virtue: "Justice",
-    deed: "Quests of the Norcrofts",
+    deed: { name: "Quests of the Norcrofts", page: "Quests_of_the_Norcrofts" },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 311,
     virtue: "Justice",
-    deed: "Uruk-slayer of Wildermore (Advanced)",
+    deed: {
+      name: "Uruk-slayer of Wildermore (Advanced)",
+      page: "Uruk-slayer_of_Wildermore_(Advanced)"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 312,
     virtue: "Justice",
-    deed: "Half-orc Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Half-orc Slayer of the Westemnet (Advanced)",
+      page: "Half-orc_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 313,
     virtue: "Justice",
-    deed: "Bandit-slayer of West Gondor (Advanced)",
+    deed: {
+      name: "Bandit-slayer of West Gondor (Advanced)",
+      page: "Bandit-slayer_of_West_Gondor_(Advanced)"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -2479,7 +3097,10 @@
   {
     id: 314,
     virtue: "Justice",
-    deed: "Corsair-slayer of Central Gondor (Advanced)",
+    deed: {
+      name: "Corsair-slayer of Central Gondor (Advanced)",
+      page: "Corsair-slayer_of_Central_Gondor_(Advanced)"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -2489,7 +3110,10 @@
   {
     id: 315,
     virtue: "Justice",
-    deed: "Haradrim-slayer of Eastern Gondor (Advanced)",
+    deed: {
+      name: "Haradrim-slayer of Eastern Gondor (Advanced)",
+      page: "Haradrim-slayer_of_Eastern_Gondor_(Advanced)"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -2499,7 +3123,10 @@
   {
     id: 316,
     virtue: "Justice",
-    deed: "Haradrim-slayer of Old Anórien (Advanced)",
+    deed: {
+      name: "Haradrim-slayer of Old Anórien (Advanced)",
+      page: "Haradrim-slayer_of_Old_An%C3%B3rien_(Advanced)"
+    },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -2509,14 +3136,20 @@
   {
     id: 317,
     virtue: "Loyalty",
-    deed: "Bree-land Adventurer (Final)",
+    deed: {
+      name: "Bree-land Adventurer (Final)",
+      page: "Bree-land_Adventurer_(Final)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 8
   },
   {
     id: 318,
     virtue: "Loyalty",
-    deed: "Of Glories Long Past (Final)",
+    deed: {
+      name: "Of Glories Long Past (Final)",
+      page: "Of_Glories_Long_Past_(Final)"
+    },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -2526,7 +3159,10 @@
   {
     id: 319,
     virtue: "Loyalty",
-    deed: "Deeds in the Wilderness (Advanced)",
+    deed: {
+      name: "Deeds in the Wilderness (Advanced)",
+      page: "Deeds_in_the_Wilderness_(Advanced)"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -2536,69 +3172,87 @@
   {
     id: 320,
     virtue: "Loyalty",
-    deed: "The City of the Kings",
+    deed: { name: "The City of the Kings", page: "The_City_of_the_Kings" },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 45
   },
   {
     id: 321,
     virtue: "Loyalty",
-    deed: "Marching into Shadow",
+    deed: { name: "Marching into Shadow", page: "Marching_into_Shadow" },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 37
   },
   {
     id: 322,
     virtue: "Loyalty",
-    deed: "The City of Orcs",
+    deed: { name: "The City of Orcs", page: "The_City_of_Orcs" },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 43
   },
   {
     id: 323,
     virtue: "Loyalty",
-    deed: "Craban-slayer (Advanced)",
+    deed: {
+      name: "Craban-slayer (Advanced)",
+      page: "Craban-slayer_(Advanced)_(Eregion)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" }
   },
   {
     id: 324,
     virtue: "Loyalty",
-    deed: "The Hounds of Skûmfil (Advanced)",
+    deed: {
+      name: "The Hounds of Skûmfil (Advanced)",
+      page: "The_Hounds_of_Sk%C3%BBmfil_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 325,
     virtue: "Loyalty",
-    deed: "Villains of the Grand Stair (Part 2)",
+    deed: {
+      name: "Villains of the Grand Stair (Part 2)",
+      page: "Villains_of_the_Grand_Stair_(Part_2)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 326,
     virtue: "Loyalty",
-    deed: "Nud-melek",
+    deed: { name: "Nud-melek", page: "Nud-melek_(deed)" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 53
   },
   {
     id: 327,
     virtue: "Loyalty",
-    deed: "Into the Black and Twisted Forest",
+    deed: {
+      name: "Into the Black and Twisted Forest",
+      page: "Into_the_Black_and_Twisted_Forest"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 328,
     virtue: "Loyalty",
-    deed: "Beast-slayer (Advanced)",
+    deed: {
+      name: "Beast-slayer (Advanced)",
+      page: "Beast-slayer_(Advanced)_(Dunland)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 329,
     virtue: "Loyalty",
-    deed: "Orc Slayer (Advanced)",
+    deed: {
+      name: "Orc Slayer (Advanced)",
+      page: "Orc_Slayer_(Advanced)_(Great_River)"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -2608,21 +3262,27 @@
   {
     id: 330,
     virtue: "Loyalty",
-    deed: "Where Evil Creatures Dwell",
+    deed: {
+      name: "Where Evil Creatures Dwell",
+      page: "Where_Evil_Creatures_Dwell"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 331,
     virtue: "Loyalty",
-    deed: "These Hostile Lands",
+    deed: { name: "These Hostile Lands", page: "These_Hostile_Lands" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 332,
     virtue: "Loyalty",
-    deed: "West Gondor: Camps of the Enemies",
+    deed: {
+      name: "West Gondor: Camps of the Enemies",
+      page: "West_Gondor:_Camps_of_the_Enemies"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -2632,7 +3292,10 @@
   {
     id: 333,
     virtue: "Loyalty",
-    deed: "Central Gondor: Camps of the Enemies",
+    deed: {
+      name: "Central Gondor: Camps of the Enemies",
+      page: "Central_Gondor:_Camps_of_the_Enemies"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -2642,7 +3305,7 @@
   {
     id: 334,
     virtue: "Loyalty",
-    deed: "The Morgul-host",
+    deed: { name: "The Morgul-host", page: "The_Morgul-host" },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -2652,7 +3315,7 @@
   {
     id: 335,
     virtue: "Loyalty",
-    deed: "Quests of Pelennor",
+    deed: { name: "Quests of Pelennor", page: "Quests_of_Pelennor" },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -2662,28 +3325,34 @@
   {
     id: 336,
     virtue: "Mercy",
-    deed: "Wight-slayer (Advanced) (Bree-land)",
+    deed: {
+      name: "Wight-slayer (Advanced) (Bree-land)",
+      page: "Wight-slayer_(Advanced)_(Bree-land)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 11
   },
   {
     id: 337,
     virtue: "Mercy",
-    deed: "Grave-digger (Advanced)",
+    deed: { name: "Grave-digger (Advanced)", page: "Grave-digger_(Advanced)" },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 37
   },
   {
     id: 338,
     virtue: "Mercy",
-    deed: "Nemesis of the Fallen (Advanced)",
+    deed: {
+      name: "Nemesis of the Fallen (Advanced)",
+      page: "Nemesis_of_the_Fallen_(Advanced)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 39
   },
   {
     id: 339,
     virtue: "Mercy",
-    deed: "Redeemer (Advanced)",
+    deed: { name: "Redeemer (Advanced)", page: "Redeemer_(Advanced)" },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -2693,7 +3362,10 @@
   {
     id: 340,
     virtue: "Mercy",
-    deed: "Wight-slayer (Advanced) (Lone-lands)",
+    deed: {
+      name: "Wight-slayer (Advanced) (Lone-lands)",
+      page: "Wight-slayer_(Advanced)_(Lone-lands)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -2703,7 +3375,10 @@
   {
     id: 341,
     virtue: "Mercy",
-    deed: "Wight-slayer (Advanced) (The Trollshaws)",
+    deed: {
+      name: "Wight-slayer (Advanced) (The Trollshaws)",
+      page: "Wight-slayer_(Advanced)_(The_Trollshaws)"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -2713,42 +3388,60 @@
   {
     id: 342,
     virtue: "Mercy",
-    deed: "Limrafn-slayer (Advanced)",
+    deed: {
+      name: "Limrafn-slayer (Advanced)",
+      page: "Limrafn-slayer_(Advanced)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 26
   },
   {
     id: 343,
     virtue: "Mercy",
-    deed: "Wight-slayer (Advanced) (Angmar)",
+    deed: {
+      name: "Wight-slayer (Advanced) (Angmar)",
+      page: "Wight-slayer_(Advanced)_(Angmar)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 42
   },
   {
     id: 344,
     virtue: "Mercy",
-    deed: "Grim-slayer (Advanced) (Forochel)",
+    deed: {
+      name: "Grim-slayer (Advanced) (Forochel)",
+      page: "Grim-slayer_(Advanced)_(Forochel)"
+    },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 40
   },
   {
     id: 345,
     virtue: "Mercy",
-    deed: "Nameless-slayer (Advanced)",
+    deed: {
+      name: "Nameless-slayer (Advanced)",
+      page: "Nameless-slayer_(Advanced)_(Moria)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 53
   },
   {
     id: 346,
     virtue: "Mercy",
-    deed: "The Blighted Ones (Advanced)",
+    deed: {
+      name: "The Blighted Ones (Advanced)",
+      page: "The_Blighted_Ones_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 347,
     virtue: "Mercy",
-    deed: "Beast-slayer (Advanced)",
+    deed: {
+      name: "Beast-slayer (Advanced)",
+      page: "Beast-slayer_(Advanced)_(Lothl%C3%B3rien)"
+    },
     category: {
       name: "Lothlórien Deeds",
       page: "Category:Lothl%C3%B3rien_Deeds"
@@ -2758,28 +3451,31 @@
   {
     id: 348,
     virtue: "Mercy",
-    deed: "Cuthraul and Elhudan-slayer (Advanced)",
+    deed: {
+      name: "Cuthraul and Elhudan-slayer (Advanced)",
+      page: "Cuthraul_and_Elhudan-slayer_(Advanced)"
+    },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 62
   },
   {
     id: 349,
     virtue: "Mercy",
-    deed: "Exploring the Isendale",
+    deed: { name: "Exploring the Isendale", page: "Exploring_the_Isendale" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 350,
     virtue: "Mercy",
-    deed: "Quests in the Starkmoor",
+    deed: { name: "Quests in the Starkmoor", page: "Quests_in_the_Starkmoor" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 351,
     virtue: "Mercy",
-    deed: "Wailing Hills Explorer",
+    deed: { name: "Wailing Hills Explorer", page: "Wailing_Hills_Explorer" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -2789,35 +3485,47 @@
   {
     id: 352,
     virtue: "Mercy",
-    deed: "Warg-slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Warg-slayer of the Eastemnet (Advanced)",
+      page: "Warg-slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 353,
     virtue: "Mercy",
-    deed: "Boar-hunter of the Eastemnet",
+    deed: {
+      name: "Boar-hunter of the Eastemnet",
+      page: "Boar-hunter_of_the_Eastemnet"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 354,
     virtue: "Mercy",
-    deed: "Blooming in the Snow",
+    deed: { name: "Blooming in the Snow", page: "Blooming_in_the_Snow" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 355,
     virtue: "Mercy",
-    deed: "Troll Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Troll Slayer of the Westemnet (Advanced)",
+      page: "Troll_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 356,
     virtue: "Mercy",
-    deed: "Beast-slayer of Eastern Gondor (Advanced)",
+    deed: {
+      name: "Beast-slayer of Eastern Gondor (Advanced)",
+      page: "Beast-slayer_of_Eastern_Gondor_(Advanced)"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -2827,42 +3535,48 @@
   {
     id: 357,
     virtue: "Patience",
-    deed: "The Ruins of Breeland",
+    deed: { name: "The Ruins of Breeland", page: "The_Ruins_of_Bree-land" },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 6
   },
   {
     id: 358,
     virtue: "Patience",
-    deed: "The Barrow-downs",
+    deed: { name: "The Barrow-downs", page: "The_Barrow-downs_(Deed)" },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 11
   },
   {
     id: 359,
     virtue: "Patience",
-    deed: "No Place for Spoiled Pies",
+    deed: {
+      name: "No Place for Spoiled Pies",
+      page: "No_Place_for_Spoiled_Pies"
+    },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 360,
     virtue: "Patience",
-    deed: "Restoring the Quick Post",
+    deed: {
+      name: "Restoring the Quick Post",
+      page: "Restoring_the_Quick_Post"
+    },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 8
   },
   {
     id: 361,
     virtue: "Patience",
-    deed: "Places of the Dwarves",
+    deed: { name: "Places of the Dwarves", page: "Places_of_the_Dwarves" },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 1
   },
   {
     id: 362,
     virtue: "Patience",
-    deed: "The Eastern Ruins",
+    deed: { name: "The Eastern Ruins", page: "The_Eastern_Ruins" },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -2872,70 +3586,91 @@
   {
     id: 363,
     virtue: "Patience",
-    deed: "Wilds of Evendim",
+    deed: { name: "Wilds of Evendim", page: "Wilds_of_Evendim" },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 25
   },
   {
     id: 364,
     virtue: "Patience",
-    deed: "The Beasts of Urugarth (Advanced)",
+    deed: {
+      name: "The Beasts of Urugarth (Advanced)",
+      page: "The_Beasts_of_Urugarth_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 35
   },
   {
     id: 365,
     virtue: "Patience",
-    deed: "The Trolls of Carn Dûm (Advanced)",
+    deed: {
+      name: "The Trolls of Carn Dûm (Advanced)",
+      page: "The_Trolls_of_Carn_D%C3%BBm_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 366,
     virtue: "Patience",
-    deed: "Ancient Stones of Forochel",
+    deed: {
+      name: "Ancient Stones of Forochel",
+      page: "Ancient_Stones_of_Forochel"
+    },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 45
   },
   {
     id: 367,
     virtue: "Patience",
-    deed: "Dens of the Beasts",
+    deed: { name: "Dens of the Beasts", page: "Dens_of_the_Beasts" },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 368,
     virtue: "Patience",
-    deed: "Carriers of the Blight (Advanced)",
+    deed: {
+      name: "Carriers of the Blight (Advanced)",
+      page: "Carriers_of_the_Blight_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 369,
     virtue: "Patience",
-    deed: "Nameless-slayer (Advanced)",
+    deed: {
+      name: "Nameless-slayer (Advanced)",
+      page: "Nameless-slayer_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 370,
     virtue: "Patience",
-    deed: "Mysteries of Enedwaith (Advanced)",
+    deed: {
+      name: "Mysteries of Enedwaith (Advanced)",
+      page: "Mysteries_of_Enedwaith_(Advanced)"
+    },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 62
   },
   {
     id: 371,
     virtue: "Patience",
-    deed: "Slayer of the Dead (Advanced)",
+    deed: {
+      name: "Slayer of the Dead (Advanced)",
+      page: "Slayer_of_the_Dead_(Advanced)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 372,
     virtue: "Patience",
-    deed: "Quests of the Rushgore",
+    deed: { name: "Quests of the Rushgore", page: "Quests_of_the_Rushgore" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -2945,7 +3680,7 @@
   {
     id: 373,
     virtue: "Patience",
-    deed: "Titan-slayer (Advanced)",
+    deed: { name: "Titan-slayer (Advanced)", page: "Titan-slayer_(Advanced)" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -2955,35 +3690,47 @@
   {
     id: 374,
     virtue: "Patience",
-    deed: "Spider-slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Spider-slayer of the Eastemnet (Advanced)",
+      page: "Spider-slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 375,
     virtue: "Patience",
-    deed: "Quests of the Writhendowns",
+    deed: {
+      name: "Quests of the Writhendowns",
+      page: "Quests_of_the_Writhendowns"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 376,
     virtue: "Patience",
-    deed: "Eastfold Exploration",
+    deed: { name: "Eastfold Exploration", page: "Eastfold_Exploration" },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 377,
     virtue: "Patience",
-    deed: "Wolf Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Wolf Slayer of the Westemnet (Advanced)",
+      page: "Wolf_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 378,
     virtue: "Patience",
-    deed: "Warbands: West Gondor's Roaming Enemies",
+    deed: {
+      name: "Warbands: West Gondor's Roaming Enemies",
+      page: "Warbands:_West_Gondor%27s_Roaming_Enemies"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -2993,7 +3740,10 @@
   {
     id: 379,
     virtue: "Patience",
-    deed: "Warbands: Central Gondor's Roaming Enemies",
+    deed: {
+      name: "Warbands: Central Gondor's Roaming Enemies",
+      page: "Warbands:_Central_Gondor%27s_Roaming_Enemies"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -3003,7 +3753,10 @@
   {
     id: 380,
     virtue: "Patience",
-    deed: "Treasure of Eastern Gondor",
+    deed: {
+      name: "Treasure of Eastern Gondor",
+      page: "Treasure_of_Eastern_Gondor"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -3013,14 +3766,17 @@
   {
     id: 381,
     virtue: "Tolerance",
-    deed: "The Farms of the Shire",
+    deed: { name: "The Farms of the Shire", page: "The_Farms_of_the_Shire" },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 382,
     virtue: "Tolerance",
-    deed: "The Villages of the Earth-kin",
+    deed: {
+      name: "The Villages of the Earth-kin",
+      page: "The_Villages_of_the_Earth-kin"
+    },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -3030,7 +3786,7 @@
   {
     id: 383,
     virtue: "Tolerance",
-    deed: "Ruins of the Trollshaws",
+    deed: { name: "Ruins of the Trollshaws", page: "Ruins_of_the_Trollshaws" },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -3040,7 +3796,10 @@
   {
     id: 384,
     virtue: "Tolerance",
-    deed: "Ruins of the Misty Mountains",
+    deed: {
+      name: "Ruins of the Misty Mountains",
+      page: "Ruins_of_the_Misty_Mountains"
+    },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -3050,77 +3809,89 @@
   {
     id: 385,
     virtue: "Tolerance",
-    deed: "Spirits Aiding Angmar (Advanced)",
+    deed: {
+      name: "Spirits Aiding Angmar (Advanced)",
+      page: "Spirits_Aiding_Angmar_(Advanced)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 45
   },
   {
     id: 386,
     virtue: "Tolerance",
-    deed: "Bastions of Hope",
+    deed: { name: "Bastions of Hope", page: "Bastions_of_Hope" },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 25
   },
   {
     id: 387,
     virtue: "Tolerance",
-    deed: "The Enemy's Stronghold",
+    deed: { name: "The Enemy's Stronghold", page: "The_Enemy%27s_Stronghold" },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 388,
     virtue: "Tolerance",
-    deed: "Deep-claw Slayer (Advanced)",
+    deed: {
+      name: "Deep-claw Slayer (Advanced)",
+      page: "Deep-claw_Slayer_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 46
   },
   {
     id: 389,
     virtue: "Tolerance",
-    deed: "Fallen to Blight (Advanced)",
+    deed: {
+      name: "Fallen to Blight (Advanced)",
+      page: "Fallen_to_Blight_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 390,
     virtue: "Tolerance",
-    deed: "Leaders of the Nameless",
+    deed: { name: "Leaders of the Nameless", page: "Leaders_of_the_Nameless" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 391,
     virtue: "Tolerance",
-    deed: "The Flaming Deeps",
+    deed: { name: "The Flaming Deeps", page: "The_Flaming_Deeps_(Deed)" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 392,
     virtue: "Tolerance",
-    deed: "The Water-works",
+    deed: { name: "The Water-works", page: "The_Water-works_(Deed)" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 393,
     virtue: "Tolerance",
-    deed: "Spider-slayer (Advanced)",
+    deed: {
+      name: "Spider-slayer (Advanced)",
+      page: "Spider-slayer_(Advanced)_(Southern_Mirkwood)"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 394,
     virtue: "Tolerance",
-    deed: "Quests in Nan Curunír",
+    deed: { name: "Quests in Nan Curunír", page: "Quests_in_Nan_Curun%C3%ADr" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 395,
     virtue: "Tolerance",
-    deed: "Rushgore Explorer",
+    deed: { name: "Rushgore Explorer", page: "Rushgore_Explorer" },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -3130,7 +3901,10 @@
   {
     id: 396,
     virtue: "Tolerance",
-    deed: "Beast Slayer (Advanced)",
+    deed: {
+      name: "Beast Slayer (Advanced)",
+      page: "Beast_Slayer_(Advanced)_(Great_River)"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -3140,28 +3914,40 @@
   {
     id: 397,
     virtue: "Tolerance",
-    deed: "Quests of the Entwash Vale",
+    deed: {
+      name: "Quests of the Entwash Vale",
+      page: "Quests_of_the_Entwash_Vale"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 398,
     virtue: "Tolerance",
-    deed: "Peaks of the High Knolls",
+    deed: {
+      name: "Peaks of the High Knolls",
+      page: "Peaks_of_the_High_Knolls"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 399,
     virtue: "Tolerance",
-    deed: "Orc Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Orc Slayer of the Westemnet (Advanced)",
+      page: "Orc_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 400,
     virtue: "Tolerance",
-    deed: "Quests of South Ithilien",
+    deed: {
+      name: "Quests of South Ithilien",
+      page: "Quests_of_South_Ithilien"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -3171,7 +3957,7 @@
   {
     id: 401,
     virtue: "Tolerance",
-    deed: "Wardens of Minas Tirith",
+    deed: { name: "Wardens of Minas Tirith", page: "Wardens_of_Minas_Tirith" },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -3181,28 +3967,37 @@
   {
     id: 402,
     virtue: "Valour",
-    deed: "Orc-slayer (Advanced)",
+    deed: {
+      name: "Orc-slayer (Advanced)",
+      page: "Orc-slayer_(Advanced)_(Bree-land)"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 10
   },
   {
     id: 403,
     virtue: "Valour",
-    deed: "Goblin-slayer (Advanced)",
+    deed: {
+      name: "Goblin-slayer (Advanced)",
+      page: "Goblin-slayer_(Advanced)_(The_Shire)"
+    },
     category: { name: "The Shire Deeds", page: "Category:The_Shire_Deeds" },
     level: 1
   },
   {
     id: 404,
     virtue: "Valour",
-    deed: "Troll-kicker (Advanced)",
+    deed: { name: "Troll-kicker (Advanced)", page: "Troll-kicker_(Advanced)" },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 46
   },
   {
     id: 405,
     virtue: "Valour",
-    deed: "Goblin-slayer (Advanced)",
+    deed: {
+      name: "Goblin-slayer (Advanced)",
+      page: "Goblin-slayer_(Advanced)_(Lone-lands)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -3212,7 +4007,10 @@
   {
     id: 406,
     virtue: "Valour",
-    deed: "Orc-slayer (Advanced)",
+    deed: {
+      name: "Orc-slayer (Advanced)",
+      page: "Orc-slayer_(Advanced)_(Lone-lands)"
+    },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -3222,7 +4020,10 @@
   {
     id: 407,
     virtue: "Valour",
-    deed: "Worm-slayer (Advanced)",
+    deed: {
+      name: "Worm-slayer (Advanced)",
+      page: "Worm-slayer_(Advanced)_(The_Trollshaws)"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -3232,28 +4033,40 @@
   {
     id: 408,
     virtue: "Valour",
-    deed: "The Trolls of Urugarth (Advanced)",
+    deed: {
+      name: "The Trolls of Urugarth (Advanced)",
+      page: "The_Trolls_of_Urugarth_(Advanced)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 36
   },
   {
     id: 409,
     virtue: "Valour",
-    deed: "Worm-slayer (Advanced)",
+    deed: {
+      name: "Worm-slayer (Advanced)",
+      page: "Worm-slayer_(Advanced)_(Angmar)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 38
   },
   {
     id: 410,
     virtue: "Valour",
-    deed: "Champions of Carn Dûm (Final)",
+    deed: {
+      name: "Champions of Carn Dûm (Final)",
+      page: "Champions_of_Carn_D%C3%BBm_(Final)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 45
   },
   {
     id: 411,
     virtue: "Valour",
-    deed: "Troll-slayer (Advanced)",
+    deed: {
+      name: "Troll-slayer (Advanced)",
+      page: "Troll-slayer_(Advanced)_(Misty_Mountains)"
+    },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -3263,28 +4076,40 @@
   {
     id: 412,
     virtue: "Valour",
-    deed: "Spider-slayer (Advanced)",
+    deed: {
+      name: "Spider-slayer (Advanced)",
+      page: "Spider-slayer_(Advanced)_(Moria)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 413,
     virtue: "Valour",
-    deed: "Worm-slayer (Advanced)",
+    deed: {
+      name: "Worm-slayer (Advanced)",
+      page: "Worm-slayer_(Advanced)_(Moria)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 414,
     virtue: "Valour",
-    deed: "The Foundations of Stone",
+    deed: {
+      name: "The Foundations of Stone",
+      page: "The_Foundations_of_Stone_(Deed)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 415,
     virtue: "Valour",
-    deed: "City of the Lord and Lady",
+    deed: {
+      name: "City of the Lord and Lady",
+      page: "City_of_the_Lord_and_Lady"
+    },
     category: {
       name: "Lothlórien Deeds",
       page: "Category:Lothl%C3%B3rien_Deeds"
@@ -3294,14 +4119,20 @@
   {
     id: 416,
     virtue: "Valour",
-    deed: "Evil Strongholds of Mirkwood",
+    deed: {
+      name: "Evil Strongholds of Mirkwood",
+      page: "Evil_Strongholds_of_Mirkwood"
+    },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 417,
     virtue: "Valour",
-    deed: "Easterling-slayer (Advanced)",
+    deed: {
+      name: "Easterling-slayer (Advanced)",
+      page: "Easterling-slayer_(Advanced)"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -3311,35 +4142,47 @@
   {
     id: 418,
     virtue: "Valour",
-    deed: "The Wilds of the Eastemnet",
+    deed: {
+      name: "The Wilds of the Eastemnet",
+      page: "The_Wilds_of_the_Eastemnet"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 419,
     virtue: "Valour",
-    deed: "Quests of the Sutcrofts",
+    deed: { name: "Quests of the Sutcrofts", page: "Quests_of_the_Sutcrofts" },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 420,
     virtue: "Valour",
-    deed: "Slayer of Mounted Foes in Wildermore (Advanced)",
+    deed: {
+      name: "Slayer of Mounted Foes in Wildermore (Advanced)",
+      page: "Slayer_of_Mounted_Foes_in_Wildermore_(Advanced)"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 421,
     virtue: "Valour",
-    deed: "Goblin Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Goblin Slayer of the Westemnet (Advanced)",
+      page: "Goblin_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 422,
     virtue: "Valour",
-    deed: "Corsair-slayer of West Gondor (Advanced)",
+    deed: {
+      name: "Corsair-slayer of West Gondor (Advanced)",
+      page: "Corsair-slayer_of_West_Gondor_(Advanced)"
+    },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -3349,7 +4192,10 @@
   {
     id: 423,
     virtue: "Valour",
-    deed: "Haradrim-slayer of Central Gondor (Advanced)",
+    deed: {
+      name: "Haradrim-slayer of Central Gondor (Advanced)",
+      page: "Haradrim-slayer_of_Central_Gondor_(Advanced)"
+    },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -3359,7 +4205,10 @@
   {
     id: 424,
     virtue: "Valour",
-    deed: "Orc-slayer of Eastern Gondor (Advanced)",
+    deed: {
+      name: "Orc-slayer of Eastern Gondor (Advanced)",
+      page: "Orc-slayer_of_Eastern_Gondor_(Advanced)"
+    },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -3369,7 +4218,10 @@
   {
     id: 425,
     virtue: "Valour",
-    deed: "Beast-slayer of Old Anórien (Advanced)",
+    deed: {
+      name: "Beast-slayer of Old Anórien (Advanced)",
+      page: "Beast-slayer_of_Old_An%C3%B3rien_(Advanced)"
+    },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -3379,28 +4231,31 @@
   {
     id: 426,
     virtue: "Wisdom",
-    deed: "Elf-ruins Exploration",
+    deed: { name: "Elf-ruins Exploration", page: "Elf-ruins_Exploration" },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 4
   },
   {
     id: 427,
     virtue: "Wisdom",
-    deed: "The Old Forest",
+    deed: { name: "The Old Forest", page: "The_Old_Forest_(Deed)" },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 6
   },
   {
     id: 428,
     virtue: "Wisdom",
-    deed: "Lore of the Cardolan Prince",
+    deed: {
+      name: "Lore of the Cardolan Prince",
+      page: "Lore_of_the_Cardolan_Prince"
+    },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 10
   },
   {
     id: 429,
     virtue: "Wisdom",
-    deed: "Weathertop Exploration",
+    deed: { name: "Weathertop Exploration", page: "Weathertop_Exploration" },
     category: {
       name: "The Lone-lands Deeds",
       page: "Category:The_Lone-lands_Deeds"
@@ -3410,7 +4265,7 @@
   {
     id: 430,
     virtue: "Wisdom",
-    deed: "The Western Ruins",
+    deed: { name: "The Western Ruins", page: "The_Western_Ruins" },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -3420,7 +4275,7 @@
   {
     id: 431,
     virtue: "Wisdom",
-    deed: "The High Passes",
+    deed: { name: "The High Passes", page: "The_High_Passes" },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -3430,77 +4285,98 @@
   {
     id: 432,
     virtue: "Wisdom",
-    deed: "Invaders from Angmar (Advanced)",
+    deed: {
+      name: "Invaders from Angmar (Advanced)",
+      page: "Invaders_from_Angmar_(Advanced)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 45
   },
   {
     id: 433,
     virtue: "Wisdom",
-    deed: "The Battle for Forochel",
+    deed: { name: "The Battle for Forochel", page: "The_Battle_for_Forochel" },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 36
   },
   {
     id: 434,
     virtue: "Wisdom",
-    deed: "The Ruins of Eregion",
+    deed: { name: "The Ruins of Eregion", page: "The_Ruins_of_Eregion" },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 50
   },
   {
     id: 435,
     virtue: "Wisdom",
-    deed: "Warriors of the Enemy (Advanced)",
+    deed: {
+      name: "Warriors of the Enemy (Advanced)",
+      page: "Warriors_of_the_Enemy_(Advanced)"
+    },
     category: { name: "Eregion Deeds", page: "Category:Eregion_Deeds" },
     level: 55
   },
   {
     id: 436,
     virtue: "Wisdom",
-    deed: "Glow-worm Slayer (Advanced)",
+    deed: {
+      name: "Glow-worm Slayer (Advanced)",
+      page: "Glow-worm_Slayer_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 437,
     virtue: "Wisdom",
-    deed: "Followers of Igash (Advanced)",
+    deed: {
+      name: "Followers of Igash (Advanced)",
+      page: "Followers_of_Igash_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 438,
     virtue: "Wisdom",
-    deed: "Orcs of the Sixteenth Hall (Advanced)",
+    deed: {
+      name: "Orcs of the Sixteenth Hall (Advanced)",
+      page: "Orcs_of_the_Sixteenth_Hall_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 439,
     virtue: "Wisdom",
-    deed: "The Redhorn Lodes",
+    deed: { name: "The Redhorn Lodes", page: "The_Redhorn_Lodes_(Deed)" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 50
   },
   {
     id: 440,
     virtue: "Wisdom",
-    deed: "The Wilds of Mirkwood",
+    deed: { name: "The Wilds of Mirkwood", page: "The_Wilds_of_Mirkwood" },
     category: { name: "Mirkwood Deeds", page: "Category:Mirkwood_Deeds" },
     level: 60
   },
   {
     id: 441,
     virtue: "Wisdom",
-    deed: "Craban-slayer (Advanced)",
+    deed: {
+      name: "Craban-slayer (Advanced)",
+      page: "Craban-slayer_(Advanced)_(Dunland)"
+    },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 65
   },
   {
     id: 442,
     virtue: "Wisdom",
-    deed: "Brigand-slayer (Advanced)",
+    deed: {
+      name: "Brigand-slayer (Advanced)",
+      page: "Brigand-slayer_(Advanced)_(Great_River)"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -3510,35 +4386,41 @@
   {
     id: 443,
     virtue: "Wisdom",
-    deed: "Quests of the East Wall",
+    deed: { name: "Quests of the East Wall", page: "Quests_of_the_East_Wall" },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 444,
     virtue: "Wisdom",
-    deed: "Brigand-slayer of the Eastemnet (Advanced)",
+    deed: {
+      name: "Brigand-slayer of the Eastemnet (Advanced)",
+      page: "Brigand-slayer_of_the_Eastemnet_(Advanced)"
+    },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 445,
     virtue: "Wisdom",
-    deed: "Snow-cat Slayer of Wildermore (Advanced)",
+    deed: {
+      name: "Snow-cat Slayer of Wildermore (Advanced)",
+      page: "Snow-cat_Slayer_of_Wildermore_(Advanced)"
+    },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 446,
     virtue: "Wisdom",
-    deed: "Kingstead Exploration",
+    deed: { name: "Kingstead Exploration", page: "Kingstead_Exploration" },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 447,
     virtue: "Wisdom",
-    deed: "The Five Sisters",
+    deed: { name: "The Five Sisters", page: "The_Five_Sisters" },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
@@ -3548,7 +4430,7 @@
   {
     id: 448,
     virtue: "Wisdom",
-    deed: "Masters of Minas Tirith",
+    deed: { name: "Masters of Minas Tirith", page: "Masters_of_Minas_Tirith" },
     category: {
       name: "Old Anórien Deeds",
       page: "Category:Old_An%C3%B3rien_Deeds"
@@ -3558,28 +4440,37 @@
   {
     id: 449,
     virtue: "Zeal",
-    deed: "Brood-hunter (Advanced)",
+    deed: { name: "Brood-hunter (Advanced)", page: "Brood-hunter_(Advanced)" },
     category: { name: "Bree-land Deeds", page: "Category:Bree-land_Deeds" },
     level: 15
   },
   {
     id: 450,
     virtue: "Zeal",
-    deed: "Goblin-slayer (Advanced) (Ered Luin)",
+    deed: {
+      name: "Goblin-slayer (Advanced) (Ered Luin)",
+      page: "Goblin-slayer_(Advanced)_(Ered_Luin)"
+    },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 1
   },
   {
     id: 451,
     virtue: "Zeal",
-    deed: "Spider-slayer (Advanced) (Ered Luin)",
+    deed: {
+      name: "Spider-slayer (Advanced) (Ered Luin)",
+      page: "Spider-slayer_(Advanced)_(Ered_Luin)"
+    },
     category: { name: "Ered Luin Deeds", page: "Category:Ered_Luin_Deeds" },
     level: 5
   },
   {
     id: 452,
     virtue: "Zeal",
-    deed: "Goblin-slayer (Advanced) (North Downs)",
+    deed: {
+      name: "Goblin-slayer (Advanced) (North Downs)",
+      page: "Goblin-slayer_(Advanced)_(North_Downs)"
+    },
     category: {
       name: "The North Downs Deeds",
       page: "Category:The_North_Downs_Deeds"
@@ -3589,7 +4480,10 @@
   {
     id: 453,
     virtue: "Zeal",
-    deed: "Troll-slayer (Advanced) (Trollshaws)",
+    deed: {
+      name: "Troll-slayer (Advanced) (Trollshaws)",
+      page: "Troll-slayer_(Advanced)_(The_Trollshaws)"
+    },
     category: {
       name: "The Trollshaws Deeds",
       page: "Category:The_Trollshaws_Deeds"
@@ -3599,7 +4493,10 @@
   {
     id: 454,
     virtue: "Zeal",
-    deed: "Giant-slayer (Advanced) (Misty Mountains)",
+    deed: {
+      name: "Giant-slayer (Advanced) (Misty Mountains)",
+      page: "Giant-slayer_(Advanced)_(Misty_Mountains)"
+    },
     category: {
       name: "The Misty Mountains Deeds",
       page: "Category:The_Misty_Mountains_Deeds"
@@ -3609,84 +4506,108 @@
   {
     id: 455,
     virtue: "Zeal",
-    deed: "Kergrim-slayer (Advanced)",
+    deed: {
+      name: "Kergrim-slayer (Advanced)",
+      page: "Kergrim-slayer_(Advanced)"
+    },
     category: { name: "Evendim Deeds", page: "Category:Evendim_Deeds" },
     level: 33
   },
   {
     id: 456,
     virtue: "Zeal",
-    deed: "Orc-slayer (Advanced) (Angmar)",
+    deed: {
+      name: "Orc-slayer (Advanced) (Angmar)",
+      page: "Orc-slayer_(Advanced)_(Angmar)"
+    },
     category: { name: "Angmar Deeds", page: "Category:Angmar_Deeds" },
     level: 35
   },
   {
     id: 457,
     virtue: "Zeal",
-    deed: "Worm-slayer (Advanced) (Forochel)",
+    deed: {
+      name: "Worm-slayer (Advanced) (Forochel)",
+      page: "Worm-slayer_(Advanced)_(Forochel)"
+    },
     category: { name: "Forochel Deeds", page: "Category:Forochel_Deeds" },
     level: 41
   },
   {
     id: 458,
     virtue: "Zeal",
-    deed: "Dragonet-slayer (Advanced)",
+    deed: {
+      name: "Dragonet-slayer (Advanced)",
+      page: "Dragonet-slayer_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 47
   },
   {
     id: 459,
     virtue: "Zeal",
-    deed: "Bulwarks of the Enemy",
+    deed: { name: "Bulwarks of the Enemy", page: "Bulwarks_of_the_Enemy" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 53
   },
   {
     id: 460,
     virtue: "Zeal",
-    deed: "Corruption in Command",
+    deed: { name: "Corruption in Command", page: "Corruption_in_Command" },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 461,
     virtue: "Zeal",
-    deed: "Orcs of the Forge (Advanced)",
+    deed: {
+      name: "Orcs of the Forge (Advanced)",
+      page: "Orcs_of_the_Forge_(Advanced)"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 462,
     virtue: "Zeal",
-    deed: "Discovering Adventures in Zelem-melek",
+    deed: {
+      name: "Discovering Adventures in Zelem-melek",
+      page: "Discovering_Adventures_in_Zelem-melek"
+    },
     category: { name: "Moria Deeds", page: "Category:Moria_Deeds" },
     level: 55
   },
   {
     id: 463,
     virtue: "Zeal",
-    deed: "Wood-troll Slayer (Advanced)",
+    deed: {
+      name: "Wood-troll Slayer (Advanced)",
+      page: "Wood-troll_Slayer_(Advanced)"
+    },
     category: { name: "Enedwaith Deeds", page: "Category:Enedwaith_Deeds" },
     level: 60
   },
   {
     id: 464,
     virtue: "Zeal",
-    deed: "Exploring Carreglyn",
+    deed: { name: "Exploring Carreglyn", page: "Exploring_Carreglyn" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 60
   },
   {
     id: 465,
     virtue: "Zeal",
-    deed: "Quests in the Bonevales",
+    deed: { name: "Quests in the Bonevales", page: "Quests_in_the_Bonevales" },
     category: { name: "Dunland Deeds", page: "Category:Dunland_Deeds" },
     level: 60
   },
   {
     id: 466,
     virtue: "Zeal",
-    deed: "Explorer of the Great River",
+    deed: {
+      name: "Explorer of the Great River",
+      page: "Explorer_of_the_Great_River"
+    },
     category: {
       name: "The Great River Deeds",
       page: "Category:The_Great_River_Deeds"
@@ -3696,35 +4617,41 @@
   {
     id: 467,
     virtue: "Zeal",
-    deed: "Enemies of the Rohirrim",
+    deed: { name: "Enemies of the Rohirrim", page: "Enemies_of_the_Rohirrim" },
     category: { name: "East Rohan Deeds", page: "Category:East_Rohan_Deeds" },
     level: 75
   },
   {
     id: 468,
     virtue: "Zeal",
-    deed: "Quests of the Balewood",
+    deed: { name: "Quests of the Balewood", page: "Quests_of_the_Balewood" },
     category: { name: "Wildermore Deeds", page: "Category:Wildermore_Deeds" },
     level: 85
   },
   {
     id: 469,
     virtue: "Zeal",
-    deed: "Boar and Bear Slayer of the Westemnet (Advanced)",
+    deed: {
+      name: "Boar and Bear Slayer of the Westemnet (Advanced)",
+      page: "Boar_and_Bear_Slayer_of_the_Westemnet_(Advanced)"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 470,
     virtue: "Zeal",
-    deed: "Survivor of the Long Night",
+    deed: {
+      name: "Survivor of the Long Night",
+      page: "Survivor_of_the_Long_Night"
+    },
     category: { name: "West Rohan Deeds", page: "Category:West_Rohan_Deeds" },
     level: 95
   },
   {
     id: 471,
     virtue: "Zeal",
-    deed: "Quests of Belfalas",
+    deed: { name: "Quests of Belfalas", page: "Quests_of_Belfalas" },
     category: {
       name: "Western Gondor Deeds",
       page: "Category:Western_Gondor_Deeds"
@@ -3734,7 +4661,7 @@
   {
     id: 472,
     virtue: "Zeal",
-    deed: "Quests of Lebennin",
+    deed: { name: "Quests of Lebennin", page: "Quests_of_Lebennin" },
     category: {
       name: "Central Gondor Deeds",
       page: "Category:Central_Gondor_Deeds"
@@ -3744,7 +4671,7 @@
   {
     id: 473,
     virtue: "Zeal",
-    deed: "Quests of Osgiliath",
+    deed: { name: "Quests of Osgiliath", page: "Quests_of_Osgiliath" },
     category: {
       name: "Eastern Gondor Deeds",
       page: "Category:Eastern_Gondor_Deeds"
