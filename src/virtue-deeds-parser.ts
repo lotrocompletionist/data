@@ -1,4 +1,4 @@
-import { ISkirmish, SkirmishType, IVirtueDeed, IDeedsCategory, IDeed, IVirtue } from "./models";
+import { IVirtueDeed, IDeedsCategory, IDeed, IVirtue } from "./virtue-deed";
 import { parseLevel, parseBosses, parseText } from "./model-parser";
 import { Parser } from "./parser";
 
