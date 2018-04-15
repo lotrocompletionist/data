@@ -3,7 +3,7 @@ import { getInputFilePath } from "./path";
 import { Parser } from "./parser";
 
 export interface IPageLink {
-  text: string;
+  name: string;
   page: string;
 }
 
@@ -26,7 +26,7 @@ export abstract class HtmlParser<T> extends Parser<T> {
     const anchorElement = $("a", element).first();
 
     return {
-      text: anchorElement.text(),
+      name: anchorElement.text().trim(),
       page: anchorElement.attr("href").replace("/index.php/", "")
     };
   }

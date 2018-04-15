@@ -94,9 +94,14 @@ export interface IDeedsCategory {
   page: string;
 }
 
+export interface IVirtue {
+  name: string;
+  page: string;
+}
+
 export interface IVirtueDeed {
   id: number;
-  virtue: string;
+  virtue: IVirtue;
   deed: IDeed;
   category: IDeedsCategory;
   level?: number;

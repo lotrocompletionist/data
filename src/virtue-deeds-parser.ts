@@ -1,4 +1,4 @@
-import { ISkirmish, SkirmishType, IVirtueDeed, IDeedsCategory, IDeed } from "./models";
+import { ISkirmish, SkirmishType, IVirtueDeed, IDeedsCategory, IDeed, IVirtue } from "./models";
 import { parseLevel, parseBosses, parseText } from "./model-parser";
 import { Parser } from "./parser";
 
@@ -47,24 +47,22 @@ export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
   private parseVirtue(
     $: CheerioStatic,
     headlineElement: CheerioElement
-  ): string {
-    return $("a span", headlineElement).text();
+  ): IVirtue {
+    return this.parsePageLink($, headlineElement);
   }
 
   private parseDeedsCategory(
     $: CheerioStatic,
     categoryElement: CheerioElement
   ): IDeedsCategory {
-    const { text, page } = this.parsePageLink($, categoryElement);
-    return { name: text, page };
+    return this.parsePageLink($, categoryElement);
   }
 
   private parseDeed(
     $: CheerioStatic,
     virtueDeedElement: CheerioElement
   ): IDeed {
-    const { text, page } = this.parsePageLink($, virtueDeedElement);
-    return { name: text, page };
+    return this.parsePageLink($, virtueDeedElement);
   }
 
   private parseLevel(
