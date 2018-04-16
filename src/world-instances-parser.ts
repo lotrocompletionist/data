@@ -11,13 +11,16 @@ import {
   parseText
 } from "./model-parser";
 import { CsvParser } from "./csv-parser";
+import { Parser } from "./parser";
 
-export class WorldInstancesParser extends CsvParser<IWorldInstance> {
+const WorldInstancesFileName = "world-instances";
+
+class WorldInstancesCsvParser extends CsvParser<IWorldInstance> {
   private id = 1;
   private bossId = 1;
 
   constructor() {
-    super("instances");
+    super(WorldInstancesFileName);
   }
 
   protected parseRow(row: any): IWorldInstance {
@@ -36,5 +39,17 @@ export class WorldInstancesParser extends CsvParser<IWorldInstance> {
       note: parseText(row.Note),
       bosses: parseBosses(row.Bosses).map(name => ({ id: this.bossId++, name }))
     };
+  }
+}
+
+export class WorldInstancesParser extends Parser<IWorldInstance> {
+  private csvParser = new WorldInstancesCsvParser();
+
+  constructor() {
+    super(WorldInstancesFileName);
+  }
+
+  public parse(): Promise<IWorldInstance[]> {
+    return this.csvParser.parse();
   }
 }

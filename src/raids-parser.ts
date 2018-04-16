@@ -11,13 +11,16 @@ import {
   parseText
 } from "./model-parser";
 import { CsvParser } from "./csv-parser";
+import { Parser } from "./parser";
 
-export class RaidsParser extends CsvParser<IRaid> {
+const RaidsFileName = "raids";
+
+class RaidsCsvParser extends CsvParser<IRaid> {
   private id = 1;
   private bossId = 1;
 
   constructor() {
-    super("raids");
+    super(RaidsFileName);
   }
 
   protected parseRow(row: any): IRaid {
@@ -41,5 +44,17 @@ export class RaidsParser extends CsvParser<IRaid> {
 
   private parseBossEncounters(text: string): number {
     return parseInt(text);
+  }
+}
+
+export class RaidsParser extends Parser<IRaid> {
+  private csvParser = new RaidsCsvParser();
+
+  constructor() {
+    super(RaidsFileName);
+  }
+
+  public parse(): Promise<IRaid[]> {
+    return this.csvParser.parse();
   }
 }

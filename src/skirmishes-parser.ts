@@ -1,13 +1,16 @@
 import { ISkirmish, SkirmishType } from "./models";
 import { parseLevelRange, parseBosses, parseText } from "./model-parser";
 import { CsvParser } from "./csv-parser";
+import { Parser } from "./parser";
 
-export class SkirmishesParser extends CsvParser<ISkirmish> {
+const SkirmishesFileName = "skirmishes";
+
+class SkirmishesCsvParser extends CsvParser<ISkirmish> {
   private id = 1;
   private bossId = 1;
 
   constructor() {
-    super("skirmishes");
+    super(SkirmishesFileName);
   }
 
   protected parseRow(row: any): ISkirmish {
@@ -41,5 +44,17 @@ export class SkirmishesParser extends CsvParser<ISkirmish> {
 
   private parseFaction(text: string): string | undefined {
     return text.toLowerCase() === "none" ? undefined : text.trim();
+  }
+}
+
+export class SkirmishesParser extends Parser<ISkirmish> {
+  private csvParser = new SkirmishesCsvParser();
+
+  constructor() {
+    super(SkirmishesFileName);
+  }
+
+  public parse(): Promise<ISkirmish[]> {
+    return this.csvParser.parse();
   }
 }

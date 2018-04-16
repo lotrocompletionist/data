@@ -8,11 +8,13 @@ import { getInputFilePath } from "./path";
 import { HtmlParser } from "./html-parser";
 import { flatMap } from "lodash";
 
-export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
+const VirtueDeedsFileName = "virtue-deeds";
+
+class VirtueDeedsHtmlParser extends HtmlParser<IVirtueDeed> {
   private id = 1;
 
   constructor() {
-    super("virtue-deeds");
+    super(VirtueDeedsFileName);
   }
 
   protected parseHtml($: CheerioStatic): IVirtueDeed[] {
@@ -101,5 +103,17 @@ export class VirtueDeedsParser extends HtmlParser<IVirtueDeed> {
       .find("li")
       .filter((_, regionElement) => $(regionElement).find("a").length > 0)
       .toArray();
+  }
+}
+
+export class VirtueDeedsParser extends Parser<IVirtueDeed> {
+  private htmlParser = new VirtueDeedsHtmlParser();
+
+  constructor() {
+    super(VirtueDeedsFileName);
+  }
+
+  public parse(): Promise<IVirtueDeed[]> {
+    return this.htmlParser.parse();
   }
 }

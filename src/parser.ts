@@ -1,4 +1,3 @@
-import { parseCsvFile } from "./input";
 import { getInputFilePath, getOutputFilePath } from "./path";
 import { saveAsJson } from "./output";
 
@@ -10,7 +9,7 @@ export abstract class Parser<T> {
     await this.save(data);
   }
 
-  protected abstract parse(): Promise<T[]>;
+  public abstract parse(): Promise<T[]>;
 
   private async save(instances: T[]): Promise<void> {
     await saveAsJson(getOutputFilePath(`${this.name}.ts`), instances);
