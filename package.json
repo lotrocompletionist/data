@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "import": "tsc && node build/import.js",
+    "update": "tsc && node build/update.js",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,md,css,scss}'",
     "format:verify": "prettier --list-different '**/*.{js,jsx,ts,tsx,json,md,css,scss}'"
   },

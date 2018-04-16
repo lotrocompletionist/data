@@ -1,5 +1,5 @@
-import { parseHtmlFile } from "./input";
-import { getInputFilePath } from "./path";
+import { File } from "./file";
+import * as cheerio from "cheerio";
 
 export interface IHtmlPageLink {
   name: string;
@@ -7,10 +7,10 @@ export interface IHtmlPageLink {
 }
 
 export abstract class HtmlParser<T> {
-  constructor(private name: string) {}
+  constructor(private file: File) {}
 
   public async parse(): Promise<T[]> {
-    const $ = await parseHtmlFile(getInputFilePath(`${this.name}.html`));
+    const $ = await this.parseHtmlFile();
     return this.parseHtml($);
   }
 
@@ -26,5 +26,10 @@ export abstract class HtmlParser<T> {
       name: anchorElement.text().trim(),
       page: anchorElement.attr("href").replace("/index.php/", "")
     };
+  }
+
+  private async parseHtmlFile(): Promise<CheerioStatic> {
+    const contents = await this.file.read();
+    return cheerio.load(contents);
   }
 }

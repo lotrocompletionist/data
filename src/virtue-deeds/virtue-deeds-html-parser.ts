@@ -1,20 +1,15 @@
 import { IVirtueDeed, IDeedsCategory, IDeed, IVirtue } from "./virtue-deed";
-import { parseLevel, parseBosses, parseText } from "./model-parser";
-import { Parser } from "./parser";
 
 import * as cheerio from "cheerio";
-import { read } from "./file";
-import { getInputFilePath } from "./path";
-import { HtmlParser } from "./html-parser";
 import { flatMap } from "lodash";
+import { HtmlParser } from "../html-parser";
+import { VirtueDeedsFiles } from "./virtue-deeds-files";
 
-const VirtueDeedsFileName = "virtue-deeds";
-
-class VirtueDeedsHtmlParser extends HtmlParser<IVirtueDeed> {
+export class VirtueDeedsHtmlParser extends HtmlParser<IVirtueDeed> {
   private id = 1;
 
   constructor() {
-    super(VirtueDeedsFileName);
+    super(VirtueDeedsFiles.htmlFile);
   }
 
   protected parseHtml($: CheerioStatic): IVirtueDeed[] {
@@ -103,17 +98,5 @@ class VirtueDeedsHtmlParser extends HtmlParser<IVirtueDeed> {
       .find("li")
       .filter((_, regionElement) => $(regionElement).find("a").length > 0)
       .toArray();
-  }
-}
-
-export class VirtueDeedsParser extends Parser<IVirtueDeed> {
-  private htmlParser = new VirtueDeedsHtmlParser();
-
-  constructor() {
-    super(VirtueDeedsFileName);
-  }
-
-  public parse(): Promise<IVirtueDeed[]> {
-    return this.htmlParser.parse();
   }
 }
